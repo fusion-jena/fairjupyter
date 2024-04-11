@@ -1,3 +1,5 @@
 site_name: FAIR Jupyter
 theme:
   name: material
+extra_css:
+  - stylesheets/fairjupyter.css
