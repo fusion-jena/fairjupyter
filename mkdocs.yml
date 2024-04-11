@@ -1,4 +1,3 @@
 site_name: FAIR Jupyter
-docs_dir: content
 theme:
   name: material
