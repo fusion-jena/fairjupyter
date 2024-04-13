@@ -6,5 +6,8 @@ nav:
   - Home: index.md
 theme:
   name: material
+  features:
+    - toc.follow
 extra_css:
   - stylesheets/fairjupyter.css
+
