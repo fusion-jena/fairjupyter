@@ -1,0 +1,56 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  dc: http://purl.org/dc/elements/1.1/
+  schema: http://schema.org/
+  dcterms: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  repr: https://w3id.org/reproduceme/
+  fabio: http://purl.org/spar/fabio/
+  pav: http://purl.org/pav/
+  p-plan: http://purl.org/net/p-plan
+  pext: http://www.ontotext.com/proton/protonext#
+  mesh: http://purl.bioontology.org/ontology/MESH/
+  doap: http://usefulinc.com/ns/doap#
+  prov: http://www.w3.org/ns/prov-o#
+
+mappings:
+  cells:
+    sources:
+      - [data/cells.csv~csv]
+    s: https://w3id.org/reproduceme/cell_$(id)
+    po:
+      - [a, repr:Cell]
+      - [repr:cell_type, $(cell_type)]
+      - [repr:lines, $(lines)]
+      - [repr:python, $(python)]
+      - [repr:output_formats, $(output_formats)]
+      - [repr:execution_count, $(execution_count)]
+      - p: p-plan:isStepOfPlan
+        o:
+        - mapping: notebooks
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(notebook_id), s]
+              - [str2, $(id), o]
+      - p: pav:retrievedFrom
+        o:
+          - mapping: repositories
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(repository_id), s]
+                - [str2, $(id), o]
+  notebooks:
+    sources:
+      - [data/notebooks.csv~csv]
+    s: https://w3id.org/reproduceme/notebook_$(id)
+  repositories:
+    sources:
+      - [data/repositories.csv~csv]
+    s: https://w3id.org/reproduceme/repository_$(id)

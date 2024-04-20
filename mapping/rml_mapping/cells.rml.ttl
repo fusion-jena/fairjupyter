@@ -1,0 +1,157 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix map: <http://mapping.example.com/> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov-o#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix v: <http://rdf.data-vocabulary.org/#> .
+@prefix schema: <http://schema.org/> .
+@prefix repr: <https://w3id.org/reproduceme/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix p-plan: <http://purl.org/net/p-plan> .
+@prefix pext: <http://www.ontotext.com/proton/protonext#> .
+@prefix mesh: <http://purl.bioontology.org/ontology/MESH/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+
+map:jc_000 rr:child "notebook_id" ;
+	rr:parent "id" .
+
+map:jc_001 rr:child "repository_id" ;
+	rr:parent "id" .
+
+map:map_cells_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "cells" ;
+	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004, map:pom_005, map:pom_006, map:pom_007 ;
+	rr:subjectMap map:s_000 .
+
+map:map_notebooks_000 rml:logicalSource map:source_001 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "notebooks" ;
+	rr:subjectMap map:s_001 .
+
+map:map_repositories_000 rml:logicalSource map:source_002 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "repositories" ;
+	rr:subjectMap map:s_002 .
+
+map:om_000 rdf:type rr:ObjectMap ;
+	rr:constant repr:Cell ;
+	rr:termType rr:IRI .
+
+map:om_001 rml:reference "cell_type" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_002 rml:reference "lines" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_003 rml:reference "python" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_004 rml:reference "output_formats" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_005 rml:reference "execution_count" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_006 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_000 ;
+	rr:parentTriplesMap map:map_notebooks_000 .
+
+map:om_007 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_001 ;
+	rr:parentTriplesMap map:map_repositories_000 .
+
+map:pm_000 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_001 rdf:type rr:PredicateMap ;
+	rr:constant repr:cell_type .
+
+map:pm_002 rdf:type rr:PredicateMap ;
+	rr:constant repr:lines .
+
+map:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant repr:python .
+
+map:pm_004 rdf:type rr:PredicateMap ;
+	rr:constant repr:output_formats .
+
+map:pm_005 rdf:type rr:PredicateMap ;
+	rr:constant repr:execution_count .
+
+map:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant p-plan:isStepOfPlan .
+
+map:pm_007 rdf:type rr:PredicateMap ;
+	rr:constant pav:retrievedFrom .
+
+map:pom_000 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_000 ;
+	rr:predicateMap map:pm_000 .
+
+map:pom_001 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_001 ;
+	rr:predicateMap map:pm_001 .
+
+map:pom_002 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_002 ;
+	rr:predicateMap map:pm_002 .
+
+map:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_003 ;
+	rr:predicateMap map:pm_003 .
+
+map:pom_004 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_004 ;
+	rr:predicateMap map:pm_004 .
+
+map:pom_005 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_005 ;
+	rr:predicateMap map:pm_005 .
+
+map:pom_006 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_006 ;
+	rr:predicateMap map:pm_006 .
+
+map:pom_007 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_007 ;
+	rr:predicateMap map:pm_007 .
+
+map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_cells_000, map:map_notebooks_000, map:map_repositories_000 ;
+	rdf:type <http://rdfs.org/ns/void#Dataset> .
+
+map:s_000 rdf:type rr:SubjectMap ;
+	rr:template "https://w3id.org/reproduceme/cell_{id}" .
+
+map:s_001 rdf:type rr:SubjectMap ;
+	rr:template "https://w3id.org/reproduceme/notebook_{id}" .
+
+map:s_002 rdf:type rr:SubjectMap ;
+	rr:template "https://w3id.org/reproduceme/repository_{id}" .
+
+map:source_000 rml:referenceFormulation ql:CSV ;
+	rml:source "data/cells.csv" ;
+	rdf:type rml:LogicalSource .
+
+map:source_001 rml:referenceFormulation ql:CSV ;
+	rml:source "data/notebooks.csv" ;
+	rdf:type rml:LogicalSource .
+
+map:source_002 rml:referenceFormulation ql:CSV ;
+	rml:source "data/repositories.csv" ;
+	rdf:type rml:LogicalSource .
+

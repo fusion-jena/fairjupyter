@@ -1,0 +1,1853 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix map: <http://mapping.example.com/> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov-o#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix v: <http://rdf.data-vocabulary.org/#> .
+@prefix schema: <http://schema.org/> .
+@prefix repr: <https://w3id.org/reproduceme/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix p-plan: <http://purl.org/net/p-plan> .
+@prefix pext: <http://www.ontotext.com/proton/protonext#> .
+@prefix mesh: <http://purl.bioontology.org/ontology/MESH/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+
+map:jc_000 rr:child "notebook_id" ;
+	rr:parent "id" .
+
+map:jc_001 rr:child "cell_id" ;
+	rr:parent "id" .
+
+map:map_cells_000 rml:logicalSource map:source_001 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "cells" ;
+	rr:predicateObjectMap map:pom_001 ;
+	rr:subjectMap map:s_001 .
+
+map:map_code_analyses_000 rml:logicalSource map:source_002 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "code_analyses" ;
+	rr:predicateObjectMap map:pom_002, map:pom_003, map:pom_004, map:pom_005, map:pom_006, map:pom_007, map:pom_008, map:pom_009, map:pom_010, map:pom_011, map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016, map:pom_017, map:pom_018, map:pom_019, map:pom_020, map:pom_021, map:pom_022, map:pom_023, map:pom_024, map:pom_025, map:pom_026, map:pom_027, map:pom_028, map:pom_029, map:pom_030, map:pom_031, map:pom_032, map:pom_033, map:pom_034, map:pom_035, map:pom_036, map:pom_037, map:pom_038, map:pom_039, map:pom_040, map:pom_041, map:pom_042, map:pom_043, map:pom_044, map:pom_045, map:pom_046, map:pom_047, map:pom_048, map:pom_049, map:pom_050, map:pom_051, map:pom_052, map:pom_053, map:pom_054, map:pom_055, map:pom_056, map:pom_057, map:pom_058, map:pom_059, map:pom_060, map:pom_061, map:pom_062, map:pom_063, map:pom_064, map:pom_065, map:pom_066, map:pom_067, map:pom_068, map:pom_069, map:pom_070, map:pom_071, map:pom_072, map:pom_073, map:pom_074, map:pom_075, map:pom_076, map:pom_077, map:pom_078, map:pom_079, map:pom_080, map:pom_081, map:pom_082, map:pom_083, map:pom_084, map:pom_085, map:pom_086, map:pom_087, map:pom_088, map:pom_089, map:pom_090, map:pom_091, map:pom_092, map:pom_093, map:pom_094, map:pom_095, map:pom_096, map:pom_097, map:pom_098, map:pom_099, map:pom_100, map:pom_101, map:pom_102, map:pom_103, map:pom_104, map:pom_105, map:pom_106, map:pom_107, map:pom_108, map:pom_109, map:pom_110, map:pom_111, map:pom_112, map:pom_113, map:pom_114, map:pom_115, map:pom_116, map:pom_117, map:pom_118, map:pom_119, map:pom_120, map:pom_121, map:pom_122, map:pom_123, map:pom_124, map:pom_125, map:pom_126, map:pom_127, map:pom_128, map:pom_129, map:pom_130, map:pom_131, map:pom_132, map:pom_133, map:pom_134, map:pom_135, map:pom_136, map:pom_137, map:pom_138, map:pom_139, map:pom_140, map:pom_141, map:pom_142, map:pom_143, map:pom_144, map:pom_145, map:pom_146, map:pom_147, map:pom_148, map:pom_149, map:pom_150, map:pom_151, map:pom_152, map:pom_153, map:pom_154, map:pom_155, map:pom_156, map:pom_157, map:pom_158, map:pom_159, map:pom_160, map:pom_161 ;
+	rr:subjectMap map:s_002 .
+
+map:map_notebooks_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "notebooks" ;
+	rr:predicateObjectMap map:pom_000 ;
+	rr:subjectMap map:s_000 .
+
+map:om_000 rdf:type rr:ObjectMap ;
+	rr:constant repr:Notebook ;
+	rr:termType rr:IRI .
+
+map:om_001 rdf:type rr:ObjectMap ;
+	rr:constant repr:Cell ;
+	rr:termType rr:IRI .
+
+map:om_002 rdf:type rr:ObjectMap ;
+	rr:constant repr:CodeAnalysis ;
+	rr:termType rr:IRI .
+
+map:om_003 rml:reference "index" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_004 rml:reference "import_star" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_005 rml:reference "functions_with_decorators" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_006 rml:reference "classes_with_decorators" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_007 rml:reference "classes_with_bases" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_008 rml:reference "delname" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_009 rml:reference "delattr" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_010 rml:reference "delitem" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_011 rml:reference "assignname" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_012 rml:reference "assignattr" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_013 rml:reference "assignitem" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_014 rml:reference "ipython" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_015 rml:reference "ipython_superset" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_016 rml:reference "class_importfrom" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_017 rml:reference "global_importfrom" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_018 rml:reference "nonlocal_importfrom" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_019 rml:reference "local_importfrom" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_020 rml:reference "total_importfrom" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_021 rml:reference "class_import" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_022 rml:reference "global_import" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_023 rml:reference "nonlocal_import" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_024 rml:reference "local_import" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_025 rml:reference "total_import" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_026 rml:reference "class_assign" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_027 rml:reference "global_assign" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_028 rml:reference "nonlocal_assign" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_029 rml:reference "local_assign" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_030 rml:reference "total_assign" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_031 rml:reference "class_delete" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_032 rml:reference "global_delete" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_033 rml:reference "nonlocal_delete" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_034 rml:reference "local_delete" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_035 rml:reference "total_delete" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_036 rml:reference "class_functiondef" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_037 rml:reference "global_functiondef" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_038 rml:reference "nonlocal_functiondef" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_039 rml:reference "local_functiondef" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_040 rml:reference "total_functiondef" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_041 rml:reference "class_classdef" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_042 rml:reference "global_classdef" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_043 rml:reference "nonlocal_classdef" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_044 rml:reference "local_classdef" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_045 rml:reference "total_classdef" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_046 rml:reference "ast_module" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_047 rml:reference "ast_interactive" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_048 rml:reference "ast_expression" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_049 rml:reference "ast_suite" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_050 rml:reference "ast_statements" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_051 rml:reference "ast_functiondef" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_052 rml:reference "ast_asyncfunctiondef" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_053 rml:reference "ast_classdef" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_054 rml:reference "ast_return" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_055 rml:reference "ast_delete" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_056 rml:reference "ast_assign" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_057 rml:reference "ast_augassign" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_058 rml:reference "ast_annassign" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_059 rml:reference "ast_print" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_060 rml:reference "ast_for" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_061 rml:reference "ast_asyncfor" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_062 rml:reference "ast_while" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_063 rml:reference "ast_if" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_064 rml:reference "ast_with" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_065 rml:reference "ast_asyncwith" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_066 rml:reference "ast_raise" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_067 rml:reference "ast_try" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_068 rml:reference "ast_tryexcept" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_069 rml:reference "ast_tryfinally" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_070 rml:reference "ast_assert" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_071 rml:reference "ast_import" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_072 rml:reference "ast_importfrom" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_073 rml:reference "ast_exec" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_074 rml:reference "ast_global" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_075 rml:reference "ast_nonlocal" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_076 rml:reference "ast_expr" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_077 rml:reference "ast_pass" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_078 rml:reference "ast_break" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_079 rml:reference "ast_continue" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_080 rml:reference "ast_expressions" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_081 rml:reference "ast_boolop" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_082 rml:reference "ast_binop" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_083 rml:reference "ast_unaryop" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_084 rml:reference "ast_lambda" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_085 rml:reference "ast_ifexp" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_086 rml:reference "ast_dict" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_087 rml:reference "ast_set" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_088 rml:reference "ast_listcomp" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_089 rml:reference "ast_setcomp" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_090 rml:reference "ast_dictcomp" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_091 rml:reference "ast_generatorexp" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_092 rml:reference "ast_await" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_093 rml:reference "ast_yield" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_094 rml:reference "ast_yieldfrom" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_095 rml:reference "ast_compare" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_096 rml:reference "ast_call" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_097 rml:reference "ast_num" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_098 rml:reference "ast_str" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_099 rml:reference "ast_formattedvalue" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_100 rml:reference "ast_joinedstr" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_101 rml:reference "ast_bytes" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_102 rml:reference "ast_nameconstant" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_103 rml:reference "ast_ellipsis" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_104 rml:reference "ast_constant" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_105 rml:reference "ast_attribute" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_106 rml:reference "ast_subscript" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_107 rml:reference "ast_starred" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_108 rml:reference "ast_name" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_109 rml:reference "ast_list" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_110 rml:reference "ast_tuple" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_111 rml:reference "ast_load" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_112 rml:reference "ast_store" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_113 rml:reference "ast_del" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_114 rml:reference "ast_augload" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_115 rml:reference "ast_augstore" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_116 rml:reference "ast_param" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_117 rml:reference "ast_slice" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_118 rml:reference "ast_index" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_119 rml:reference "ast_and" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_120 rml:reference "ast_or" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_121 rml:reference "ast_add" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_122 rml:reference "ast_sub" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_123 rml:reference "ast_mult" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_124 rml:reference "ast_matmult" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_125 rml:reference "ast_div" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_126 rml:reference "ast_mod" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_127 rml:reference "ast_pow" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_128 rml:reference "ast_lshift" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_129 rml:reference "ast_rshift" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_130 rml:reference "ast_bitor" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_131 rml:reference "ast_bitxor" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_132 rml:reference "ast_bitand" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_133 rml:reference "ast_floordiv" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_134 rml:reference "ast_invert" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_135 rml:reference "ast_not" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_136 rml:reference "ast_uadd" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_137 rml:reference "ast_usub" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_138 rml:reference "ast_eq" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_139 rml:reference "ast_noteq" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_140 rml:reference "ast_lt" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_141 rml:reference "ast_lte" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_142 rml:reference "ast_gt" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_143 rml:reference "ast_gte" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_144 rml:reference "ast_is" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_145 rml:reference "ast_isnot" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_146 rml:reference "ast_in" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_147 rml:reference "ast_notin" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_148 rml:reference "ast_comprehension" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_149 rml:reference "ast_excepthandler" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_150 rml:reference "ast_arguments" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_151 rml:reference "ast_arg" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_152 rml:reference "ast_keyword" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_153 rml:reference "ast_alias" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_154 rml:reference "ast_withitem" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_155 rml:reference "ast_others" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_156 rml:reference "processed" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_157 rml:reference "skip" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_158 rml:reference "ast_extslice" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_159 rml:reference "ast_repr" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_160 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_000 ;
+	rr:parentTriplesMap map:map_notebooks_000 .
+
+map:om_161 rdf:type rr:ObjectMap ;
+	rr:joinCondition map:jc_001 ;
+	rr:parentTriplesMap map:map_cells_000 .
+
+map:pm_000 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_001 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_002 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant repr:index .
+
+map:pm_004 rdf:type rr:PredicateMap ;
+	rr:constant repr:import_star .
+
+map:pm_005 rdf:type rr:PredicateMap ;
+	rr:constant repr:functions_with_decorators .
+
+map:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant repr:classes_with_decorators .
+
+map:pm_007 rdf:type rr:PredicateMap ;
+	rr:constant repr:classes_with_bases .
+
+map:pm_008 rdf:type rr:PredicateMap ;
+	rr:constant repr:delname .
+
+map:pm_009 rdf:type rr:PredicateMap ;
+	rr:constant repr:delattr .
+
+map:pm_010 rdf:type rr:PredicateMap ;
+	rr:constant repr:delitem .
+
+map:pm_011 rdf:type rr:PredicateMap ;
+	rr:constant repr:assignname .
+
+map:pm_012 rdf:type rr:PredicateMap ;
+	rr:constant repr:assignattr .
+
+map:pm_013 rdf:type rr:PredicateMap ;
+	rr:constant repr:assignitem .
+
+map:pm_014 rdf:type rr:PredicateMap ;
+	rr:constant repr:ipython .
+
+map:pm_015 rdf:type rr:PredicateMap ;
+	rr:constant repr:ipython_superset .
+
+map:pm_016 rdf:type rr:PredicateMap ;
+	rr:constant repr:class_importfrom .
+
+map:pm_017 rdf:type rr:PredicateMap ;
+	rr:constant repr:global_importfrom .
+
+map:pm_018 rdf:type rr:PredicateMap ;
+	rr:constant repr:nonlocal_importfrom .
+
+map:pm_019 rdf:type rr:PredicateMap ;
+	rr:constant repr:local_importfrom .
+
+map:pm_020 rdf:type rr:PredicateMap ;
+	rr:constant repr:total_importfrom .
+
+map:pm_021 rdf:type rr:PredicateMap ;
+	rr:constant repr:class_import .
+
+map:pm_022 rdf:type rr:PredicateMap ;
+	rr:constant repr:global_import .
+
+map:pm_023 rdf:type rr:PredicateMap ;
+	rr:constant repr:nonlocal_import .
+
+map:pm_024 rdf:type rr:PredicateMap ;
+	rr:constant repr:local_import .
+
+map:pm_025 rdf:type rr:PredicateMap ;
+	rr:constant repr:total_import .
+
+map:pm_026 rdf:type rr:PredicateMap ;
+	rr:constant repr:class_assign .
+
+map:pm_027 rdf:type rr:PredicateMap ;
+	rr:constant repr:global_assign .
+
+map:pm_028 rdf:type rr:PredicateMap ;
+	rr:constant repr:nonlocal_assign .
+
+map:pm_029 rdf:type rr:PredicateMap ;
+	rr:constant repr:local_assign .
+
+map:pm_030 rdf:type rr:PredicateMap ;
+	rr:constant repr:total_assign .
+
+map:pm_031 rdf:type rr:PredicateMap ;
+	rr:constant repr:class_delete .
+
+map:pm_032 rdf:type rr:PredicateMap ;
+	rr:constant repr:global_delete .
+
+map:pm_033 rdf:type rr:PredicateMap ;
+	rr:constant repr:nonlocal_delete .
+
+map:pm_034 rdf:type rr:PredicateMap ;
+	rr:constant repr:local_delete .
+
+map:pm_035 rdf:type rr:PredicateMap ;
+	rr:constant repr:total_delete .
+
+map:pm_036 rdf:type rr:PredicateMap ;
+	rr:constant repr:class_functiondef .
+
+map:pm_037 rdf:type rr:PredicateMap ;
+	rr:constant repr:global_functiondef .
+
+map:pm_038 rdf:type rr:PredicateMap ;
+	rr:constant repr:nonlocal_functiondef .
+
+map:pm_039 rdf:type rr:PredicateMap ;
+	rr:constant repr:local_functiondef .
+
+map:pm_040 rdf:type rr:PredicateMap ;
+	rr:constant repr:total_functiondef .
+
+map:pm_041 rdf:type rr:PredicateMap ;
+	rr:constant repr:class_classdef .
+
+map:pm_042 rdf:type rr:PredicateMap ;
+	rr:constant repr:global_classdef .
+
+map:pm_043 rdf:type rr:PredicateMap ;
+	rr:constant repr:nonlocal_classdef .
+
+map:pm_044 rdf:type rr:PredicateMap ;
+	rr:constant repr:local_classdef .
+
+map:pm_045 rdf:type rr:PredicateMap ;
+	rr:constant repr:total_classdef .
+
+map:pm_046 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_module .
+
+map:pm_047 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_interactive .
+
+map:pm_048 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_expression .
+
+map:pm_049 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_suite .
+
+map:pm_050 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_statements .
+
+map:pm_051 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_functiondef .
+
+map:pm_052 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_asyncfunctiondef .
+
+map:pm_053 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_classdef .
+
+map:pm_054 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_return .
+
+map:pm_055 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_delete .
+
+map:pm_056 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_assign .
+
+map:pm_057 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_augassign .
+
+map:pm_058 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_annassign .
+
+map:pm_059 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_print .
+
+map:pm_060 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_for .
+
+map:pm_061 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_asyncfor .
+
+map:pm_062 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_while .
+
+map:pm_063 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_if .
+
+map:pm_064 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_with .
+
+map:pm_065 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_asyncwith .
+
+map:pm_066 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_raise .
+
+map:pm_067 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_try .
+
+map:pm_068 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_tryexcept .
+
+map:pm_069 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_tryfinally .
+
+map:pm_070 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_assert .
+
+map:pm_071 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_import .
+
+map:pm_072 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_importfrom .
+
+map:pm_073 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_exec .
+
+map:pm_074 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_global .
+
+map:pm_075 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_nonlocal .
+
+map:pm_076 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_expr .
+
+map:pm_077 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_pass .
+
+map:pm_078 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_break .
+
+map:pm_079 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_continue .
+
+map:pm_080 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_expressions .
+
+map:pm_081 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_boolop .
+
+map:pm_082 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_binop .
+
+map:pm_083 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_unaryop .
+
+map:pm_084 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_lambda .
+
+map:pm_085 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_ifexp .
+
+map:pm_086 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_dict .
+
+map:pm_087 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_set .
+
+map:pm_088 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_listcomp .
+
+map:pm_089 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_setcomp .
+
+map:pm_090 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_dictcomp .
+
+map:pm_091 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_generatorexp .
+
+map:pm_092 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_await .
+
+map:pm_093 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_yield .
+
+map:pm_094 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_yieldfrom .
+
+map:pm_095 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_compare .
+
+map:pm_096 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_call .
+
+map:pm_097 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_num .
+
+map:pm_098 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_str .
+
+map:pm_099 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_formattedvalue .
+
+map:pm_100 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_joinedstr .
+
+map:pm_101 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_bytes .
+
+map:pm_102 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_nameconstant .
+
+map:pm_103 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_ellipsis .
+
+map:pm_104 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_constant .
+
+map:pm_105 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_attribute .
+
+map:pm_106 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_subscript .
+
+map:pm_107 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_starred .
+
+map:pm_108 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_name .
+
+map:pm_109 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_list .
+
+map:pm_110 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_tuple .
+
+map:pm_111 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_load .
+
+map:pm_112 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_store .
+
+map:pm_113 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_del .
+
+map:pm_114 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_augload .
+
+map:pm_115 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_augstore .
+
+map:pm_116 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_param .
+
+map:pm_117 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_slice .
+
+map:pm_118 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_index .
+
+map:pm_119 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_and .
+
+map:pm_120 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_or .
+
+map:pm_121 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_add .
+
+map:pm_122 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_sub .
+
+map:pm_123 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_mult .
+
+map:pm_124 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_matmult .
+
+map:pm_125 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_div .
+
+map:pm_126 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_mod .
+
+map:pm_127 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_pow .
+
+map:pm_128 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_lshift .
+
+map:pm_129 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_rshift .
+
+map:pm_130 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_bitor .
+
+map:pm_131 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_bitxor .
+
+map:pm_132 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_bitand .
+
+map:pm_133 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_floordiv .
+
+map:pm_134 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_invert .
+
+map:pm_135 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_not .
+
+map:pm_136 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_uadd .
+
+map:pm_137 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_usub .
+
+map:pm_138 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_eq .
+
+map:pm_139 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_noteq .
+
+map:pm_140 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_lt .
+
+map:pm_141 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_lte .
+
+map:pm_142 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_gt .
+
+map:pm_143 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_gte .
+
+map:pm_144 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_is .
+
+map:pm_145 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_isnot .
+
+map:pm_146 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_in .
+
+map:pm_147 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_notin .
+
+map:pm_148 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_comprehension .
+
+map:pm_149 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_excepthandler .
+
+map:pm_150 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_arguments .
+
+map:pm_151 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_arg .
+
+map:pm_152 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_keyword .
+
+map:pm_153 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_alias .
+
+map:pm_154 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_withitem .
+
+map:pm_155 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_others .
+
+map:pm_156 rdf:type rr:PredicateMap ;
+	rr:constant repr:processed .
+
+map:pm_157 rdf:type rr:PredicateMap ;
+	rr:constant repr:skip .
+
+map:pm_158 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_extslice .
+
+map:pm_159 rdf:type rr:PredicateMap ;
+	rr:constant repr:ast_repr .
+
+map:pm_160 rdf:type rr:PredicateMap ;
+	rr:constant p-plan:isVariableOfPlan .
+
+map:pm_161 rdf:type rr:PredicateMap ;
+	rr:constant pav:retrievedFrom .
+
+map:pom_000 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_000 ;
+	rr:predicateMap map:pm_000 .
+
+map:pom_001 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_001 ;
+	rr:predicateMap map:pm_001 .
+
+map:pom_002 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_002 ;
+	rr:predicateMap map:pm_002 .
+
+map:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_003 ;
+	rr:predicateMap map:pm_003 .
+
+map:pom_004 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_004 ;
+	rr:predicateMap map:pm_004 .
+
+map:pom_005 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_005 ;
+	rr:predicateMap map:pm_005 .
+
+map:pom_006 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_006 ;
+	rr:predicateMap map:pm_006 .
+
+map:pom_007 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_007 ;
+	rr:predicateMap map:pm_007 .
+
+map:pom_008 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_008 ;
+	rr:predicateMap map:pm_008 .
+
+map:pom_009 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_009 ;
+	rr:predicateMap map:pm_009 .
+
+map:pom_010 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_010 ;
+	rr:predicateMap map:pm_010 .
+
+map:pom_011 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_011 ;
+	rr:predicateMap map:pm_011 .
+
+map:pom_012 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_012 ;
+	rr:predicateMap map:pm_012 .
+
+map:pom_013 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_013 ;
+	rr:predicateMap map:pm_013 .
+
+map:pom_014 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_014 ;
+	rr:predicateMap map:pm_014 .
+
+map:pom_015 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_015 ;
+	rr:predicateMap map:pm_015 .
+
+map:pom_016 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_016 ;
+	rr:predicateMap map:pm_016 .
+
+map:pom_017 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_017 ;
+	rr:predicateMap map:pm_017 .
+
+map:pom_018 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_018 ;
+	rr:predicateMap map:pm_018 .
+
+map:pom_019 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_019 ;
+	rr:predicateMap map:pm_019 .
+
+map:pom_020 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_020 ;
+	rr:predicateMap map:pm_020 .
+
+map:pom_021 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_021 ;
+	rr:predicateMap map:pm_021 .
+
+map:pom_022 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_022 ;
+	rr:predicateMap map:pm_022 .
+
+map:pom_023 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_023 ;
+	rr:predicateMap map:pm_023 .
+
+map:pom_024 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_024 ;
+	rr:predicateMap map:pm_024 .
+
+map:pom_025 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_025 ;
+	rr:predicateMap map:pm_025 .
+
+map:pom_026 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_026 ;
+	rr:predicateMap map:pm_026 .
+
+map:pom_027 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_027 ;
+	rr:predicateMap map:pm_027 .
+
+map:pom_028 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_028 ;
+	rr:predicateMap map:pm_028 .
+
+map:pom_029 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_029 ;
+	rr:predicateMap map:pm_029 .
+
+map:pom_030 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_030 ;
+	rr:predicateMap map:pm_030 .
+
+map:pom_031 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_031 ;
+	rr:predicateMap map:pm_031 .
+
+map:pom_032 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_032 ;
+	rr:predicateMap map:pm_032 .
+
+map:pom_033 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_033 ;
+	rr:predicateMap map:pm_033 .
+
+map:pom_034 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_034 ;
+	rr:predicateMap map:pm_034 .
+
+map:pom_035 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_035 ;
+	rr:predicateMap map:pm_035 .
+
+map:pom_036 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_036 ;
+	rr:predicateMap map:pm_036 .
+
+map:pom_037 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_037 ;
+	rr:predicateMap map:pm_037 .
+
+map:pom_038 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_038 ;
+	rr:predicateMap map:pm_038 .
+
+map:pom_039 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_039 ;
+	rr:predicateMap map:pm_039 .
+
+map:pom_040 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_040 ;
+	rr:predicateMap map:pm_040 .
+
+map:pom_041 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_041 ;
+	rr:predicateMap map:pm_041 .
+
+map:pom_042 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_042 ;
+	rr:predicateMap map:pm_042 .
+
+map:pom_043 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_043 ;
+	rr:predicateMap map:pm_043 .
+
+map:pom_044 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_044 ;
+	rr:predicateMap map:pm_044 .
+
+map:pom_045 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_045 ;
+	rr:predicateMap map:pm_045 .
+
+map:pom_046 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_046 ;
+	rr:predicateMap map:pm_046 .
+
+map:pom_047 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_047 ;
+	rr:predicateMap map:pm_047 .
+
+map:pom_048 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_048 ;
+	rr:predicateMap map:pm_048 .
+
+map:pom_049 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_049 ;
+	rr:predicateMap map:pm_049 .
+
+map:pom_050 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_050 ;
+	rr:predicateMap map:pm_050 .
+
+map:pom_051 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_051 ;
+	rr:predicateMap map:pm_051 .
+
+map:pom_052 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_052 ;
+	rr:predicateMap map:pm_052 .
+
+map:pom_053 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_053 ;
+	rr:predicateMap map:pm_053 .
+
+map:pom_054 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_054 ;
+	rr:predicateMap map:pm_054 .
+
+map:pom_055 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_055 ;
+	rr:predicateMap map:pm_055 .
+
+map:pom_056 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_056 ;
+	rr:predicateMap map:pm_056 .
+
+map:pom_057 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_057 ;
+	rr:predicateMap map:pm_057 .
+
+map:pom_058 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_058 ;
+	rr:predicateMap map:pm_058 .
+
+map:pom_059 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_059 ;
+	rr:predicateMap map:pm_059 .
+
+map:pom_060 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_060 ;
+	rr:predicateMap map:pm_060 .
+
+map:pom_061 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_061 ;
+	rr:predicateMap map:pm_061 .
+
+map:pom_062 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_062 ;
+	rr:predicateMap map:pm_062 .
+
+map:pom_063 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_063 ;
+	rr:predicateMap map:pm_063 .
+
+map:pom_064 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_064 ;
+	rr:predicateMap map:pm_064 .
+
+map:pom_065 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_065 ;
+	rr:predicateMap map:pm_065 .
+
+map:pom_066 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_066 ;
+	rr:predicateMap map:pm_066 .
+
+map:pom_067 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_067 ;
+	rr:predicateMap map:pm_067 .
+
+map:pom_068 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_068 ;
+	rr:predicateMap map:pm_068 .
+
+map:pom_069 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_069 ;
+	rr:predicateMap map:pm_069 .
+
+map:pom_070 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_070 ;
+	rr:predicateMap map:pm_070 .
+
+map:pom_071 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_071 ;
+	rr:predicateMap map:pm_071 .
+
+map:pom_072 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_072 ;
+	rr:predicateMap map:pm_072 .
+
+map:pom_073 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_073 ;
+	rr:predicateMap map:pm_073 .
+
+map:pom_074 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_074 ;
+	rr:predicateMap map:pm_074 .
+
+map:pom_075 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_075 ;
+	rr:predicateMap map:pm_075 .
+
+map:pom_076 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_076 ;
+	rr:predicateMap map:pm_076 .
+
+map:pom_077 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_077 ;
+	rr:predicateMap map:pm_077 .
+
+map:pom_078 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_078 ;
+	rr:predicateMap map:pm_078 .
+
+map:pom_079 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_079 ;
+	rr:predicateMap map:pm_079 .
+
+map:pom_080 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_080 ;
+	rr:predicateMap map:pm_080 .
+
+map:pom_081 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_081 ;
+	rr:predicateMap map:pm_081 .
+
+map:pom_082 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_082 ;
+	rr:predicateMap map:pm_082 .
+
+map:pom_083 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_083 ;
+	rr:predicateMap map:pm_083 .
+
+map:pom_084 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_084 ;
+	rr:predicateMap map:pm_084 .
+
+map:pom_085 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_085 ;
+	rr:predicateMap map:pm_085 .
+
+map:pom_086 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_086 ;
+	rr:predicateMap map:pm_086 .
+
+map:pom_087 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_087 ;
+	rr:predicateMap map:pm_087 .
+
+map:pom_088 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_088 ;
+	rr:predicateMap map:pm_088 .
+
+map:pom_089 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_089 ;
+	rr:predicateMap map:pm_089 .
+
+map:pom_090 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_090 ;
+	rr:predicateMap map:pm_090 .
+
+map:pom_091 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_091 ;
+	rr:predicateMap map:pm_091 .
+
+map:pom_092 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_092 ;
+	rr:predicateMap map:pm_092 .
+
+map:pom_093 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_093 ;
+	rr:predicateMap map:pm_093 .
+
+map:pom_094 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_094 ;
+	rr:predicateMap map:pm_094 .
+
+map:pom_095 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_095 ;
+	rr:predicateMap map:pm_095 .
+
+map:pom_096 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_096 ;
+	rr:predicateMap map:pm_096 .
+
+map:pom_097 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_097 ;
+	rr:predicateMap map:pm_097 .
+
+map:pom_098 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_098 ;
+	rr:predicateMap map:pm_098 .
+
+map:pom_099 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_099 ;
+	rr:predicateMap map:pm_099 .
+
+map:pom_100 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_100 ;
+	rr:predicateMap map:pm_100 .
+
+map:pom_101 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_101 ;
+	rr:predicateMap map:pm_101 .
+
+map:pom_102 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_102 ;
+	rr:predicateMap map:pm_102 .
+
+map:pom_103 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_103 ;
+	rr:predicateMap map:pm_103 .
+
+map:pom_104 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_104 ;
+	rr:predicateMap map:pm_104 .
+
+map:pom_105 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_105 ;
+	rr:predicateMap map:pm_105 .
+
+map:pom_106 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_106 ;
+	rr:predicateMap map:pm_106 .
+
+map:pom_107 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_107 ;
+	rr:predicateMap map:pm_107 .
+
+map:pom_108 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_108 ;
+	rr:predicateMap map:pm_108 .
+
+map:pom_109 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_109 ;
+	rr:predicateMap map:pm_109 .
+
+map:pom_110 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_110 ;
+	rr:predicateMap map:pm_110 .
+
+map:pom_111 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_111 ;
+	rr:predicateMap map:pm_111 .
+
+map:pom_112 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_112 ;
+	rr:predicateMap map:pm_112 .
+
+map:pom_113 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_113 ;
+	rr:predicateMap map:pm_113 .
+
+map:pom_114 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_114 ;
+	rr:predicateMap map:pm_114 .
+
+map:pom_115 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_115 ;
+	rr:predicateMap map:pm_115 .
+
+map:pom_116 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_116 ;
+	rr:predicateMap map:pm_116 .
+
+map:pom_117 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_117 ;
+	rr:predicateMap map:pm_117 .
+
+map:pom_118 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_118 ;
+	rr:predicateMap map:pm_118 .
+
+map:pom_119 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_119 ;
+	rr:predicateMap map:pm_119 .
+
+map:pom_120 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_120 ;
+	rr:predicateMap map:pm_120 .
+
+map:pom_121 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_121 ;
+	rr:predicateMap map:pm_121 .
+
+map:pom_122 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_122 ;
+	rr:predicateMap map:pm_122 .
+
+map:pom_123 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_123 ;
+	rr:predicateMap map:pm_123 .
+
+map:pom_124 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_124 ;
+	rr:predicateMap map:pm_124 .
+
+map:pom_125 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_125 ;
+	rr:predicateMap map:pm_125 .
+
+map:pom_126 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_126 ;
+	rr:predicateMap map:pm_126 .
+
+map:pom_127 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_127 ;
+	rr:predicateMap map:pm_127 .
+
+map:pom_128 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_128 ;
+	rr:predicateMap map:pm_128 .
+
+map:pom_129 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_129 ;
+	rr:predicateMap map:pm_129 .
+
+map:pom_130 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_130 ;
+	rr:predicateMap map:pm_130 .
+
+map:pom_131 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_131 ;
+	rr:predicateMap map:pm_131 .
+
+map:pom_132 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_132 ;
+	rr:predicateMap map:pm_132 .
+
+map:pom_133 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_133 ;
+	rr:predicateMap map:pm_133 .
+
+map:pom_134 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_134 ;
+	rr:predicateMap map:pm_134 .
+
+map:pom_135 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_135 ;
+	rr:predicateMap map:pm_135 .
+
+map:pom_136 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_136 ;
+	rr:predicateMap map:pm_136 .
+
+map:pom_137 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_137 ;
+	rr:predicateMap map:pm_137 .
+
+map:pom_138 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_138 ;
+	rr:predicateMap map:pm_138 .
+
+map:pom_139 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_139 ;
+	rr:predicateMap map:pm_139 .
+
+map:pom_140 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_140 ;
+	rr:predicateMap map:pm_140 .
+
+map:pom_141 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_141 ;
+	rr:predicateMap map:pm_141 .
+
+map:pom_142 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_142 ;
+	rr:predicateMap map:pm_142 .
+
+map:pom_143 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_143 ;
+	rr:predicateMap map:pm_143 .
+
+map:pom_144 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_144 ;
+	rr:predicateMap map:pm_144 .
+
+map:pom_145 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_145 ;
+	rr:predicateMap map:pm_145 .
+
+map:pom_146 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_146 ;
+	rr:predicateMap map:pm_146 .
+
+map:pom_147 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_147 ;
+	rr:predicateMap map:pm_147 .
+
+map:pom_148 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_148 ;
+	rr:predicateMap map:pm_148 .
+
+map:pom_149 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_149 ;
+	rr:predicateMap map:pm_149 .
+
+map:pom_150 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_150 ;
+	rr:predicateMap map:pm_150 .
+
+map:pom_151 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_151 ;
+	rr:predicateMap map:pm_151 .
+
+map:pom_152 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_152 ;
+	rr:predicateMap map:pm_152 .
+
+map:pom_153 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_153 ;
+	rr:predicateMap map:pm_153 .
+
+map:pom_154 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_154 ;
+	rr:predicateMap map:pm_154 .
+
+map:pom_155 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_155 ;
+	rr:predicateMap map:pm_155 .
+
+map:pom_156 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_156 ;
+	rr:predicateMap map:pm_156 .
+
+map:pom_157 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_157 ;
+	rr:predicateMap map:pm_157 .
+
+map:pom_158 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_158 ;
+	rr:predicateMap map:pm_158 .
+
+map:pom_159 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_159 ;
+	rr:predicateMap map:pm_159 .
+
+map:pom_160 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_160 ;
+	rr:predicateMap map:pm_160 .
+
+map:pom_161 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_161 ;
+	rr:predicateMap map:pm_161 .
+
+map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_cells_000, map:map_code_analyses_000, map:map_notebooks_000 ;
+	rdf:type <http://rdfs.org/ns/void#Dataset> .
+
+map:s_000 rdf:type rr:SubjectMap ;
+	rr:template "https://w3id.org/reproduceme/notebook_{id}" .
+
+map:s_001 rdf:type rr:SubjectMap ;
+	rr:template "https://w3id.org/reproduceme/cell_{id}" .
+
+map:s_002 rdf:type rr:SubjectMap ;
+	rr:template "https://w3id.org/reproduceme/code_analysis_{id}" .
+
+map:source_000 rml:referenceFormulation ql:CSV ;
+	rml:source "data/notebooks.csv" ;
+	rdf:type rml:LogicalSource .
+
+map:source_001 rml:referenceFormulation ql:CSV ;
+	rml:source "data/cells.csv" ;
+	rdf:type rml:LogicalSource .
+
+map:source_002 rml:referenceFormulation ql:CSV ;
+	rml:source "data/code_analyses.csv" ;
+	rdf:type rml:LogicalSource .
+

@@ -1,0 +1,67 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  dc: http://purl.org/dc/elements/1.1/
+  schema: http://schema.org/
+  dcterms: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  repr: https://w3id.org/reproduceme/
+  fabio: http://purl.org/spar/fabio/
+  pav: http://purl.org/pav/
+  p-plan: http://purl.org/net/p-plan
+  pext: http://www.ontotext.com/proton/protonext#
+  mesh: http://purl.bioontology.org/ontology/MESH/
+  doap: http://usefulinc.com/ns/doap#
+  prov: http://www.w3.org/ns/prov-o#
+
+mappings:
+  notebooks:
+    sources:
+      - [data/notebooks.csv~csv]
+    s: https://w3id.org/reproduceme/notebook_$(id)
+    po:
+      - [a, repr:Notebook]
+  notebook_features:
+    sources:
+      - [data/notebook_features.csv~csv]
+    s: https://w3id.org/reproduceme/notebook_feature_$(id)
+    po:
+      - [a, repr:NotebookFeature]
+      - [repr:index, $(index)]
+      - [repr:index_count, $(index_count)]
+      - [repr:any, $(any)]
+      - [repr:any_count, $(any_count)]
+      - [repr:shadown_ref, $(shadown_ref)]
+      - [repr:shadown_ref_count, $(shadown_ref_count)]
+      - [repr:output_ref, $(output_ref)]
+      - [repr:output_ref_count, $(output_ref_count)]
+      - [repr:system, $(system)]
+      - [repr:system_count, $(system_count)]
+      - [repr:set_next_input, $(set_next_input)]
+      - [repr:set_next_input_count, $(set_next_input_count)]
+      - [repr:input_ref, $(input_ref)]
+      - [repr:input_ref_count, $(input_ref_count)]
+      - [repr:magic, $(magic)]
+      - [repr:magic_count, $(magic_count)]
+      - [repr:run_line_magic, $(run_line_magic)]
+      - [repr:run_line_magic_count, $(run_line_magic_count)]
+      - [repr:run_cell_magic, $(run_cell_magic)]
+      - [repr:run_cell_magic_count, $(run_cell_magic_count)]
+      - [repr:getoutput, $(getoutput)]
+      - [repr:getoutput_count, $(getoutput_count)]
+      - [repr:set_hook, $(set_hook)]
+      - [repr:set_hook_count, $(set_hook_count)]
+      - [repr:others, $(others)]
+      - [repr:skip, $(skip)]
+      - p: p-plan:isVariableOfPlan
+        o:
+          - mapping: notebooks
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(notebook_id), s]
+                - [str2, $(id), o]

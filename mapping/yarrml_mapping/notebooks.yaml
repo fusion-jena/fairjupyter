@@ -1,0 +1,61 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  dc: http://purl.org/dc/elements/1.1/
+  schema: http://schema.org/
+  dcterms: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  repr: https://w3id.org/reproduceme/
+  fabio: http://purl.org/spar/fabio/
+  pav: http://purl.org/pav/
+  p-plan: http://purl.org/net/p-plan
+  pext: http://www.ontotext.com/proton/protonext#
+  mesh: http://purl.bioontology.org/ontology/MESH/
+  doap: http://usefulinc.com/ns/doap#
+  prov: http://www.w3.org/ns/prov-o#
+
+mappings:
+  notebooks:
+    sources:
+      - [data/notebooks.csv~csv]
+    s: https://w3id.org/reproduceme/notebook_$(id)
+    po:
+      - [a, repr:Notebook]
+      - [rdfs:label, $(name)]
+      - [repr:nbformat, $(nbformat)]
+      - [repr:kernel, $(kernel)]
+      - [repr:language, $(language)]
+      - [repr:language_version, $(language_version)]
+      - [repr:max_execution_count, $(max_execution_count)]
+      - [repr:total_cells, $(total_cells)]
+      - [repr:code_cells, $(code_cells)]
+      - [repr:code_cells_with_output, $(code_cells_with_output)]
+      - [repr:markdown_cells, $(markdown_cells)]
+      - [repr:raw_cells, $(raw_cells)]
+      - [repr:unknown_cell_formats, $(unknown_cell_formats)]
+      - [repr:empty_cells, $(empty_cells)]
+      - [repr:processed, $(processed)]
+      - [repr:skip, $(skip)]
+      - [repr:sha1_source, $(sha1_source)]
+      - [repr:homework_count, $(homework_count)]
+      - [repr:assignment_count, $(assignment_count)]
+      - [repr:course_count, $(course_count)]
+      - [repr:exercise_count, $(exercise_count)]
+      - [repr:lesson_count, $(lesson_count)]
+      - [repr:max_execution_count, $(max_execution_count)]
+      - p: pav:retrievedFrom
+        o:
+          - mapping: repositories
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(repository_id), s]
+                - [str2, $(id), o]
+  repositories:
+    sources:
+      - [data/repositories.csv~csv]
+    s: https://w3id.org/reproduceme/repository_$(id)

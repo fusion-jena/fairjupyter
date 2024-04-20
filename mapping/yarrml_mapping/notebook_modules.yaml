@@ -1,0 +1,69 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  dc: http://purl.org/dc/elements/1.1/
+  schema: http://schema.org/
+  dcterms: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  repr: https://w3id.org/reproduceme/
+  fabio: http://purl.org/spar/fabio/
+  pav: http://purl.org/pav/
+  p-plan: http://purl.org/net/p-plan
+  pext: http://www.ontotext.com/proton/protonext#
+  mesh: http://purl.bioontology.org/ontology/MESH/
+  doap: http://usefulinc.com/ns/doap#
+  prov: http://www.w3.org/ns/prov-o#
+
+mappings:
+  notebooks:
+    sources:
+      - [data/notebooks.csv~csv]
+    s: https://w3id.org/reproduceme/notebook_$(id)
+    po:
+      - [a, repr:Notebook]
+  notebook_modules:
+    sources:
+      - [data/notebook_modules.csv~csv]
+    s: https://w3id.org/reproduceme/notebook_module_$(id)
+    po:
+      - [a, repr:NotebookModule]
+      - [repr:index, $(index)]
+      - [repr:index_count, $(index_count)]
+      - [repr:any_any, $(any_any)]
+      - [repr:any_any_count, $(any_any_count)]
+      - [repr:local_any, $(local_any)]
+      - [repr:local_any_count, $(local_any_count)]
+      - [repr:external_any, $(external_any)]
+      - [repr:external_any_count, $(external_any_count)]
+      - [repr:any_import_from, $(any_import_from)]
+      - [repr:any_import_from_count, $(any_import_from_count)]
+      - [repr:local_import_from, $(local_import_from)]
+      - [repr:local_import_from_count, $(local_import_from_count)]
+      - [repr:external_import_from, $(external_import_from)]
+      - [repr:external_import_from_count, $(external_import_from_count)]
+      - [repr:any_import, $(any_import)]
+      - [repr:any_import_count, $(any_import_count)]
+      - [repr:local_import, $(local_import)]
+      - [repr:local_import_count, $(local_import_count)]
+      - [repr:external_import, $(external_import)]
+      - [repr:external_import_count, $(external_import_count)]
+      - [repr:any_load_ext, $(any_load_ext)]
+      - [repr:any_load_ext_count, $(any_load_ext_count)]
+      - [repr:local_load_ext, $(local_load_ext)]
+      - [repr:local_load_ext_count, $(local_load_ext_count)]
+      - [repr:external_load_ext, $(external_load_ext)]
+      - [repr:external_load_ext_count, $(external_load_ext_count)]
+      - [repr:others, $(others)]
+      - [repr:skip, $(skip)]
+      - p: p-plan:isVariableOfPlan
+        o:
+          - mapping: notebooks
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(notebook_id), s]
+                - [str2, $(id), o]

@@ -1,0 +1,79 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  dc: http://purl.org/dc/elements/1.1/
+  schema: http://schema.org/
+  dcterms: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  repr: https://w3id.org/reproduceme/
+  fabio: http://purl.org/spar/fabio/
+  pav: http://purl.org/pav/
+  p-plan: http://purl.org/net/p-plan
+  pext: http://www.ontotext.com/proton/protonext#
+  mesh: http://purl.bioontology.org/ontology/MESH/
+  doap: http://usefulinc.com/ns/doap#
+  prov: http://www.w3.org/ns/prov-o#
+
+mappings:
+  repositories:
+    sources:
+      - [data/repositories.csv~csv]
+    s: https://w3id.org/reproduceme/repository_$(id)
+    po:
+      - [a, doap:GitRepository]
+      - [rdfs:label,$(repository)]
+      - [repr:hash_dir1,$(hash_dir1)]
+      - [repr:hash_dir2,$(hash_dir2)]
+      - [repr:commit,$(commit)]
+      - [repr:notebooks_count,$(notebooks_count)]
+      - [repr:setups_count,$(setups_count)]
+      - [repr:pipfiles_count,$(pipfiles_count)]
+      - [repr:requirements_count,$(requirements_count)]
+      - p: pav:retrievedFrom
+        o:
+          - mapping: article
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(article_id), s]
+                - [str2, $(id), o]
+  repository_data:
+      sources:
+        - [data/repository_data.csv~csv]
+      s: https://w3id.org/reproduceme/repository_$(repository_id)
+      po:
+        - [repr:url,$(url)]
+        - [repr:description,$(description)]
+        - [repr:created_at,$(created_at)]
+        - [repr:updated_at,$(updated_at)]
+        - [repr:pushed_at,$(pushed_at)]
+        - [repr:size,$(size)]
+        - [repr:homepage,$(homepage)]
+        - [repr:language,$(language)]
+        - [repr:watchers,$(watchers)]
+        - [repr:subscribers_count,$(subscribers_count)]
+        - [repr:stargazers_count,$(stargazers_count)]
+        - [repr:forks_count,$(forks_count)]
+        - [repr:network_count,$(network_count)]
+        - [repr:open_issues_count,$(open_issues_count)]
+        - [repr:archived,$(archived)]
+        - [repr:has_issues,$(has_issues)]
+        - [repr:has_downloads,$(has_downloads)]
+        - [repr:has_projects,$(has_projects)]
+        - [repr:has_pages,$(has_pages)]
+        - [repr:has_wiki,$(has_wiki)]
+        - [repr:private,$(private)]
+        - [repr:license_name,$(license_name)]
+        - [repr:license_key,$(license_key)]
+        - [repr:total_commits_after_published_date,$(total_commits_after_published_date)]
+        - [repr:total_commits_after_received_date,$(total_commits_after_received_date)]
+        - [repr:total_commits_after_accepted_date,$(total_commits_after_accepted_date)]
+        - [repr:total_releases,$(total_releases)]
+  article:
+    sources:
+      - [data/article.csv~csv]
+    s: https://w3id.org/reproduceme/article_$(id)

@@ -1,0 +1,153 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  dc: http://purl.org/dc/elements/1.1/
+  schema: http://schema.org/
+  dcterms: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  repr: https://w3id.org/reproduceme/
+  fabio: http://purl.org/spar/fabio/
+  pav: http://purl.org/pav/
+  p-plan: http://purl.org/net/p-plan
+  pext: http://www.ontotext.com/proton/protonext#
+  mesh: http://purl.bioontology.org/ontology/MESH/
+  doap: http://usefulinc.com/ns/doap#
+  prov: http://www.w3.org/ns/prov-o#
+
+mappings:
+  notebooks:
+    sources:
+      - [data/notebooks.csv~csv]
+    s: https://w3id.org/reproduceme/notebook_$(id)
+    po:
+      - [a, repr:Notebook]
+  notebook_names:
+    sources:
+      - [data/notebook_names.csv~csv]
+    s: https://w3id.org/reproduceme/notebook_name_$(id)
+    po:
+      - [a, repr:NotebookName]
+      - [repr:index, $(index)]
+      - [repr:index_count, $(index_count)]
+      - [repr:any_any, $(any_any)]
+      - [repr:any_any_counts, $(any_any_counts)]
+      - [repr:any_class, $(any_class)]
+      - [repr:any_class_counts, $(any_class_counts)]
+      - [repr:any_import, $(any_import)]
+      - [repr:any_import_counts, $(any_import_counts)]
+      - [repr:any_importfrom, $(any_importfrom)]
+      - [repr:any_importfrom_counts, $(any_importfrom_counts)]
+      - [repr:any_function, $(any_function)]
+      - [repr:any_function_counts, $(any_function_counts)]
+      - [repr:any_param, $(any_param)]
+      - [repr:any_param_counts, $(any_param_counts)]
+      - [repr:any_del, $(any_del)]
+      - [repr:any_del_counts, $(any_del_counts)]
+      - [repr:any_load, $(any_load)]
+      - [repr:any_load_counts, $(any_load_counts)]
+      - [repr:any_store, $(any_store)]
+      - [repr:any_store_counts, $(any_store_counts)]
+      - [repr:nonlocal_any, $(nonlocal_any)]
+      - [repr:nonlocal_any_counts, $(nonlocal_any_counts)]
+      - [repr:nonlocal_class, $(nonlocal_class)]
+      - [repr:nonlocal_class_counts, $(nonlocal_class_counts)]
+      - [repr:nonlocal_import, $(nonlocal_import)]
+      - [repr:nonlocal_import_counts, $(nonlocal_import_counts)]
+      - [repr:nonlocal_importfrom, $(nonlocal_importfrom)]
+      - [repr:nonlocal_importfrom_counts, $(nonlocal_importfrom_counts)]
+      - [repr:nonlocal_function, $(nonlocal_function)]
+      - [repr:nonlocal_function_counts, $(nonlocal_function_counts)]
+      - [repr:nonlocal_param, $(nonlocal_param)]
+      - [repr:nonlocal_param_counts, $(nonlocal_param_counts)]
+      - [repr:nonlocal_del, $(nonlocal_del)]
+      - [repr:nonlocal_del_counts, $(nonlocal_del_counts)]
+      - [repr:nonlocal_load, $(nonlocal_load)]
+      - [repr:nonlocal_load_counts, $(nonlocal_load_counts)]
+      - [repr:nonlocal_store, $(nonlocal_store)]
+      - [repr:nonlocal_store_counts, $(nonlocal_store_counts)]
+      - [repr:local_any, $(local_any)]
+      - [repr:local_any_counts, $(local_any_counts)]
+      - [repr:local_class, $(local_class)]
+      - [repr:local_class_counts, $(local_class_counts)]
+      - [repr:local_import, $(local_import)]
+      - [repr:local_import_counts, $(local_import_counts)]
+      - [repr:local_importfrom, $(local_importfrom)]
+      - [repr:local_importfrom_counts, $(local_importfrom_counts)]
+      - [repr:local_function, $(local_function)]
+      - [repr:local_function_counts, $(local_function_counts)]
+      - [repr:local_param, $(local_param)]
+      - [repr:local_param_counts, $(local_param_counts)]
+      - [repr:local_del, $(local_del)]
+      - [repr:local_del_counts, $(local_del_counts)]
+      - [repr:local_load, $(local_load)]
+      - [repr:local_load_counts, $(local_load_counts)]
+      - [repr:local_store, $(local_store)]
+      - [repr:local_store_counts, $(local_store_counts)]
+      - [repr:class_any, $(class_any)]
+      - [repr:class_any_counts, $(class_any_counts)]
+      - [repr:class_class, $(class_class)]
+      - [repr:class_class_counts, $(class_class_counts)]
+      - [repr:class_import, $(class_import)]
+      - [repr:class_import_counts, $(class_import_counts)]
+      - [repr:class_importfrom, $(class_importfrom)]
+      - [repr:class_importfrom_counts, $(class_importfrom_counts)]
+      - [repr:class_function, $(class_function)]
+      - [repr:class_function_counts, $(class_function_counts)]
+      - [repr:class_param, $(class_param)]
+      - [repr:class_param_counts, $(class_param_counts)]
+      - [repr:class_del, $(class_del)]
+      - [repr:class_del_counts, $(class_del_counts)]
+      - [repr:class_load, $(class_load)]
+      - [repr:class_load_counts, $(class_load_counts)]
+      - [repr:class_store, $(class_store)]
+      - [repr:class_store_counts, $(class_store_counts)]
+      - [repr:global_any, $(global_any)]
+      - [repr:global_any_counts, $(global_any_counts)]
+      - [repr:global_class, $(global_class)]
+      - [repr:global_class_counts, $(global_class_counts)]
+      - [repr:global_import, $(global_import)]
+      - [repr:global_import_counts, $(global_import_counts)]
+      - [repr:global_importfrom, $(global_importfrom)]
+      - [repr:global_importfrom_counts, $(global_importfrom_counts)]
+      - [repr:global_function, $(global_function)]
+      - [repr:global_function_counts, $(global_function_counts)]
+      - [repr:global_param, $(global_param)]
+      - [repr:global_param_counts, $(global_param_counts)]
+      - [repr:global_del, $(global_del)]
+      - [repr:global_del_counts, $(global_del_counts)]
+      - [repr:global_load, $(global_load)]
+      - [repr:global_load_counts, $(global_load_counts)]
+      - [repr:global_store, $(global_store)]
+      - [repr:global_store_counts, $(global_store_counts)]
+      - [repr:main_any, $(main_any)]
+      - [repr:main_any_counts, $(main_any_counts)]
+      - [repr:main_class, $(main_class)]
+      - [repr:main_class_counts, $(main_class_counts)]
+      - [repr:main_import, $(main_import)]
+      - [repr:main_import_counts, $(main_import_counts)]
+      - [repr:main_importfrom, $(main_importfrom)]
+      - [repr:main_importfrom_counts, $(main_importfrom_counts)]
+      - [repr:main_function, $(main_function)]
+      - [repr:main_function_counts, $(main_function_counts)]
+      - [repr:main_param, $(main_param)]
+      - [repr:main_param_counts, $(main_param_counts)]
+      - [repr:main_del, $(main_del)]
+      - [repr:main_del_counts, $(main_del_counts)]
+      - [repr:main_load, $(main_load)]
+      - [repr:main_load_counts, $(main_load_counts)]
+      - [repr:main_store, $(main_store)]
+      - [repr:main_store_counts, $(main_store_counts)]
+      - [repr:others, $(others)]
+      - [repr:skip, $(skip)]
+      - p: p-plan:isVariableOfPlan
+        o:
+          - mapping: notebooks
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(notebook_id), s]
+                - [str2, $(id), o]

@@ -1,0 +1,62 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  dc: http://purl.org/dc/elements/1.1/
+  schema: http://schema.org/
+  dcterms: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  repr: https://w3id.org/reproduceme/
+  fabio: http://purl.org/spar/fabio/
+  pav: http://purl.org/pav/
+  p-plan: http://purl.org/net/p-plan
+  pext: http://www.ontotext.com/proton/protonext#
+  mesh: http://purl.bioontology.org/ontology/MESH/
+  doap: http://usefulinc.com/ns/doap#
+  prov: http://www.w3.org/ns/prov-o#
+
+mappings:
+  notebooks:
+    sources:
+      - [data/notebooks.csv~csv]
+    s: https://w3id.org/reproduceme/notebook_$(id)
+    po:
+      - [a, repr:Notebook]
+  cells:
+    sources:
+      - [data/cells.csv~csv]
+    s: https://w3id.org/reproduceme/cell_$(id)
+    po:
+      - [a, repr:Cell]
+  cell_names:
+    sources:
+      - [data/cell_names.csv~csv]
+    s: https://w3id.org/reproduceme/cell_name_$(id)
+    po:
+      - [a, repr:CellName]
+      - [repr:index, $(index)]
+      - [repr:analysis_id, $(analysis_id)]
+      - [repr:scope, $(scope)]
+      - [repr:context, $(context)]
+      - [repr:name, $(name)]
+      - [repr:count, $(count)]
+      - [repr:skip, $(skip)]
+      - p: p-plan:isVariableOfPlan
+        o:
+          - mapping: notebooks
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(notebook_id), s]
+                - [str2, $(id), o]
+      - p: pav:retrievedFrom
+        o:
+          - mapping: cells
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(cell_id), s]
+                - [str2, $(id), o]

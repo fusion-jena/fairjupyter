@@ -1,0 +1,175 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  dc: http://purl.org/dc/elements/1.1/
+  schema: http://schema.org/
+  dcterms: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  repr: https://w3id.org/reproduceme/
+  fabio: http://purl.org/spar/fabio/
+  pav: http://purl.org/pav/
+  p-plan: http://purl.org/net/p-plan
+  pext: http://www.ontotext.com/proton/protonext#
+  mesh: http://purl.bioontology.org/ontology/MESH/
+  doap: http://usefulinc.com/ns/doap#
+  prov: http://www.w3.org/ns/prov-o#
+
+mappings:
+  notebooks:
+    sources:
+      - [data/notebooks.csv~csv]
+    s: https://w3id.org/reproduceme/notebook_$(id)
+    po:
+      - [a, repr:Notebook]
+  cells:
+    sources:
+      - [data/cells.csv~csv]
+    s: https://w3id.org/reproduceme/cell_$(id)
+    po:
+      - [a, repr:Cell]
+  markdown_features:
+    sources:
+      - [data/markdown_features.csv~csv]
+    s: https://w3id.org/reproduceme/markdown_feature_$(id)
+    po:
+      - [a, repr:MarkdownFeature]
+      - [repr:index, $(index)]
+      - [repr:language, $(language)]
+      - [repr:using_stopwords, $(using_stopwords)]
+      - [repr:len, $(len)]
+      - [repr:lines, $(lines)]
+      - [repr:meaningful_lines, $(meaningful_lines)]
+      - [repr:words, $(words)]
+      - [repr:meaningful_words, $(meaningful_words)]
+      - [repr:stopwords, $(stopwords)]
+      - [repr:meaningful_stopwords, $(meaningful_stopwords)]
+      - [repr:header, $(header)]
+      - [repr:header_len, $(header_len)]
+      - [repr:header_lines, $(header_lines)]
+      - [repr:header_words, $(header_words)]
+      - [repr:header_stopwords, $(header_stopwords)]
+      - [repr:h1, $(h1)]
+      - [repr:h1_len, $(h1_len)]
+      - [repr:h1_lines, $(h1_lines)]
+      - [repr:h1_words, $(h1_words)]
+      - [repr:h1_stopwords, $(h1_stopwords)]
+      - [repr:h2, $(h2)]
+      - [repr:h2_len, $(h2_len)]
+      - [repr:h2_lines, $(h2_lines)]
+      - [repr:h2_words, $(h2_words)]
+      - [repr:h2_stopwords, $(h2_stopwords)]
+      - [repr:h3, $(h3)]
+      - [repr:h3_len, $(h3_len)]
+      - [repr:h3_lines, $(h3_lines)]
+      - [repr:h3_words, $(h3_words)]
+      - [repr:h3_stopwords, $(h3_stopwords)]
+      - [repr:h4, $(h4)]
+      - [repr:h4_len, $(h4_len)]
+      - [repr:h4_lines, $(h4_lines)]
+      - [repr:h4_words, $(h4_words)]
+      - [repr:h4_stopwords, $(h4_stopwords)]
+      - [repr:h5, $(h5)]
+      - [repr:h5_len, $(h5_len)]
+      - [repr:h5_lines, $(h5_lines)]
+      - [repr:h5_words, $(h5_words)]
+      - [repr:h5_stopwords, $(h5_stopwords)]
+      - [repr:h6, $(h6)]
+      - [repr:h6_len, $(h6_len)]
+      - [repr:h6_lines, $(h6_lines)]
+      - [repr:h6_words, $(h6_words)]
+      - [repr:h6_stopwords, $(h6_stopwords)]
+      - [repr:hrule, $(hrule)]
+      - [repr:list, $(list)]
+      - [repr:list_len, $(list_len)]
+      - [repr:list_lines, $(list_lines)]
+      - [repr:list_items, $(list_items)]
+      - [repr:list_words, $(list_words)]
+      - [repr:list_stopwords, $(list_stopwords)]
+      - [repr:table, $(table)]
+      - [repr:table_len, $(table_len)]
+      - [repr:table_lines, $(table_lines)]
+      - [repr:table_rows, $(table_rows)]
+      - [repr:table_cells, $(table_cells)]
+      - [repr:table_words, $(table_words)]
+      - [repr:table_stopwords, $(table_stopwords)]
+      - [repr:p, $(p)]
+      - [repr:p_len, $(p_len)]
+      - [repr:p_lines, $(p_lines)]
+      - [repr:p_words, $(p_words)]
+      - [repr:p_stopwords, $(p_stopwords)]
+      - [repr:quote, $(quote)]
+      - [repr:quote_len, $(quote_len)]
+      - [repr:quote_lines, $(quote_lines)]
+      - [repr:quote_words, $(quote_words)]
+      - [repr:quote_stopwords, $(quote_stopwords)]
+      - [repr:code, $(code)]
+      - [repr:code_len, $(code_len)]
+      - [repr:code_lines, $(code_lines)]
+      - [repr:code_words, $(code_words)]
+      - [repr:code_stopwords, $(code_stopwords)]
+      - [repr:image, $(image)]
+      - [repr:image_len, $(image_len)]
+      - [repr:image_words, $(image_words)]
+      - [repr:image_stopwords, $(image_stopwords)]
+      - [repr:link, $(link)]
+      - [repr:link_len, $(link_len)]
+      - [repr:link_words, $(link_words)]
+      - [repr:link_stopwords, $(link_stopwords)]
+      - [repr:autolink, $(autolink)]
+      - [repr:autolink_len, $(autolink_len)]
+      - [repr:autolink_words, $(autolink_words)]
+      - [repr:autolink_stopwords, $(autolink_stopwords)]
+      - [repr:codespan, $(codespan)]
+      - [repr:codespan_len, $(codespan_len)]
+      - [repr:codespan_words, $(codespan_words)]
+      - [repr:codespan_stopwords, $(codespan_stopwords)]
+      - [repr:emphasis, $(emphasis)]
+      - [repr:emphasis_len, $(emphasis_len)]
+      - [repr:emphasis_words, $(emphasis_words)]
+      - [repr:emphasis_stopwords, $(emphasis_stopwords)]
+      - [repr:double_emphasis, $(double_emphasis)]
+      - [repr:double_emphasis_len, $(double_emphasis_len)]
+      - [repr:double_emphasis_words, $(double_emphasis_words)]
+      - [repr:double_emphasis_stopwords, $(double_emphasis_stopwords)]
+      - [repr:strikethrough, $(strikethrough)]
+      - [repr:strikethrough_len, $(strikethrough_len)]
+      - [repr:strikethrough_words, $(strikethrough_words)]
+      - [repr:strikethrough_stopwords, $(strikethrough_stopwords)]
+      - [repr:html, $(html)]
+      - [repr:html_len, $(html_len)]
+      - [repr:html_lines, $(html_lines)]
+      - [repr:math, $(math)]
+      - [repr:math_len, $(math_len)]
+      - [repr:math_words, $(math_words)]
+      - [repr:math_stopwords, $(math_stopwords)]
+      - [repr:block_math, $(block_math)]
+      - [repr:block_math_len, $(block_math_len)]
+      - [repr:block_math_lines, $(block_math_lines)]
+      - [repr:block_math_words, $(block_math_words)]
+      - [repr:block_math_stopwords, $(block_math_stopwords)]
+      - [repr:latex, $(latex)]
+      - [repr:latex_len, $(latex_len)]
+      - [repr:latex_lines, $(latex_lines)]
+      - [repr:latex_words, $(latex_words)]
+      - [repr:latex_stopwords, $(latex_stopwords)]
+      - [repr:skip, $(skip)]
+      - p: p-plan:isVariableOfPlan
+        o:
+          - mapping: notebooks
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(notebook_id), s]
+                - [str2, $(id), o]
+      - p: pav:retrievedFrom
+        o:
+          - mapping: cells
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(cell_id), s]
+                - [str2, $(id), o]
