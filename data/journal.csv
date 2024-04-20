@@ -1,0 +1,742 @@
+id,name,nlm_ta,iso_abbrev,issn_epub,publisher_name,publisher_loc
+1,"BMC Bioinformatics","BMC Bioinformatics","BMC Bioinformatics",1471-2105,"BioMed Central",London
+2,"Journal of Mammary Gland Biology and Neoplasia","J Mammary Gland Biol Neoplasia","J Mammary Gland Biol Neoplasia",1573-7039,"Springer US","New York"
+3,"The Journal of General Physiology","J Gen Physiol","J Gen Physiol",1540-7748,"Rockefeller University Press",
+4,"Frontiers in Cellular and Infection Microbiology","Front Cell Infect Microbiol","Front Cell Infect Microbiol",2235-2988,"Frontiers Media S.A.",
+5,eLife,eLife,Elife,2050-084X,"eLife Sciences Publications, Ltd",
+6,"PLOS Computational Biology","PLoS Comput Biol","PLoS Comput Biol",1553-7358,"Public Library of Science","San Francisco, CA USA"
+7,"Empirical Software Engineering","Empir Softw Eng","Empir Softw Eng",1573-7616,"Springer US","New York"
+8,"Frontiers in Neurology","Front Neurol","Front Neurol",1664-2295,"Frontiers Media S.A.",
+9,"Computational and Structural Biotechnology Journal","Comput Struct Biotechnol J","Comput Struct Biotechnol J",2001-0370,"Research Network of Computational and Structural Biotechnology",
+10,"Science (New York, N.Y.)",Science,Science,1095-9203,,
+11,Patterns,"Patterns (N Y)","Patterns (N Y)",2666-3899,Elsevier,
+12,"Scientific Data","Sci Data","Sci Data",2052-4463,"Nature Publishing Group UK",London
+13,"Behavior Research Methods","Behav Res Methods","Behav Res Methods",1554-3528,"Springer US","New York"
+14,GigaByte,GigaByte,GigaByte,2709-4715,"GigaScience Press","Sha Tin, New Territories, Hong Kong SAR"
+15,GigaScience,Gigascience,Gigascience,2047-217X,"Oxford University Press",
+16,"Briefings in Bioinformatics","Brief Bioinform","Brief Bioinform",1477-4054,"Oxford University Press",
+17,"Philosophical Transactions of the Royal Society B: Biological Sciences","Philos Trans R Soc Lond B Biol Sci","Philos Trans R Soc Lond B Biol Sci",1471-2970,"The Royal Society",
+18,"Nature Communications","Nat Commun","Nat Commun",2041-1723,"Nature Publishing Group UK",London
+19,"Journal of Medical Systems","J Med Syst","J Med Syst",1573-689X,"Springer US","New York"
+20,"STAR Protocols","STAR Protoc","STAR Protoc",2666-1667,Elsevier,
+21,"Frontiers in Robotics and AI","Front Robot AI","Front Robot AI",2296-9144,"Frontiers Media S.A.",
+22,"Communications Medicine","Commun Med (Lond)","Commun Med (Lond)",2730-664X,"Nature Publishing Group UK",London
+23,"Brain Topography","Brain Topogr","Brain Topogr",1573-6792,"Springer US","New York"
+24,"Journal of Synchrotron Radiation","J Synchrotron Radiat","J Synchrotron Radiat",1600-5775,"International Union of Crystallography",
+25,"Advanced Genetics","Adv Genet (Hoboken)","Adv Genet (Hoboken)",2641-6573,"John Wiley and Sons Inc.",Hoboken
+26,"Genome Biology","Genome Biol","Genome Biol",1474-760X,"BioMed Central",London
+27,"ACS Applied Materials & Interfaces","ACS Appl Mater Interfaces","ACS Appl Mater Interfaces",1944-8252,"American Chemical Society",
+28,"Frontiers in Bioinformatics","Front Bioinform","Front Bioinform",2673-7647,"Frontiers Media S.A.",
+29,"The Journal of Cell Biology","J Cell Biol","J Cell Biol",1540-8140,"Rockefeller University Press",
+30,"Learning & Memory","Learn Mem","Learn Mem",1549-5485,"Cold Spring Harbor Laboratory Press",
+31,"NPJ Parkinson's Disease","NPJ Parkinsons Dis","NPJ Parkinsons Dis",2373-8057,"Nature Publishing Group UK",London
+32,"Journal of Cheminformatics","J Cheminform","J Cheminform",1758-2946,"Springer International Publishing",Cham
+33,bioRxiv,bioRxiv,,,"Cold Spring Harbor Laboratory",
+34,PeerJ,PeerJ,PeerJ,2167-8359,"PeerJ Inc.","San Diego, USA"
+35,"BMC Biology","BMC Biol","BMC Biol",1741-7007,"BioMed Central",London
+36,"The EMBO Journal","EMBO J","EMBO J",1460-2075,"John Wiley and Sons Inc.",Hoboken
+37,"Molecular Therapy. Nucleic Acids","Mol Ther Nucleic Acids","Mol Ther Nucleic Acids",2162-2531,"American Society of Gene & Cell Therapy",
+38,Microbiome,Microbiome,Microbiome,2049-2618,"BioMed Central",London
+39,"Journal of Medicinal Chemistry","J Med Chem","J Med Chem",1520-4804,"American Chemical Society",
+40,"International Journal of Molecular Sciences","Int J Mol Sci","Int J Mol Sci",1422-0067,MDPI,
+41,Viruses,Viruses,Viruses,1999-4915,MDPI,
+42,Nanomaterials,"Nanomaterials (Basel)","Nanomaterials (Basel)",2079-4991,MDPI,
+43,"The Journal of Biological Chemistry","J Biol Chem","J Biol Chem",1083-351X,"American Society for Biochemistry and Molecular Biology",
+44,Genes,"Genes (Basel)","Genes (Basel)",2073-4425,MDPI,
+45,Entropy,"Entropy (Basel)","Entropy (Basel)",1099-4300,MDPI,
+46,Biomedicines,Biomedicines,Biomedicines,2227-9059,MDPI,
+47,Biology,"Biology (Basel)","Biology (Basel)",2079-7737,MDPI,
+48,"Research Square","Res Sq",,,"American Journal Experts",
+49,Nature,Nature,Nature,1476-4687,"Nature Publishing Group UK",London
+50,"Science Advances","Sci Adv","Sci Adv",2375-2548,"American Association for the Advancement of Science",
+51,NeuroImage,Neuroimage,Neuroimage,1095-9572,,
+52,"Scientific Reports","Sci Rep","Sci Rep",2045-2322,"Nature Publishing Group UK",London
+53,iScience,iScience,iScience,2589-0042,Elsevier,
+54,"The Journal of Physical Chemistry Letters","J Phys Chem Lett","J Phys Chem Lett",1948-7185,"American Chemical Society",
+55,"Communications Biology","Commun Biol","Commun Biol",2399-3642,"Nature Publishing Group UK",London
+56,"Applications in Plant Sciences","Appl Plant Sci","Appl Plant Sci",2168-0450,"John Wiley and Sons Inc.",Hoboken
+57,"Molecular Systems Biology","Mol Syst Biol","Mol Syst Biol",1744-4292,"John Wiley and Sons Inc.",Hoboken
+58,"Methods in molecular biology (Clifton, N.J.)","Methods Mol Biol","Methods Mol Biol",1940-6029,,
+59,"Bioinformatics Advances","Bioinform Adv","Bioinform Adv",2635-0041,"Oxford University Press",
+60,Materials,"Materials (Basel)","Materials (Basel)",1996-1944,MDPI,
+61,"Sensors (Basel, Switzerland)","Sensors (Basel)","Sensors (Basel)",1424-8220,MDPI,
+62,"Journal of Clinical Medicine","J Clin Med","J Clin Med",2077-0383,MDPI,
+63,"PLOS ONE","PLoS One","PLoS One",1932-6203,"Public Library of Science","San Francisco, CA USA"
+64,"Frontiers in Bioengineering and Biotechnology","Front Bioeng Biotechnol","Front Bioeng Biotechnol",2296-4185,"Frontiers Media S.A.",
+65,"Frontiers in Physiology","Front Physiol","Front Physiol",1664-042X,"Frontiers Media S.A.",
+66,"Proceedings of the National Academy of Sciences of the United States of America","Proc Natl Acad Sci U S A","Proc Natl Acad Sci U S A",1091-6490,"National Academy of Sciences",
+67,"Frontiers in Computational Neuroscience","Front Comput Neurosci","Front Comput Neurosci",1662-5188,"Frontiers Media S.A.",
+68,F1000Research,F1000Res,F1000Res,2046-1402,"F1000 Research Limited","London, UK"
+69,"Physical Chemistry Chemical Physics","Phys Chem Chem Phys","Phys Chem Chem Phys",1463-9084,"The Royal Society of Chemistry",
+70,Bioinformatics,Bioinformatics,Bioinformatics,1367-4811,"Oxford University Press",
+71,"Multimedia Tools and Applications","Multimed Tools Appl","Multimed Tools Appl",1573-7721,"Springer US","New York"
+72,"Frontiers in Cell and Developmental Biology","Front Cell Dev Biol","Front Cell Dev Biol",2296-634X,"Frontiers Media S.A.",
+73,"Methods in enzymology","Methods Enzymol","Methods Enzymol",1557-7988,,
+74,"Journal of neuroscience methods","J Neurosci Methods","J Neurosci Methods",1872-678X,,
+75,"Nucleic Acids Research","Nucleic Acids Res","Nucleic Acids Res",1362-4962,"Oxford University Press",
+76,"Human Brain Mapping","Hum Brain Mapp","Hum Brain Mapp",1097-0193,"John Wiley & Sons, Inc.","Hoboken, USA"
+77,"The Journal of Physical Chemistry. a","J Phys Chem A","J Phys Chem A",1520-5215,"American Chemical Society",
+78,"Journal of Cell Science","J Cell Sci","J Cell Sci",1477-9137,"The Company of Biologists Ltd",
+79,"Analytical Chemistry","Anal Chem","Anal Chem",1520-6882,"American Chemical Society",
+80,"Cell Reports Methods","Cell Rep Methods","Cell Rep Methods",2667-2375,Elsevier,
+81,Molecules,Molecules,Molecules,1420-3049,MDPI,
+82,Diagnostics,"Diagnostics (Basel)","Diagnostics (Basel)",2075-4418,MDPI,
+83,"ACS sensors","ACS Sens","ACS Sens",2379-3694,,
+84,Microbiology,"Microbiology (Reading)","Microbiology (Reading)",1465-2080,"Microbiology Society",
+85,Cell,Cell,Cell,1097-4172,,
+86,"Molecular Therapy. Methods & Clinical Development","Mol Ther Methods Clin Dev","Mol Ther Methods Clin Dev",2329-0501,"American Society of Gene & Cell Therapy",
+87,"Applied Soft Computing","Appl Soft Comput","Appl Soft Comput",1872-9681,"Elsevier B.V.",
+88,"Marine Drugs","Mar Drugs","Mar Drugs",1660-3397,MDPI,
+89,"NAR Genomics and Bioinformatics","NAR Genom Bioinform","NAR Genom Bioinform",2631-9268,"Oxford University Press",
+90,Neuroinformatics,Neuroinformatics,Neuroinformatics,1559-0089,"Springer US","New York"
+91,"Nature Biotechnology","Nat Biotechnol","Nat Biotechnol",1546-1696,"Nature Publishing Group US","New York"
+92,"PLOS Digital Health","PLOS Digit Health","PLOS Digit Health",2767-3170,"Public Library of Science","San Francisco, CA USA"
+93,"Human Genomics","Hum Genomics","Hum Genomics",1479-7364,"BioMed Central",London
+94,"Journal of molecular biology","J Mol Biol","J Mol Biol",1089-8638,,
+95,"Soft Computing","Soft comput","Soft comput",1433-7479,"Springer Berlin Heidelberg",Berlin/Heidelberg
+96,"Nature Methods","Nat Methods","Nat Methods",1548-7105,"Nature Publishing Group US","New York"
+97,"Translational Vision Science & Technology","Transl Vis Sci Technol","Transl Vis Sci Technol",2164-2591,"The Association for Research in Vision and Ophthalmology",
+98,"Molecular Psychiatry","Mol Psychiatry","Mol Psychiatry",1476-5578,"Nature Publishing Group UK",London
+99,"PLOS Biology","PLoS Biol","PLoS Biol",1545-7885,"Public Library of Science","San Francisco, CA USA"
+100,"Journal of Medical Imaging","J Med Imaging (Bellingham)","J Med Imaging (Bellingham)",2329-4310,"Society of Photo-Optical Instrumentation Engineers",
+101,"Journal of Biomedical Optics","J Biomed Opt","J Biomed Opt",1560-2281,"Society of Photo-Optical Instrumentation Engineers",
+102,"Cell Genomics","Cell Genom","Cell Genom",2666-979X,Elsevier,
+103,"Science translational medicine","Sci Transl Med","Sci Transl Med",1946-6242,,
+104,"Frontiers in Toxicology","Front Toxicol","Front Toxicol",2673-3080,"Frontiers Media S.A.",
+105,ArXiv,ArXiv,ArXiv,2331-8422,"Cornell University",
+106,"European Heart Journal. Digital Health","Eur Heart J Digit Health","Eur Heart J Digit Health",2634-3916,"Oxford University Press",
+107,"ACS nano","ACS Nano","ACS Nano",1936-086X,,
+108,"International Journal for Parasitology: Drugs and Drug Resistance","Int J Parasitol Drugs Drug Resist","Int J Parasitol Drugs Drug Resist",2211-3207,Elsevier,
+109,Metabolites,Metabolites,Metabolites,2218-1989,MDPI,
+110,Healthcare,"Healthcare (Basel)","Healthcare (Basel)",2227-9032,MDPI,
+111,Immunity,Immunity,Immunity,1097-4180,"Cell Press",
+112,"BMC Medical Informatics and Decision Making","BMC Med Inform Decis Mak","BMC Med Inform Decis Mak",1472-6947,"BioMed Central",London
+113,"Nature Genetics","Nat Genet","Nat Genet",1546-1718,"Nature Publishing Group US","New York"
+114,"Living journal of computational molecular science","Living J Comput Mol Sci","Living J Comput Mol Sci",2575-6524,,
+115,eNeuro,eNeuro,eNeuro,2373-2822,"Society for Neuroscience",
+116,"Horticulture Research","Hortic Res","Hortic Res",2052-7276,"Oxford University Press",
+117,"Chinese Medicine","Chin Med","Chin Med",1749-8546,"BioMed Central",London
+118,"BMC Infectious Diseases","BMC Infect Dis","BMC Infect Dis",1471-2334,"BioMed Central",London
+119,"Communications Chemistry","Commun Chem","Commun Chem",2399-3669,"Nature Publishing Group UK",London
+120,"Molecular Metabolism","Mol Metab","Mol Metab",2212-8778,Elsevier,
+121,"Synthetic and Systems Biotechnology","Synth Syst Biotechnol","Synth Syst Biotechnol",2405-805X,"KeAi Publishing",
+122,"The New Phytologist","New Phytol","New Phytol",1469-8137,"John Wiley and Sons Inc.",Hoboken
+123,"Frontiers in Cellular Neuroscience","Front Cell Neurosci","Front Cell Neurosci",1662-5102,"Frontiers Media S.A.",
+124,Biomolecules,Biomolecules,Biomolecules,2218-273X,MDPI,
+125,Biosensors,"Biosensors (Basel)","Biosensors (Basel)",2079-6374,MDPI,
+126,Bioengineering,"Bioengineering (Basel)","Bioengineering (Basel)",2306-5354,MDPI,
+127,"JAMIA Open","JAMIA Open","JAMIA Open",2574-2531,"Oxford University Press",
+128,"Data in Brief","Data Brief","Data Brief",2352-3409,Elsevier,
+129,"Analytical chemistry","Anal Chem","Anal Chem",1520-6882,,
+130,"Nature reviews. Genetics","Nat Rev Genet","Nat Rev Genet",1471-0064,,
+131,mSystems,mSystems,mSystems,2379-5077,"American Society for Microbiology","1752 N St., N.W., Washington, DC"
+132,"Journal of Academic Librarianship",,,0099-1333,"Elsevier Inc.",
+133,"Journal of Chemical Information and Modeling","J Chem Inf Model","J Chem Inf Model",1549-960X,"American Chemical Society",
+134,"Molecular Neurodegeneration","Mol Neurodegener","Mol Neurodegener",1750-1326,"BioMed Central",London
+135,"Frontiers in Oncology","Front Oncol","Front Oncol",2234-943X,"Frontiers Media S.A.",
+136,"Cell Reports Medicine","Cell Rep Med","Cell Rep Med",2666-3791,Elsevier,
+137,"Nature Cell Biology","Nat Cell Biol","Nat Cell Biol",1476-4679,"Nature Publishing Group UK",London
+138,MethodsX,MethodsX,MethodsX,2215-0161,Elsevier,
+139,Insects,Insects,Insects,2075-4450,MDPI,
+140,"Journal of Medical Internet Research","J Med Internet Res","J Med Internet Res",1438-8871,"JMIR Publications","Toronto, Canada"
+141,Microorganisms,Microorganisms,Microorganisms,2076-2607,MDPI,
+142,"Frontiers in Molecular Biosciences","Front Mol Biosci","Front Mol Biosci",2296-889X,"Frontiers Media S.A.",
+143,Antibiotics,"Antibiotics (Basel)","Antibiotics (Basel)",2079-6382,MDPI,
+144,"NPJ Precision Oncology","NPJ Precis Oncol","NPJ Precis Oncol",2397-768X,"Nature Publishing Group UK",London
+145,"Frontiers in Neuroinformatics","Front Neuroinform","Front Neuroinform",1662-5196,"Frontiers Media S.A.",
+146,"Biophysical Reports","Biophys Rep (N Y)","Biophys Rep (N Y)",2667-0747,Elsevier,
+147,"Virology Journal","Virol J","Virol J",1743-422X,"BioMed Central",London
+148,"Virus Evolution","Virus Evol","Virus Evol",2057-1577,"Oxford University Press",UK
+149,"Journal of the Royal Society Interface","J R Soc Interface","J R Soc Interface",1742-5662,"The Royal Society",
+150,"JRSM Open","JRSM Open","JRSM Open",2054-2704,"SAGE Publications","Sage UK: London, England"
+151,Cells,Cells,Cells,2073-4409,MDPI,
+152,"Nature protocols","Nat Protoc","Nat Protoc",1750-2799,,
+153,"Nursing Open","Nurs Open","Nurs Open",2054-1058,"John Wiley and Sons Inc.",Hoboken
+154,"Frontiers in Medical Technology","Front Med Technol","Front Med Technol",2673-3129,"Frontiers Media S.A.",
+155,"Frontiers in Genetics","Front Genet","Front Genet",1664-8021,"Frontiers Media S.A.",
+156,"Cancer Informatics","Cancer Inform","Cancer Inform",1176-9351,"SAGE Publications","Sage UK: London, England"
+157,"Concurrency and Computation","Concurr Comput","Concurr Comput",1532-0634,"John Wiley and Sons Inc.",Hoboken
+158,"PNAS Nexus","PNAS Nexus","PNAS Nexus",2752-6542,"Oxford University Press",
+159,"Frontiers in Cardiovascular Medicine","Front Cardiovasc Med","Front Cardiovasc Med",2297-055X,"Frontiers Media S.A.",
+160,"Proceedings of machine learning research","Proc Mach Learn Res","Proc Mach Learn Res",2640-3498,,
+161,"Frontiers in Microbiology","Front Microbiol","Front Microbiol",1664-302X,"Frontiers Media S.A.",
+162,"Human Molecular Genetics","Hum Mol Genet","Hum Mol Genet",1460-2083,"Oxford University Press",
+163,"Journal of proteome research","J Proteome Res","J Proteome Res",1535-3907,,
+164,"Nature computational science","Nat Comput Sci","Nat Comput Sci",2662-8457,,
+165,"Acta Crystallographica. Section D, Structural Biology","Acta Crystallogr D Struct Biol","Acta Crystallogr D Struct Biol",2059-7983,"International Union of Crystallography",
+166,"Frontiers in Neuroscience","Front Neurosci","Front Neurosci",1662-453X,"Frontiers Media S.A.",
+167,"Advanced Science","Adv Sci (Weinh)","Adv Sci (Weinh)",2198-3844,"John Wiley and Sons Inc.",Hoboken
+168,"Optics express","Opt Express","Opt Express",1094-4087,,
+169,"BMC Plant Biology","BMC Plant Biol","BMC Plant Biol",1471-2229,"BioMed Central",London
+170,"Chemical research in toxicology","Chem Res Toxicol","Chem Res Toxicol",1520-5010,,
+171,"Protein Science : A Publication of the Protein Society","Protein Sci","Protein Sci",1469-896X,"John Wiley & Sons, Inc.","Hoboken, USA"
+172,"Journal of the Medical Library Association : JMLA","J Med Libr Assoc","J Med Libr Assoc",1558-9439,"University Library System, University of Pittsburgh",
+173,"Cell reports","Cell Rep","Cell Rep",2211-1247,,
+174,"Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing","Pac Symp Biocomput","Pac Symp Biocomput",2335-6936,,
+175,"Journal of Fungi","J Fungi (Basel)","J Fungi (Basel)",2309-608X,MDPI,
+176,"Current Research in Food Science","Curr Res Food Sci","Curr Res Food Sci",2665-9271,Elsevier,
+177,"Medical Oncology (Northwood, London, England)","Med Oncol","Med Oncol",1559-131X,"Springer US","New York"
+178,Softwarex,SoftwareX,SoftwareX,2352-7110,"The Author(s). Published by Elsevier B.V.",
+179,"EXCLI Journal","EXCLI J","EXCLI J",1611-2156,"Leibniz Research Centre for Working Environment and Human Factors",
+180,"PeerJ Computer Science","PeerJ Comput Sci","PeerJ Comput Sci",2376-5992,"PeerJ Inc.","San Diego, USA"
+181,Plants,"Plants (Basel)","Plants (Basel)",2223-7747,MDPI,
+182,"Nature neuroscience","Nat Neurosci","Nat Neurosci",1546-1726,,
+183,"Measurement. Sensors","Measur Sens","Measur Sens",2665-9174,"The Authors. Published by Elsevier Ltd.",
+184,"Bioprocess and Biosystems Engineering","Bioprocess Biosyst Eng","Bioprocess Biosyst Eng",1615-7605,"Springer Berlin Heidelberg",Berlin/Heidelberg
+185,"Biomedical Signal Processing and Control","Biomed Signal Process Control","Biomed Signal Process Control",1746-8094,"Elsevier Ltd.",
+186,"Proceedings of the Royal Society B: Biological Sciences","Proc Biol Sci","Proc Biol Sci",1471-2954,"The Royal Society",
+187,"Frontiers in Immunology","Front Immunol","Front Immunol",1664-3224,"Frontiers Media S.A.",
+188,Toxins,"Toxins (Basel)","Toxins (Basel)",2072-6651,MDPI,
+189,Life,"Life (Basel)","Life (Basel)",2075-1729,MDPI,
+190,"ACS Omega","ACS Omega","ACS Omega",2470-1343,"American Chemical Society",
+191,"New Generation Computing","New Gener Comput","New Gener Comput",1882-7055,Ohmsha,Tokyo
+192,Epidemiologia,"Epidemiologia (Basel)","Epidemiologia (Basel)",2673-3986,MDPI,
+193,"Nature Structural & Molecular Biology","Nat Struct Mol Biol","Nat Struct Mol Biol",1545-9985,"Nature Publishing Group US","New York"
+194,"Journal of chemical information and modeling","J Chem Inf Model","J Chem Inf Model",1549-960X,,
+195,"Cell Reports","Cell Rep","Cell Rep",2211-1247,"Cell Press",
+196,"Molecular Biology of the Cell","Mol Biol Cell","Mol Biol Cell",1939-4586,"The American Society for Cell Biology",
+197,"Nature cancer","Nat Cancer","Nat Cancer",2662-1347,,
+198,"NPJ Systems Biology and Applications","NPJ Syst Biol Appl","NPJ Syst Biol Appl",2056-7189,"Nature Publishing Group UK",London
+199,MicrobiologyOpen,Microbiologyopen,Microbiologyopen,2045-8827,"John Wiley and Sons Inc.",Hoboken
+200,"International Journal of Environmental Research and Public Health","Int J Environ Res Public Health","Int J Environ Res Public Health",1660-4601,MDPI,
+201,"Parasites & Vectors","Parasit Vectors","Parasit Vectors",1756-3305,"BioMed Central",London
+202,"Cell Host & Microbe","Cell Host Microbe","Cell Host Microbe",1934-6069,"The Author(s). Published by Elsevier Inc.",
+203,"Cell Death & Disease","Cell Death Dis","Cell Death Dis",2041-4889,"Nature Publishing Group UK",London
+204,"Synthetic Biology","Synth Biol (Oxf)","Synth Biol (Oxf)",2397-7000,"Oxford University Press",UK
+205,Cancers,"Cancers (Basel)","Cancers (Basel)",2072-6694,MDPI,
+206,"Web Semantics (Online)","Web Semant","Web Semant",1873-7749,"Elsevier B.V.",
+207,"Journal of Oncology","J Oncol","J Oncol",1687-8469,Hindawi,
+208,Heliyon,Heliyon,Heliyon,2405-8440,Elsevier,
+209,"PLoS Computational Biology","PLoS Comput Biol","PLoS Comput Biol",1553-7358,"Public Library of Science","San Francisco, CA USA"
+210,"Computational Intelligence and Neuroscience","Comput Intell Neurosci","Comput Intell Neurosci",1687-5273,Hindawi,
+211,"The Science of the Total Environment","Sci Total Environ","Sci Total Environ",1879-1026,"Published by Elsevier B.V.",
+212,"PLoS Genetics","PLoS Genet","PLoS Genet",1553-7404,"Public Library of Science","San Francisco, CA USA"
+213,"Biology Direct","Biol Direct","Biol Direct",1745-6150,"BioMed Central",London
+214,"Bioscience Reports","Biosci Rep","Biosci Rep",1573-4935,"Portland Press Ltd.",
+215,"Journal of Applied Crystallography","J Appl Crystallogr","J Appl Crystallogr",1600-5767,"International Union of Crystallography",
+216,"Clinical & Translational Immunology","Clin Transl Immunology","Clin Transl Immunology",2050-0068,"John Wiley and Sons Inc.",Hoboken
+217,"BMC Genomics","BMC Genomics","BMC Genomics",1471-2164,"BioMed Central",London
+218,"Stem Cell Reports","Stem Cell Reports","Stem Cell Reports",2213-6711,Elsevier,
+219,"Nature Neuroscience","Nat Neurosci","Nat Neurosci",1546-1726,"Nature Publishing Group US","New York"
+220,HardwareX,HardwareX,HardwareX,2468-0672,Elsevier,
+221,"Sn Computer Science","SN Comput Sci","SN Comput Sci",2661-8907,"Springer Nature Singapore",Singapore
+222,"Frontiers in Pharmacology","Front Pharmacol","Front Pharmacol",1663-9812,"Frontiers Media S.A.",
+223,"Computational and Mathematical Methods in Medicine","Comput Math Methods Med","Comput Math Methods Med",1748-6718,Hindawi,
+224,"Plant Direct","Plant Direct","Plant Direct",2475-4455,"John Wiley and Sons Inc.",Hoboken
+225,"Microbiology Spectrum","Microbiol Spectr","Microbiol Spectr",2165-0497,"American Society for Microbiology","1752 N St., N.W., Washington, DC"
+226,"BioData Mining","BioData Min","BioData Min",1756-0381,"BioMed Central",London
+227,"PLoS ONE","PLoS One","PLoS One",1932-6203,"Public Library of Science","San Francisco, CA USA"
+228,"Frontiers in Chemistry","Front Chem","Front Chem",2296-2646,"Frontiers Media S.A.",
+229,"BMJ Open","BMJ Open","BMJ Open",2044-6055,"BMJ Publishing Group","BMA House, Tavistock Square, London, WC1H 9JR"
+230,"FEBS Open Bio","FEBS Open Bio","FEBS Open Bio",2211-5463,"John Wiley and Sons Inc.",Hoboken
+231,"Data Mining and Knowledge Discovery","Data Min Knowl Discov","Data Min Knowl Discov",1573-756X,"Springer US","New York"
+232,"Molecular & Cellular Proteomics : MCP","Mol Cell Proteomics","Mol Cell Proteomics",1535-9484,"American Society for Biochemistry and Molecular Biology",
+233,"PLoS Biology","PLoS Biol","PLoS Biol",1545-7885,"Public Library of Science","San Francisco, CA USA"
+234,mBio,mBio,mBio,2150-7511,"American Society for Microbiology","1752 N St., N.W., Washington, DC"
+235,"Applied and Environmental Microbiology","Appl Environ Microbiol","Appl Environ Microbiol",1098-5336,"American Society for Microbiology","1752 N St., N.W., Washington, DC"
+236,"Urban Informatics",,"Urban Info",2731-6963,"Springer Nature Singapore",Singapore
+237,"Journal of Biomedical Semantics","J Biomed Semantics","J Biomed Semantics",2041-1480,"BioMed Central",London
+238,"Biochemical Journal","Biochem J","Biochem J",1470-8728,"Portland Press Ltd.",
+239,Pathogens,Pathogens,Pathogens,2076-0817,MDPI,
+240,"Chemical Science","Chem Sci","Chem Sci",2041-6539,"The Royal Society of Chemistry",
+241,"Journal of Computational Chemistry","J Comput Chem","J Comput Chem",1096-987X,"John Wiley & Sons, Inc.","Hoboken, USA"
+242,"Industrial & Engineering Chemistry Research","Ind Eng Chem Res","Ind Eng Chem Res",1520-5045,"American Chemical Society",
+243,"Philosophical transactions. Series A, Mathematical, physical, and engineering sciences","Philos Trans A Math Phys Eng Sci","Philos Trans A Math Phys Eng Sci",1471-2962,"The Royal Society",
+244,"Journal of Advances in Modeling Earth Systems","J Adv Model Earth Syst","J Adv Model Earth Syst",1942-2466,"John Wiley and Sons Inc.",Hoboken
+245,"Software Impacts","Softw Impacts","Softw Impacts",2665-9638,"The Author(s). Published by Elsevier B.V.",
+246,"Frontiers in Medicine","Front Med (Lausanne)","Front Med (Lausanne)",2296-858X,"Frontiers Media S.A.",
+247,"The Lancet Regional Health: Western Pacific","Lancet Reg Health West Pac","Lancet Reg Health West Pac",2666-6065,Elsevier,
+248,"Complex & Intelligent Systems","Complex Intell Systems","Complex Intell Systems",2198-6053,"Springer International Publishing",Cham
+249,Channels,"Channels (Austin)","Channels (Austin)",1933-6969,"Taylor & Francis",
+250,"Frontiers in Plant Science","Front Plant Sci","Front Plant Sci",1664-462X,"Frontiers Media S.A.",
+251,"PLoS Pathogens","PLoS Pathog","PLoS Pathog",1553-7374,"Public Library of Science","San Francisco, CA USA"
+252,"ACS Central Science","ACS Cent Sci","ACS Cent Sci",2374-7951,"American Chemical Society",
+253,"Frontiers in Psychology","Front Psychol","Front Psychol",1664-1078,"Frontiers Media S.A.",
+254,"Frontiers in Veterinary Science","Front Vet Sci","Front Vet Sci",2297-1769,"Frontiers Media S.A.",
+255,"Nature methods","Nat Methods","Nat Methods",1548-7105,,
+256,"The Lancet. Rheumatology","Lancet Rheumatol","Lancet Rheumatol",2665-9913,"Elsevier Ltd",
+257,"Antiviral Research","Antiviral Res","Antiviral Res",1872-9096,"Elsevier B.V.",
+258,"Harvard data science review","Harv Data Sci Rev","Harv Data Sci Rev",2644-2353,,
+259,"Frontiers in Public Health","Front Public Health","Front Public Health",2296-2565,"Frontiers Media S.A.",
+260,"Wellcome Open Research","Wellcome Open Res","Wellcome Open Res",2398-502X,"F1000 Research Limited","London, UK"
+261,"Memórias do Instituto Oswaldo Cruz","Mem Inst Oswaldo Cruz","Mem Inst Oswaldo Cruz",1678-8060,"Instituto Oswaldo Cruz, Ministério da Saúde",
+262,Stroke,Stroke,Stroke,1524-4628,"Lippincott Williams & Wilkins","Hagerstown, MD"
+263,"Frontiers in Endocrinology","Front Endocrinol (Lausanne)","Front Endocrinol (Lausanne)",1664-2392,"Frontiers Media S.A.",
+264,"Journal of Vision","J Vis","J Vis",1534-7362,"The Association for Research in Vision and Ophthalmology",
+265,"Research and Practice in Technology Enhanced Learning","Res Pract Technol Enhanc Learn","Res Pract Technol Enhanc Learn",1793-7078,"Springer Nature Singapore",Singapore
+266,"Frontiers in Artificial Intelligence","Front Artif Intell","Front Artif Intell",2624-8212,"Frontiers Media S.A.",
+267,"Molecular Biology and Evolution","Mol Biol Evol","Mol Biol Evol",1537-1719,"Oxford University Press",
+268,"Translational Psychiatry","Transl Psychiatry","Transl Psychiatry",2158-3188,"Nature Publishing Group UK",London
+269,"Methods (San Diego, Calif.)",Methods,Methods,1095-9130,"Published by Elsevier Inc.",
+270,"Biomedical Optics Express","Biomed Opt Express","Biomed Opt Express",2156-7085,"Optica Publishing Group",
+271,"Molecular Cell","Mol Cell","Mol Cell",1097-4164,"Cell Press",
+272,"Nature aging","Nat Aging","Nat Aging",2662-8465,,
+273,"Archival Science","Arch Sci (Dordr)","Arch Sci (Dordr)",1573-7500,"Springer Netherlands",Dordrecht
+274,Diseases,Diseases,Diseases,2079-9721,MDPI,
+275,"Contrast Media & Molecular Imaging","Contrast Media Mol Imaging","Contrast Media Mol Imaging",1555-4317,Hindawi,
+276,Neurophotonics,Neurophotonics,Neurophotonics,2329-4248,"Society of Photo-Optical Instrumentation Engineers",
+277,"Multi-Chaos, Fractal and Multi-Fractional Artificial Intelligence of Different Complex Systems","Multi-Chaos, Fractal and Multi-Fractional Artificial Intelligence of Different Complex Systems",,,,
+278,"The Journal of Physical Chemistry. B","J Phys Chem B","J Phys Chem B",1520-5207,"American Chemical Society",
+279,"Current Biology","Curr Biol","Curr Biol",1879-0445,"Cell Press",
+280,"Nature Cancer","Nat Cancer","Nat Cancer",2662-1347,"Nature Publishing Group US","New York"
+281,"BMC Ecology and Evolution","BMC Ecol Evol","BMC Ecol Evol",2730-7182,"BioMed Central",London
+282,"Frontiers in Human Neuroscience","Front Hum Neurosci","Front Hum Neurosci",1662-5161,"Frontiers Media S.A.",
+283,"Big data and cognitive computing","Big Data Cogn Comput","Big Data Cogn Comput",2504-2289,,
+284,Metabolomics,Metabolomics,Metabolomics,1573-3890,"Springer US","New York"
+285,"Journal of Bacteriology","J Bacteriol","J Bacteriol",1098-5530,"American Society for Microbiology","1752 N St., N.W., Washington, DC"
+286,"International Journal of Imaging Systems and Technology","Int J Imaging Syst Technol","Int J Imaging Syst Technol",1098-1098,"John Wiley & Sons, Inc.","Hoboken, USA"
+287,"FEMS Microbiology Ecology","FEMS Microbiol Ecol","FEMS Microbiol Ecol",1574-6941,"Oxford University Press",
+288,"The Plant Cell","Plant Cell","Plant Cell",1532-298X,"Oxford University Press",
+289,"Digital Discovery","Digit Discov","Digit Discov",2635-098X,RSC,
+290,"Internet Technology Letters",,,2476-1508,"John Wiley & Sons, Ltd","Chichester, UK"
+291,"Journal of Geophysical Research. Space Physics","J Geophys Res Space Phys","J Geophys Res Space Phys",2169-9402,"John Wiley and Sons Inc.",Hoboken
+292,"Nature Medicine","Nat Med","Nat Med",1546-170X,"Nature Publishing Group US","New York"
+293,Schizophrenia,"Schizophrenia (Heidelb)","Schizophrenia (Heidelb)",2754-6993,"Nature Publishing Group UK",London
+294,"Genome Research","Genome Res","Genome Res",1549-5469,"Cold Spring Harbor Laboratory Press",
+295,GeoHealth,Geohealth,Geohealth,2471-1403,"John Wiley and Sons Inc.",Hoboken
+296,"Frontiers in Neurorobotics","Front Neurorobot","Front Neurorobot",1662-5218,"Frontiers Media S.A.",
+297,Neuroimage,Neuroimage,Neuroimage,1095-9572,"Academic Press",
+298,RNA,RNA,RNA,1469-9001,"Cold Spring Harbor Laboratory Press",
+299,"Neural Computing & Applications","Neural Comput Appl","Neural Comput Appl",1433-3058,"Springer London",London
+300,"Movement Ecology","Mov Ecol","Mov Ecol",2051-3933,"BioMed Central",London
+301,"AMIA Annual Symposium Proceedings","AMIA Annu Symp Proc","AMIA Annu Symp Proc",1942-597X,"American Medical Informatics Association",
+302,"Applied Microbiology and Biotechnology","Appl Microbiol Biotechnol","Appl Microbiol Biotechnol",1432-0614,"Springer Berlin Heidelberg",Berlin/Heidelberg
+303,"Expert Systems with Applications","Expert Syst Appl","Expert Syst Appl",0957-4174,"The Author(s). Published by Elsevier Ltd.",
+304,"Brain Communications","Brain Commun","Brain Commun",2632-1297,"Oxford University Press",
+305,"Frontiers in Pain Research","Front Pain Res (Lausanne)","Front Pain Res (Lausanne)",2673-561X,"Frontiers Media S.A.",
+306,Proteins,Proteins,Proteins,1097-0134,"John Wiley & Sons, Inc.","Hoboken, USA"
+307,"Algorithms for Molecular Biology : AMB","Algorithms Mol Biol","Algorithms Mol Biol",1748-7188,"BioMed Central",London
+308,"Clinical cancer research : an official journal of the American Association for Cancer Research","Clin Cancer Res","Clin Cancer Res",1557-3265,,
+309,"Conservation Biology","Conserv Biol","Conserv Biol",1523-1739,"John Wiley and Sons Inc.",Hoboken
+310,"Neural Processing Letters","Neural Process Lett","Neural Process Lett",1573-773X,"Springer US","New York"
+311,"Neurosurgical Review","Neurosurg Rev","Neurosurg Rev",1437-2320,"Springer Berlin Heidelberg",Berlin/Heidelberg
+312,"ACS Synthetic Biology","ACS Synth Biol","ACS Synth Biol",2161-5063,"American Chemical Society",
+313,"Environmental Health Perspectives","Environ Health Perspect","Environ Health Perspect",1552-9924,"Environmental Health Perspectives",
+314,"Applied sciences (Basel, Switzerland)","Appl Sci (Basel)","Appl Sci (Basel)",2076-3417,,
+315,"Febs Letters","FEBS Lett","FEBS Lett",1873-3468,"John Wiley and Sons Inc.",Hoboken
+316,"Journal of Personalized Medicine","J Pers Med","J Pers Med",2075-4426,MDPI,
+317,"JMIR mHealth and uHealth","JMIR Mhealth Uhealth","JMIR Mhealth Uhealth",2291-5222,"JMIR Publications","Toronto, Canada"
+318,"Human Genetics","Hum Genet","Hum Genet",1432-1203,"Springer Berlin Heidelberg",Berlin/Heidelberg
+319,"Environmental Microbiome","Environ Microbiome","Environ Microbiome",2524-6372,"BioMed Central",London
+320,"Journal of Geophysical Research. Oceans","J Geophys Res Oceans","J Geophys Res Oceans",2169-9291,"John Wiley and Sons Inc.",Hoboken
+321,"The Journal of Chemical Physics","J Chem Phys","J Chem Phys",1089-7690,"AIP Publishing LLC",
+322,"Molecular Ecology","Mol Ecol","Mol Ecol",1365-294X,"John Wiley and Sons Inc.",Hoboken
+323,"Journal of Chemical Theory and Computation","J Chem Theory Comput","J Chem Theory Comput",1549-9626,"American Chemical Society",
+324,"Cellular and Molecular Gastroenterology and Hepatology","Cell Mol Gastroenterol Hepatol","Cell Mol Gastroenterol Hepatol",2352-345X,Elsevier,
+325,"Development (Cambridge, England)",Development,Development,1477-9129,"The Company of Biologists Ltd",
+326,"Journal of Virology","J Virol","J Virol",1098-5514,"American Society for Microbiology","1752 N St., N.W., Washington, DC"
+327,"IEEE access : practical innovations, open solutions","IEEE Access","IEEE Access",2169-3536,,
+328,"Journal of Computer-Aided Molecular Design","J Comput Aided Mol Des","J Comput Aided Mol Des",1573-4951,"Springer International Publishing",Cham
+329,mSphere,mSphere,mSphere,2379-5042,"American Society for Microbiology","1752 N St., N.W., Washington, DC"
+330,"Journal of Intelligent Information Systems","J Intell Inf Syst","J Intell Inf Syst",1573-7675,"Springer US","New York"
+331,"JNCI Journal of the National Cancer Institute","J Natl Cancer Inst","J Natl Cancer Inst",1460-2105,"Oxford University Press",
+332,"Applied in Vitro Toxicology","Appl In Vitro Toxicol","Appl In Vitro Toxicol",2332-1539,"Mary Ann Liebert, Inc., publishers","140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA"
+333,"Perspectives in Health Information Management","Perspect Health Inf Manag","Perspect Health Inf Manag",1559-4122,"American Health Information Management Association",
+334,"JPEN. Journal of Parenteral and Enteral Nutrition","JPEN J Parenter Enteral Nutr","JPEN J Parenter Enteral Nutr",1941-2444,"John Wiley and Sons Inc.",Hoboken
+335,"Journal of open source software","J Open Source Softw","J Open Source Softw",2475-9066,,
+336,"Journal of the American Heart Association: Cardiovascular and Cerebrovascular Disease","J Am Heart Assoc","J Am Heart Assoc",2047-9980,"John Wiley and Sons Inc.",Hoboken
+337,Pharmaceuticals,"Pharmaceuticals (Basel)","Pharmaceuticals (Basel)",1424-8247,MDPI,
+338,"Genes & Development","Genes Dev","Genes Dev",1549-5477,"Cold Spring Harbor Laboratory Press",
+339,"Concurrent Engineering, Research, and Applications","Concurr Eng Res Appl","Concurr Eng Res Appl",1531-2003,"SAGE Publications","Sage UK: London, England"
+340,"Engineering in Life Sciences","Eng Life Sci","Eng Life Sci",1618-2863,"John Wiley and Sons Inc.",Hoboken
+341,"Developmental cell","Dev Cell","Dev Cell",1878-1551,,
+342,"Ieee Transactions on Medical Imaging","IEEE Trans Med Imaging","IEEE Trans Med Imaging",1558-254X,IEEE,
+343,"The CRISPR Journal","CRISPR J","CRISPR J",2573-1602,"Mary Ann Liebert, Inc., publishers","140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA"
+344,Bio-protocol,"Bio Protoc","Bio Protoc",2331-8325,Bio-Protocol,"1075 Lorne Way, Sunnyvale, CA 94087, USA"
+345,"Nature cell biology","Nat Cell Biol","Nat Cell Biol",1476-4679,,
+346,"Nature Chemical Biology","Nat Chem Biol","Nat Chem Biol",1552-4469,"Nature Publishing Group US","New York"
+347,"Aperture neuro","Apert Neuro",,,,
+348,"Geophysical Research Letters","Geophys Res Lett","Geophys Res Lett",1944-8007,"John Wiley and Sons Inc.",Hoboken
+349,"RSC Advances","RSC Adv","RSC Adv",2046-2069,"The Royal Society of Chemistry",
+350,"JMIR Public Health and Surveillance","JMIR Public Health Surveill","JMIR Public Health Surveill",2369-2960,"JMIR Publications","Toronto, Canada"
+351,"International Journal of Oral Science","Int J Oral Sci","Int J Oral Sci",2049-3169,"Nature Publishing Group UK",London
+352,"Bulletin of Mathematical Biology","Bull Math Biol","Bull Math Biol",1522-9602,"Springer US","New York"
+353,"JCO Clinical Cancer Informatics","JCO Clin Cancer Inform","JCO Clin Cancer Inform",2473-4276,"Wolters Kluwer Health",
+354,"Brain Structure & Function","Brain Struct Funct","Brain Struct Funct",1863-2661,"Springer Berlin Heidelberg",Berlin/Heidelberg
+355,"Genome Biology and Evolution","Genome Biol Evol","Genome Biol Evol",1759-6653,"Oxford University Press",
+356,mAbs,MAbs,MAbs,1942-0870,"Taylor & Francis",
+357,"Biophysical Journal","Biophys J","Biophys J",1542-0086,"The Biophysical Society",
+358,"Frontiers in Big Data","Front Big Data","Front Big Data",2624-909X,"Frontiers Media S.A.",
+359,"BMC Microbiology","BMC Microbiol","BMC Microbiol",1471-2180,"BioMed Central",London
+360,"Graefe's Archive for Clinical and Experimental Ophthalmology","Graefes Arch Clin Exp Ophthalmol","Graefes Arch Clin Exp Ophthalmol",1435-702X,"Springer Berlin Heidelberg",Berlin/Heidelberg
+361,"Cell systems","Cell Syst","Cell Syst",2405-4720,,
+362,"Computational toxicology (Amsterdam, Netherlands)","Comput Toxicol","Comput Toxicol",2468-1113,,
+363,"Journal of Animal Science","J Anim Sci","J Anim Sci",1525-3163,"Oxford University Press",US
+364,"Nature microbiology","Nat Microbiol","Nat Microbiol",2058-5276,,
+365,Heredity,"Heredity (Edinb)","Heredity (Edinb)",1365-2540,"Springer International Publishing",Cham
+366,"Frontiers of earth science","Front Earth Sci","Front Earth Sci",2095-0209,,
+367,"PLoS Neglected Tropical Diseases","PLoS Negl Trop Dis","PLoS Negl Trop Dis",1935-2735,"Public Library of Science","San Francisco, CA USA"
+368,"Frontiers in Research Metrics and Analytics","Front Res Metr Anal","Front Res Metr Anal",2504-0537,"Frontiers Media S.A.",
+369,"BMC Research Notes","BMC Res Notes","BMC Res Notes",1756-0500,"BioMed Central",London
+370,"Animals : an Open Access Journal from MDPI","Animals (Basel)","Animals (Basel)",2076-2615,MDPI,
+371,"Journal of chemical theory and computation","J Chem Theory Comput","J Chem Theory Comput",1549-9626,,
+372,"The Journal of Neuroscience","J Neurosci","J Neurosci",1529-2401,"Society for Neuroscience",
+373,"Open Biology","Open Biol","Open Biol",2046-2441,"The Royal Society",
+374,"Physics in medicine and biology","Phys Med Biol","Phys Med Biol",1361-6560,,
+375,"Journal of Neurological Surgery. Part B, Skull Base","J Neurol Surg B Skull Base","J Neurol Surg B Skull Base",2193-634X,"Georg Thieme Verlag KG","Rüdigerstraße 14, 70469 Stuttgart, Germany"
+376,Scientometrics,Scientometrics,Scientometrics,1588-2861,"Springer International Publishing",Cham
+377,"Developmental Cognitive Neuroscience","Dev Cogn Neurosci","Dev Cogn Neurosci",1878-9307,Elsevier,
+378,"Annals of Medicine","Ann Med","Ann Med",1365-2060,"Taylor & Francis",
+379,"International Journal of Data Science and Analytics","Int J Data Sci Anal","Int J Data Sci Anal",2364-4168,"Springer International Publishing",Cham
+380,"Blood Advances","Blood Adv","Blood Adv",2473-9537,"American Society of Hematology","Washington, DC"
+381,"The ISME Journal","ISME J","ISME J",1751-7370,"Nature Publishing Group UK",London
+382,"Current protocols","Curr Protoc","Curr Protoc",2691-1299,,
+383,"American Journal of Infection Control","Am J Infect Control","Am J Infect Control",1527-3296,"Association for Professionals in Infection Control and Epidemiology, Inc. Published by Elsevier Inc.",
+384,"Journal of Undergraduate Neuroscience Education","J Undergrad Neurosci Educ","J Undergrad Neurosci Educ",1544-2896,"Faculty for Undergraduate Neuroscience",
+385,"Journal of Computational Neuroscience","J Comput Neurosci","J Comput Neurosci",1573-6873,"Springer US","New York"
+386,"Plant and Cell Physiology","Plant Cell Physiol","Plant Cell Physiol",1471-9053,"Oxford University Press",UK
+387,"The Journal of open source education","J Open Source Educ","J Open Source Educ",2577-3569,,
+388,"Journal of the American Medical Informatics Association : JAMIA","J Am Med Inform Assoc","J Am Med Inform Assoc",1527-974X,"Oxford University Press",
+389,"Journal of Pathology Informatics","J Pathol Inform","J Pathol Inform",2153-3539,"Wolters Kluwer - Medknow",India
+390,PhytoKeys,PhytoKeys,PhytoKeys,1314-2003,"Pensoft Publishers",
+391,"BJGP Open","BJGP Open","BJGP Open",2398-3795,"Royal College of General Practitioners",
+392,"Royal Society Open Science","R Soc Open Sci","R Soc Open Sci",2054-5703,"The Royal Society",
+393,"JMIR Medical Informatics","JMIR Med Inform","JMIR Med Inform",2291-9694,"JMIR Publications","Toronto, Canada"
+394,Genetics,Genetics,Genetics,1943-2631,"Oxford University Press",
+395,"NPJ Genomic Medicine","NPJ Genom Med","NPJ Genom Med",2056-7944,"Nature Publishing Group UK",London
+396,"G3: Genes|Genomes|Genetics","G3 (Bethesda)",Genetics,2160-1836,"Oxford University Press",
+397,"Journal of Imaging","J Imaging","J Imaging",2313-433X,MDPI,
+398,"Proceedings : ... IEEE International Conference on Big Data. IEEE International Conference on Big Data","Proc IEEE Int Conf Big Data",,,,
+399,"Proceedings. IEEE International Conference on Bioinformatics and Biomedicine","Proceedings (IEEE Int Conf Bioinformatics Biomed)","Proceedings (IEEE Int Conf Bioinformatics Biomed)",,,
+400,"Cortex; a Journal Devoted to the Study of the Nervous System and Behavior",Cortex,Cortex,1973-8102,Masson,
+401,"Journal of Neurodevelopmental Disorders","J Neurodev Disord","J Neurodev Disord",1866-1955,"BioMed Central",London
+402,"Bioinformatics and Biology Insights","Bioinform Biol Insights","Bioinform Biol Insights",1177-9322,"SAGE Publications","Sage UK: London, England"
+403,"Journal of Translational Medicine","J Transl Med","J Transl Med",1479-5876,"BioMed Central",London
+404,"Medical image analysis","Med Image Anal","Med Image Anal",1361-8423,,
+405,"Nature biotechnology","Nat Biotechnol","Nat Biotechnol",1546-1696,,
+406,"Biological imaging","Biol Imaging","Biol Imaging",2633-903X,,
+407,"FME ... : ... International Symposium of Formal Methods Europe ... proceedings. International Symposium of Formal Methods Europe",FME,,,,
+408,"Frontiers in Systems Neuroscience","Front Syst Neurosci","Front Syst Neurosci",1662-5137,"Frontiers Media S.A.",
+409,"The British Journal of General Practice","Br J Gen Pract","Br J Gen Pract",1478-5242,"Royal College of General Practitioners",
+410,"Journal of behavioral data science","J Behav Data Sci","J Behav Data Sci",2574-1284,,
+411,"Journal of Healthcare Engineering","J Healthc Eng","J Healthc Eng",2040-2309,Hindawi,
+412,"CPT: Pharmacometrics & Systems Pharmacology","CPT Pharmacometrics Syst Pharmacol","CPT Pharmacometrics Syst Pharmacol",2163-8306,"John Wiley and Sons Inc.",Hoboken
+413,"Journal of Human Genetics","J Hum Genet","J Hum Genet",1435-232X,"Springer Singapore",Singapore
+414,"Clocks & Sleep","Clocks Sleep","Clocks Sleep",2624-5175,MDPI,
+415,"Chemistry of Materials","Chem Mater","Chem Mater",1520-5002,"American Chemical Society",
+416,"Molecular Ecology Resources","Mol Ecol Resour","Mol Ecol Resour",1755-0998,"John Wiley and Sons Inc.",Hoboken
+417,"Physiological Genomics","Physiol Genomics","Physiol Genomics",1531-2267,"American Physiological Society","Rockville, MD"
+418,Neurocomputing,Neurocomputing,Neurocomputing,0925-2312,"Elsevier B.V.",
+419,"Frontiers in Neural Circuits","Front Neural Circuits","Front Neural Circuits",1662-5110,"Frontiers Media S.A.",
+420,"Journal of Geographical Systems","J Geogr Syst","J Geogr Syst",1435-5949,"Springer Berlin Heidelberg",Berlin/Heidelberg
+421,"Neuropathology and Applied Neurobiology","Neuropathol Appl Neurobiol","Neuropathol Appl Neurobiol",1365-2990,"John Wiley and Sons Inc.",Hoboken
+422,"Antimicrobial Agents and Chemotherapy","Antimicrob Agents Chemother","Antimicrob Agents Chemother",1098-6596,"American Society for Microbiology","1752 N St., N.W., Washington, DC"
+423,"Journal of the Association for Information Science and Technology","J Assoc Inf Sci Technol","J Assoc Inf Sci Technol",2330-1643,"John Wiley & Sons, Inc.","Hoboken, USA"
+424,"Frontiers in computer science","Front Comput Sci","Front Comput Sci",2624-9898,,
+425,Antioxidants,"Antioxidants (Basel)","Antioxidants (Basel)",2076-3921,MDPI,
+426,"JACS Au","JACS Au","JACS Au",2691-3704,"American Chemical Society",
+427,"ADVCOMP ... the ... International Conference on Advanced Engineering Computing and Applications in Sciences","ADVCOMP Int Conf Adv Eng Comput Appl Sci","ADVCOMP Int Conf Adv Eng Comput Appl Sci",2308-4499,,
+428,"Reproductive Toxicology (Elmsford, N.y.)","Reprod Toxicol","Reprod Toxicol",1873-1708,"Pergamon In Cooperation With The Reproductive Toxicology Center",
+429,"International Journal of Multimedia Information Retrieval","Int J Multimed Inf Retr","Int J Multimed Inf Retr",2192-662X,"Springer London",London
+430,"Computer Methods and Programs in Biomedicine","Comput Methods Programs Biomed","Comput Methods Programs Biomed",1872-7565,"Elsevier Scientific Publishers",
+431,"Genome Medicine","Genome Med","Genome Med",1756-994X,"BioMed Central",London
+432,medRxiv,medRxiv,,,"Cold Spring Harbor Laboratory",
+433,"The Journal of Experimental Medicine","J Exp Med","J Exp Med",1540-9538,"Rockefeller University Press",
+434,"Neurobiology of aging","Neurobiol Aging","Neurobiol Aging",1558-1497,,
+435,"Data Science and Engineering","Data Sci Eng","Data Sci Eng",2364-1541,"Springer Singapore",Singapore
+436,"Chemical Reviews","Chem Rev","Chem Rev",1520-6890,"American Chemical Society",
+437,Radiographics,Radiographics,Radiographics,1527-1323,"Radiological Society of North America",
+438,"Infectious Disease Modelling","Infect Dis Model","Infect Dis Model",2468-0427,"KeAi Publishing",
+439,"Nature chemistry","Nat Chem","Nat Chem",1755-4349,,
+440,"Microbial Genomics","Microb Genom","Microb Genom",2057-5858,"Microbiology Society",
+441,"Leveraging Artificial Intelligence in Global Epidemics","Leveraging Artificial Intelligence in Global Epidemics",,,,
+442,"Applied spectroscopy","Appl Spectrosc","Appl Spectrosc",1943-3530,,
+443,"International Journal of Prisoner Health","Int J Prison Health","Int J Prison Health",1744-9219,"Emerald Publishing Limited",
+444,"Traffic (Copenhagen, Denmark)",Traffic,Traffic,1600-0854,,
+445,"Computers in Biology and Medicine","Comput Biol Med","Comput Biol Med",1879-0534,"Elsevier Ltd.",
+446,"Journal of Digital Imaging","J Digit Imaging","J Digit Imaging",1618-727X,"Springer International Publishing",Cham
+447,"Plant Physiology","Plant Physiol","Plant Physiol",1532-2548,"Oxford University Press",
+448,"Genetic programming and evolvable machines","Genet Program Evolvable Mach","Genet Program Evolvable Mach",1573-7632,,
+449,"Nature immunology","Nat Immunol","Nat Immunol",1529-2916,,
+450,"Ai and Ethics","AI Ethics","AI Ethics",2730-5961,"Springer International Publishing",Cham
+451,"Environment Systems & Decisions","Environ Syst Decis","Environ Syst Decis",2194-5411,"Springer US","New York"
+452,IUCrJ,IUCrJ,IUCrJ,2052-2525,"International Union of Crystallography",
+453,"Drug Safety","Drug Saf","Drug Saf",1179-1942,"Springer International Publishing",Cham
+454,"Cancer research","Cancer Res","Cancer Res",1538-7445,,
+455,"Journal of microscopy","J Microsc","J Microsc",1365-2818,,
+456,"Briefings in Functional Genomics","Brief Funct Genomics","Brief Funct Genomics",2041-2657,"Oxford University Press",
+457,"Rapid communications in mass spectrometry : RCM","Rapid Commun Mass Spectrom","Rapid Commun Mass Spectrom",1097-0231,,
+458,"Environmental science & technology","Environ Sci Technol","Environ Sci Technol",1520-5851,,
+459,"Toxicon: X","Toxicon X","Toxicon X",2590-1710,Elsevier,
+460,"American Journal of Human Genetics","Am J Hum Genet","Am J Hum Genet",1537-6605,Elsevier,
+461,"Mathematical biosciences","Math Biosci","Math Biosci",1879-3134,,
+462,"Cancer Research","Cancer Res","Cancer Res",1538-7445,"American Association for Cancer Research",
+463,Neuron,Neuron,Neuron,1097-4199,,
+464,"Interface Focus","Interface Focus","Interface Focus",2042-8901,"The Royal Society",
+465,"Perspectives on Behavior Science","Perspect Behav Sci","Perspect Behav Sci",2520-8977,"Springer International Publishing",Cham
+466,"Nature chemical biology","Nat Chem Biol","Nat Chem Biol",1552-4469,,
+467,"Cognitive Computation","Cognit Comput","Cognit Comput",1866-9964,"Springer US","New York"
+468,Biomimetics,"Biomimetics (Basel)","Biomimetics (Basel)",2313-7673,MDPI,
+469,"Journal of visualized experiments : JoVE","J Vis Exp","J Vis Exp",1940-087X,,
+470,"Frontiers in Sports and Active Living","Front Sports Act Living","Front Sports Act Living",2624-9367,"Frontiers Media S.A.",
+471,"BioMed Research International","Biomed Res Int","Biomed Res Int",2314-6141,Hindawi,
+472,"Malaria Journal","Malar J","Malar J",1475-2875,"BioMed Central",London
+473,"Current opinion in systems biology","Curr Opin Syst Biol","Curr Opin Syst Biol",2452-3100,,
+474,"Journal of biomedical informatics","J Biomed Inform","J Biomed Inform",1532-0480,,
+475,"Microbiology Resource Announcements","Microbiol Resour Announc","Microbiol Resour Announc",2576-098X,"American Society for Microbiology","1752 N St., N.W., Washington, DC"
+476,"Radiology: Artificial Intelligence","Radiol Artif Intell","Radiol Artif Intell",2638-6100,"Radiological Society of North America",
+477,"Plant Phenomics","Plant Phenomics","Plant Phenomics",2643-6515,AAAS,
+478,"Systematic Biology","Syst Biol","Syst Biol",1076-836X,"Oxford University Press",
+479,"Value in Health","Value Health","Value Health",1524-4733,"ISPOR-The Professional Society for Health Economics and Outcomes Research. Published by Elsevier Inc.",
+480,"British Journal of Pain","Br J Pain","Br J Pain",2049-4645,"SAGE Publications","Sage UK: London, England"
+481,"Analytic methods in accident research","Anal Methods Accid Res","Anal Methods Accid Res",2213-6657,,
+482,"Education and Information Technologies","Educ Inf Technol (Dordr)","Educ Inf Technol (Dordr)",1573-7608,"Springer US","New York"
+483,"Nature reviews. Methods primers","Nat Rev Methods Primers","Nat Rev Methods Primers",2662-8449,,
+484,"Cell stem cell","Cell Stem Cell","Cell Stem Cell",1875-9777,,
+485,"Journal of The Institution of Engineers (India): Series B",,"J. Inst. Eng. India Ser. B",2250-2114,"Springer India","New Delhi"
+486,"Disease Markers","Dis Markers","Dis Markers",1875-8630,Hindawi,
+487,"The American statistician","Am Stat","Am Stat",1537-2731,,
+488,"Biophysicist (Rockville, Md.)","Biophysicist (Rockv)","Biophysicist (Rockv)",2578-6970,,
+489,"Molecular Diversity","Mol Divers","Mol Divers",1573-501X,"Springer International Publishing",Cham
+490,"BMC Oral Health","BMC Oral Health","BMC Oral Health",1472-6831,"BioMed Central",London
+491,"Cognitive Research: Principles and Implications","Cogn Res Princ Implic","Cogn Res Princ Implic",2365-7464,"Springer International Publishing",Cham
+492,"Plant Biotechnology Journal","Plant Biotechnol J","Plant Biotechnol J",1467-7652,"John Wiley and Sons Inc.",Hoboken
+493,"Database: The Journal of Biological Databases and Curation","Database (Oxford)","Database (Oxford)",1758-0463,"Oxford University Press",UK
+494,"Bioinformatics (Oxford, England)",Bioinformatics,Bioinformatics,1367-4811,,
+495,"Biology Methods & Protocols","Biol Methods Protoc","Biol Methods Protoc",2396-8923,"Oxford University Press",
+496,Chemsuschem,ChemSusChem,ChemSusChem,1864-564X,"John Wiley and Sons Inc.",Hoboken
+497,"Physical chemistry chemical physics : PCCP","Phys Chem Chem Phys","Phys Chem Chem Phys",1463-9084,,
+498,"Journal of Alzheimer's Disease","J Alzheimers Dis","J Alzheimers Dis",1875-8908,"IOS Press","Nieuwe Hemweg 6B, 1013 BG Amsterdam, The Netherlands"
+499,"British Journal of Clinical Pharmacology","Br J Clin Pharmacol","Br J Clin Pharmacol",1365-2125,"John Wiley and Sons Inc.",Hoboken
+500,"Social Network Analysis and Mining","Soc Netw Anal Min","Soc Netw Anal Min",1869-5469,"Springer Vienna",Vienna
+501,"ACS chemical biology","ACS Chem Biol","ACS Chem Biol",1554-8937,,
+502,"Public Transport",,"Public Transp",1613-7159,"Springer Berlin Heidelberg",Berlin/Heidelberg
+503,"BMC Biotechnology","BMC Biotechnol","BMC Biotechnol",1472-6750,"BioMed Central",London
+504,"Plant Methods","Plant Methods","Plant Methods",1746-4811,"BioMed Central",London
+505,"Cardiovascular Research","Cardiovasc Res","Cardiovasc Res",1755-3245,"Oxford University Press",
+506,"Cell Stem Cell","Cell Stem Cell","Cell Stem Cell",1875-9777,"Cell Press",
+507,"Ieee Access","IEEE Access","IEEE Access",2169-3536,IEEE,
+508,"The American Journal of Pathology","Am J Pathol","Am J Pathol",1525-2191,"American Society for Investigative Pathology",
+509,"Nature metabolism","Nat Metab","Nat Metab",2522-5812,,
+510,"Computing in science & engineering","Comput Sci Eng","Comput Sci Eng",,,
+511,"BMC Medical Imaging","BMC Med Imaging","BMC Med Imaging",1471-2342,"BioMed Central",London
+512,"Molecular cell","Mol Cell","Mol Cell",1097-4164,,
+513,"Journal of Proteome Research","J Proteome Res","J Proteome Res",1535-3907,"American Chemical
+Society",
+514,"Journal of Structural Biology: X","J Struct Biol X","J Struct Biol X",2590-1524,Elsevier,
+515,"BMC Chemistry","BMC Chem","BMC Chem",2661-801X,"Springer International Publishing",Cham
+516,"Vavilov Journal of Genetics and Breeding","Vavilovskii Zhurnal Genet Selektsii","Vavilovskii Zhurnal Genet Selektsii",2500-3259,"The Federal Research Center Institute of Cytology and Genetics of Siberian Branch of the Russian Academy of Sciences",Russia
+517,"Network Neuroscience","Netw Neurosci","Netw Neurosci",2472-1751,"MIT Press","One Rogers Street, Cambridge, MA 02142-1209USAjournals-info@mit.edu"
+518,"Journal of Molecular Neuroscience","J Mol Neurosci","J Mol Neurosci",1559-1166,"Springer US","New York"
+519,"Journal of natural products","J Nat Prod","J Nat Prod",1520-6025,,
+520,Datenbank-Spektrum,"Datenbank Spektrum","Datenbank Spektrum",1610-1995,"Springer Berlin Heidelberg",Berlin/Heidelberg
+521,"Radiology: Artificial intelligence","Radiol Artif Intell","Radiol Artif Intell",2638-6100,"Radiological Society of North America",
+522,"Journal of immunology (Baltimore, Md. : 1950)","J Immunol","J Immunol",1550-6606,,
+523,"Earth Science Informatics","Earth Sci Inform","Earth Sci Inform",1865-0481,"Springer Berlin Heidelberg",Berlin/Heidelberg
+524,"Nature genetics","Nat Genet","Nat Genet",1546-1718,,
+525,"NPJ Biofilms and Microbiomes","NPJ Biofilms Microbiomes","NPJ Biofilms Microbiomes",2055-5008,"Nature Publishing Group UK",London
+526,"Animal Microbiome","Anim Microbiome","Anim Microbiome",2524-4671,"BioMed Central",London
+527,"Journal of computer-aided molecular design","J Comput Aided Mol Des","J Comput Aided Mol Des",1573-4951,,
+528,"Laboratory Animal Research","Lab Anim Res","Lab Anim Res",2233-7660,"BioMed Central",London
+529,"Cell Discovery","Cell Discov","Cell Discov",2056-5968,"Springer Singapore",Singapore
+530,"Sustainable Cities and Society","Sustain Cities Soc","Sustain Cities Soc",2210-6715,"Elsevier Ltd.",
+531,"Evolution Letters","Evol Lett","Evol Lett",2056-3744,"John Wiley and Sons Inc.",Hoboken
+532,Children,"Children (Basel)","Children (Basel)",2227-9067,MDPI,
+533,"Informatics in Medicine Unlocked","Inform Med Unlocked","Inform Med Unlocked",2352-9148,"The Author(s). Published by Elsevier Ltd.",
+534,"Nature biomedical engineering","Nat Biomed Eng","Nat Biomed Eng",2157-846X,,
+535,"BMC Neuroscience","BMC Neurosci","BMC Neurosci",1471-2202,"BioMed Central",London
+536,"Nature human behaviour","Nat Hum Behav","Nat Hum Behav",2397-3374,,
+537,"Pediatric Research","Pediatr Res","Pediatr Res",1530-0447,"Nature Publishing Group US","New York"
+538,"Current protocols in chemical biology","Curr Protoc Chem Biol","Curr Protoc Chem Biol",2160-4762,,
+539,"Systematic Reviews","Syst Rev","Syst Rev",2046-4053,"BioMed Central",London
+540,"FEMS Microbiology Reviews","FEMS Microbiol Rev","FEMS Microbiol Rev",1574-6976,"Oxford University Press",
+541,"European Radiology","Eur Radiol","Eur Radiol",1432-1084,"Springer Berlin Heidelberg",Berlin/Heidelberg
+542,"Magnetic resonance in medicine","Magn Reson Med","Magn Reson Med",1522-2594,,
+543,"Research on Biomedical Engineering",,"Res. Biomed. Eng.",2446-4740,"Springer International Publishing",Cham
+544,"BMJ Global Health","BMJ Glob Health","BMJ Glob Health",2059-7908,"BMJ Publishing Group","BMA House, Tavistock Square, London, WC1H 9JR"
+545,"Acta Bio Medica : Atenei Parmensis","Acta Biomed","Acta Biomed",2531-6745,"Mattioli 1885",Italy
+546,"Computing in Science & Engineering","Comput Sci Eng","Comput Sci Eng",1558-366X,IEEE,
+547,"Global Change Biology","Glob Chang Biol","Glob Chang Biol",1365-2486,"John Wiley and Sons Inc.",Hoboken
+548,Brain,Brain,Brain,1460-2156,"Oxford University Press",
+549,"Brain Sciences","Brain Sci","Brain Sci",2076-3425,MDPI,
+550,"Brain, behavior, and immunity","Brain Behav Immun","Brain Behav Immun",1090-2139,,
+551,"Proceedings. Mathematical, Physical, and Engineering Sciences","Proc Math Phys Eng Sci","Proc Math Phys Eng Sci",1471-2946,"The Royal Society Publishing",
+552,"Biology Open","Biol Open","Biol Open",2046-6390,"The Company of Biologists Ltd",
+553,"Circulation. Cardiovascular quality and outcomes","Circ Cardiovasc Qual Outcomes","Circ Cardiovasc Qual Outcomes",1941-7705,,
+554,"Arteriosclerosis, thrombosis, and vascular biology","Arterioscler Thromb Vasc Biol","Arterioscler Thromb Vasc Biol",1524-4636,,
+555,"Cell Systems","Cell Syst","Cell Syst",2405-4720,"The Authors. Published by Elsevier Inc.",
+556,"Inflammatory Bowel Diseases","Inflamm Bowel Dis","Inflamm Bowel Dis",1536-4844,"Oxford University Press",US
+557,"Social Cognitive and Affective Neuroscience","Soc Cogn Affect Neurosci","Soc Cogn Affect Neurosci",1749-5024,"Oxford University Press",UK
+558,"Journal of Perinatology","J Perinatol","J Perinatol",1476-5543,"Nature Publishing Group US","New York"
+559,"Life Science Alliance","Life Sci Alliance","Life Sci Alliance",2575-1077,"Life Science Alliance LLC",
+560,"Journal of X-Ray Science and Technology","J Xray Sci Technol","J Xray Sci Technol",1095-9114,"IOS Press","Nieuwe Hemweg 6B, 1013 BG Amsterdam, The Netherlands"
+561,"Biochemical and Biophysical Research Communications","Biochem Biophys Res Commun","Biochem Biophys Res Commun",1090-2104,"Elsevier Inc.",
+562,"The Journal of Physiology","J Physiol","J Physiol",1469-7793,"John Wiley and Sons Inc.",Hoboken
+563,"Lab on a chip","Lab Chip","Lab Chip",1473-0189,,
+564,"International Journal of Health Geographics","Int J Health Geogr","Int J Health Geogr",1476-072X,"BioMed Central",London
+565,"Biological Reviews of the Cambridge Philosophical Society","Biol Rev Camb Philos Soc","Biol Rev Camb Philos Soc",1469-185X,"Blackwell Publishing Ltd","Oxford, UK"
+566,"Canadian Journal of Public Health = Revue Canadienne de Santé Publique","Can J Public Health","Can J Public Health",1920-7476,"Springer International Publishing",Cham
+567,"Biocybernetics and Biomedical Engineering","Biocybern Biomed Eng","Biocybern Biomed Eng",0208-5216,"Nalecz Institute of Biocybernetics and Biomedical Engineering of the Polish Academy of Sciences. Published by Elsevier B.V.",
+568,"Medical Physics","Med Phys","Med Phys",2473-4209,"John Wiley and Sons Inc.",Hoboken
+569,"The Journal of Experimental Biology","J Exp Biol","J. Exp. Biol",1477-9145,"The Company of Biologists Ltd",
+570,"Plant Communications","Plant Commun","Plant Commun",2590-3462,Elsevier,
+571,"Journal of chemical education","J Chem Educ","J Chem Educ",,,
+572,"NPJ Digital Medicine","NPJ Digit Med","NPJ Digit Med",2398-6352,"Nature Publishing Group UK",London
+573,"Bioengineering & Translational Medicine","Bioeng Transl Med","Bioeng Transl Med",2380-6761,"John Wiley & Sons, Inc.","Hoboken, USA"
+574,"Journal of Oral Biology and Craniofacial Research","J Oral Biol Craniofac Res","J Oral Biol Craniofac Res",2212-4276,Elsevier,
+575,"Physical and Engineering Sciences in Medicine","Phys Eng Sci Med","Phys Eng Sci Med",2662-4737,"Springer International Publishing",Cham
+576,"Methods of Information in Medicine","Methods Inf Med","Methods Inf Med",2511-705X,"Georg Thieme Verlag KG","Rüdigerstraße 14, 70469 Stuttgart, Germany"
+577,"Nature medicine","Nat Med","Nat Med",1546-170X,,
+578,"Isprs Journal of Photogrammetry and Remote Sensing","ISPRS J Photogramm Remote Sens","ISPRS J Photogramm Remote Sens",1872-8235,Elsevier,
+579,"Neurons, behavior, data analysis and theory","Neuron Behav Data Anal Theory",,,,
+580,"Computer graphics forum : journal of the European Association for Computer Graphics","Comput Graph Forum","Comput Graph Forum",1467-8659,,
+581,"Journal of the Royal Society of Medicine","J R Soc Med","J R Soc Med",1758-1095,"SAGE Publications","Sage UK: London, England"
+582,"Research Integrity and Peer Review","Res Integr Peer Rev","Res Integr Peer Rev",2058-8615,"BioMed Central",London
+583,"Journal of Public Health (Oxford, England)","J Public Health (Oxf)","J Public Health (Oxf)",1741-3850,"Oxford University Press",
+584,"Developmental dynamics : an official publication of the American Association of Anatomists","Dev Dyn","Dev Dyn",1097-0177,,
+585,"American Journal of Epidemiology","Am J Epidemiol","Am J Epidemiol",1476-6256,"Oxford University Press",
+586,"BMC Molecular and Cell Biology","BMC Mol Cell Biol","BMC Mol Cell Biol",2661-8850,"BioMed Central",London
+587,"Network and Systems Medicine","Netw Syst Med","Netw Syst Med",2690-5949,"Mary Ann Liebert, Inc., publishers","140 Huguenot Street, 3rd FloorNew Rochelle, NY 10801USA"
+588,"Public health nutrition","Public Health Nutr","Public Health Nutr",1475-2727,,
+589,"Journal of Integrative Bioinformatics","J Integr Bioinform","J Integr Bioinform",1613-4516,"De Gruyter",
+590,Animal,Animal,Animal,1751-732X,"Cambridge University Press","Cambridge, UK"
+591,"Computer Aided Verification","Computer Aided Verification",,,,
+592,"Artificial Intelligence in Education","Artificial Intelligence in Education",,,,
+593,"Advances in Nutrition","Adv Nutr","Adv Nutr",2156-5376,"Oxford University Press",
+594,"Mathematical Software – ICMS 2020","Mathematical Software – ICMS 2020",,,,
+595,"Progress in Cryptology - AFRICACRYPT 2020","Progress in Cryptology - AFRICACRYPT 2020",,,,
+596,"Image and Signal Processing","Image and Signal Processing",,,,
+597,"Computational brain & behavior","Comput Brain Behav","Comput Brain Behav",2522-087X,,
+598,"Computational Science – ICCS 2020","Computational Science – ICCS 2020",,,,
+599,"Physiology & behavior","Physiol Behav","Physiol. Behav.",1873-507X,,
+600,"Journal of Insect Science","J Insect Sci","J. Insect Sci",1536-2442,"Oxford University Press",US
+601,"Journal of cognitive neuroscience","J Cogn Neurosci","J Cogn Neurosci",1530-8898,,
+602,"Enterprise, Business-Process and Information Systems Modeling","Enterprise, Business-Process and Information Systems Modeling",,,,
+603,"Current Protocols in Bioinformatics","Curr Protoc Bioinformatics","Curr Protoc Bioinformatics",1934-340X,"John Wiley and Sons Inc.",Hoboken
+604,"NMR in biomedicine","NMR Biomed","NMR Biomed",1099-1492,,
+605,"Earth and Space Science (Hoboken, N.j.)","Earth Space Sci","Earth Space Sci",2333-5084,"John Wiley and Sons Inc.",Hoboken
+606,"Rigorous State-Based Methods","Rigorous State-Based Methods",,,,
+607,"The Febs Journal","FEBS J","FEBS J",1742-4658,"John Wiley and Sons Inc.",Hoboken
+608,"Annual review of neuroscience","Annu Rev Neurosci","Annu Rev Neurosci",1545-4126,,
+609,"Clinical and Translational Science","Clin Transl Sci","Clin Transl Sci",1752-8062,"John Wiley and Sons Inc.",Hoboken
+610,"Molecular physics","Mol Phys","Mol Phys",,,
+611,"Pain Medicine: The Official Journal of the American Academy of Pain Medicine","Pain Med","Pain Med",1526-4637,"Oxford University Press",
+612,"Critical Care","Crit Care",,1466-609X,"BioMed Central",London
+613,"Health Research Policy and Systems","Health Res Policy Syst","Health Res Policy Syst",1478-4505,"BioMed Central",London
+614,"Journal of the American Society for Mass Spectrometry","J Am Soc Mass Spectrom","J Am Soc Mass Spectrom",1879-1123,,
+615,"Current biology : CB","Curr Biol","Curr. Biol.",1879-0445,,
+616,"Advances in Information Retrieval","Advances in Information Retrieval",,,,
+617,"Nano Letters","Nano Lett","Nano Lett",1530-6992,"American Chemical Society",
+618,"American Journal of Respiratory Cell and Molecular Biology","Am J Respir Cell Mol Biol","Am J Respir Cell Mol Biol",1535-4989,"American Thoracic Society",
+619,"The Plant Journal","Plant J","Plant J",1365-313X,"John Wiley and Sons Inc.",Hoboken
+620,"Fluids and Barriers of the CNS","Fluids Barriers CNS","Fluids Barriers CNS",2045-8118,"BioMed Central",London
+621,"Big data analytics","Big Data Anal","Big Data Anal",2058-6345,,
+622,"International Journal of Biological Sciences","Int J Biol Sci","Int. J. Biol. Sci",1449-2288,"Ivyspring International Publisher",Sydney
+623,Trials,Trials,Trials,1745-6215,"BioMed Central",London
+624,"Genetics, Selection, Evolution : GSE","Genet Sel Evol","Genet. Sel. Evol",1297-9686,"BioMed Central",London
+625,"Cancer & Metabolism","Cancer Metab","Cancer Metab",2049-3002,"BioMed Central",London
+626,"IEEE signal processing magazine","IEEE Signal Process Mag","IEEE Signal Process Mag",1558-0792,,
+627,"Journal of computational and graphical statistics : a joint publication of American Statistical Association, Institute of Mathematical Statistics, Interface Foundation of North America","J Comput Graph Stat","J Comput Graph Stat",1537-2715,,
+628,"Drug safety","Drug Saf","Drug Saf",1179-1942,,
+629,"Cogent mathematics & statistics","Cogent Math Stat","Cogent Math Stat",2574-2558,,
+630,"Journal of Research of the National Institute of Standards and Technology","J Res Natl Inst Stand Technol","J Res Natl Inst Stand Technol",2165-7254,"[Gaithersburg, MD] : U.S. Dept. of Commerce, National Institute of Standards and Technology",
+631,"Journal of Biophotonics","J Biophotonics","J Biophotonics",1864-0648,"WILEY‐VCH Verlag GmbH & Co. KGaA",Weinheim
+632,"Mobile DNA","Mob DNA","Mob DNA",1759-8753,"BioMed Central",London
+633,"Human genetics","Hum Genet","Hum. Genet.",1432-1203,,
+634,"Radiology. Artificial intelligence","Radiol Artif Intell","Radiol Artif Intell",2638-6100,"Radiological Society of North America",
+635,"Journal of Cachexia, Sarcopenia and Muscle","J Cachexia Sarcopenia Muscle","J Cachexia Sarcopenia Muscle",2190-6009,"John Wiley and Sons Inc.",Hoboken
+636,"Microbial Cell Factories","Microb Cell Fact","Microb. Cell Fact",1475-2859,"BioMed Central",London
+637,Vision,"Vision (Basel)","Vision (Basel)",2411-5150,MDPI,
+638,"Molecular Therapy","Mol Ther","Mol. Ther",1525-0024,"American Society of Gene & Cell Therapy",
+639,"Cold Spring Harbor Molecular Case Studies","Cold Spring Harb Mol Case Stud","Cold Spring Harb Mol Case Stud",2373-2873,"Cold Spring Harbor Laboratory Press",
+640,Nutrients,Nutrients,Nutrients,2072-6643,MDPI,
+641,"Ground Water","Ground Water","Ground Water",1745-6584,"Blackwell Publishing Ltd","Malden, US"
+642,"Reproductive toxicology (Elmsford, N.Y.)","Reprod Toxicol","Reprod. Toxicol.",1873-1708,,
+643,"The Astrophysical journal","Astrophys J","Astrophys J",,,
+644,"EuPA Open Proteomics","EuPA Open Proteom","EuPA Open Proteom",2212-9685,Elsevier,
+645,Cytometry,"Cytometry A","Cytometry A",1552-4930,"John Wiley & Sons, Inc.","Hoboken, USA"
+646,"Clinical and Translational Radiation Oncology","Clin Transl Radiat Oncol","Clin Transl Radiat Oncol",2405-6308,Elsevier,
+647,"The Vldb Journal","VLDB J","VLDB J",0949-877X,"Springer Berlin Heidelberg",Berlin/Heidelberg
+648,"Current epidemiology reports","Curr Epidemiol Rep","Curr Epidemiol Rep",2196-2995,,
+649,Virulence,Virulence,Virulence,2150-5608,"Taylor & Francis",
+650,"International Journal of Population Data Science","Int J Popul Data Sci","Int J Popul Data Sci",2399-4908,"Swansea University",
+651,"Monthly Notices of the Royal Astronomical Society","Mon Not R Astron Soc","Mon Not R Astron Soc",1365-2966,"Oxford University Press",
+652,"European Journal of Human Genetics","Eur J Hum Genet","Eur. J. Hum. Genet",1476-5438,"Springer International Publishing",Cham
+653,"Cardiovascular Diabetology","Cardiovasc Diabetol","Cardiovasc Diabetol",1475-2840,"BioMed Central",London
+654,"Developmental Cell","Dev Cell","Dev. Cell",1878-1551,"Cell Press",
+655,"BioEssays : news and reviews in molecular, cellular and developmental biology",Bioessays,Bioessays,1521-1878,,
+656,Hippocampus,Hippocampus,Hippocampus,1098-1063,,
+657,"International journal of computer assisted radiology and surgery","Int J Comput Assist Radiol Surg","Int J Comput Assist Radiol Surg",1861-6429,,
+658,"AMIA Summits on Translational Science Proceedings","AMIA Jt Summits Transl Sci Proc","AMIA Jt Summits Transl Sci Proc",2153-4063,"American Medical Informatics Association",
+659,"Metabolic Engineering Communications","Metab Eng Commun","Metab Eng Commun",2214-0301,Elsevier,
+660,"Physiologia Plantarum","Physiol Plant","Physiol Plant",1399-3054,"Blackwell Publishing Ltd","Oxford, UK"
+661,Diabetologia,Diabetologia,Diabetologia,1432-0428,,
+662,"Therapeutic Advances in Ophthalmology","Ther Adv Ophthalmol","Ther Adv Ophthalmol",2515-8414,"SAGE Publications","Sage UK: London, England"
+663,"Journal of Health Monitoring","J Health Monit","J Health Monit",2511-2708,"Robert Koch Institute","Nordufer 20 13353 Berlin, Germany"
+664,"Physics reports","Phys Rep","Phys Rep",,,
+665,"IEEE transactions on emerging topics in computing","IEEE Trans Emerg Top Comput","IEEE Trans Emerg Top Comput",2168-6750,,
+666,"Evolutionary Applications","Evol Appl","Evol Appl",1752-4571,"John Wiley and Sons Inc.",Hoboken
+667,"Journal of Clinical Immunology","J Clin Immunol","J. Clin. Immunol",1573-2592,"Springer US","New York"
+668,"Personalized medicine","Per Med","Per Med",1744-828X,,
+669,"Cell host & microbe","Cell Host Microbe","Cell Host Microbe",1934-6069,,
+670,"Nature machine intelligence","Nat Mach Intell","Nat Mach Intell",,,
+671,"Ecology and Evolution","Ecol Evol","Ecol Evol",2045-7758,"John Wiley and Sons Inc.",Hoboken
+672,"Physical review. E","Phys Rev E","Phys Rev E",2470-0053,,
+673,"Stem Cell Research & Therapy","Stem Cell Res Ther","Stem Cell Res Ther",1757-6512,"BioMed Central",London
+674,"BMC Systems Biology","BMC Syst Biol","BMC Syst Biol",1752-0509,"BioMed Central",London
+675,"Computational materials science","Comput Mater Sci","Comput Mater Sci",1879-0801,,
+676,"Nature reviews. Urology","Nat Rev Urol","Nat Rev Urol",1759-4820,,
+677,"Applied Network Science","Appl Netw Sci","Appl Netw Sci",2364-8228,"Springer International Publishing",Cham
+678,"Biochimica et biophysica acta. Molecular cell research","Biochim Biophys Acta Mol Cell Res","Biochim Biophys Acta Mol Cell Res",1879-2596,,
+679,"PLoS Currents","PLoS Curr","PLoS Curr",2157-3999,"Public Library of Science","San Francisco, USA"
+680,"Molecular Neurobiology","Mol Neurobiol","Mol. Neurobiol",1559-1182,"Springer US","New York"
+681,"Computer methods and programs in biomedicine","Comput Methods Programs Biomed","Comput Methods Programs Biomed",1872-7565,,
+682,"Journal of computational chemistry","J Comput Chem","J Comput Chem",1096-987X,,
+683,"AIChE journal. American Institute of Chemical Engineers","AIChE J","AIChE J",1547-5905,,
+684,"Journal of statistical software","J Stat Softw","J Stat Softw",1548-7660,,
+685,"Living Reviews in Relativity","Living Rev Relativ","Living Rev Relativ",1433-8351,"Springer International Publishing",Cham
+686,"Bio Systems",Biosystems,BioSystems,1872-8324,,
+687,"NPJ Science of Learning","NPJ Sci Learn","NPJ Sci Learn",2056-7936,"Nature Publishing Group UK",London
+688,"Journal of Biomolecular Techniques : JBT","J Biomol Tech","J Biomol Tech",1943-4731,"Association of Biomolecular Resource Facilities","Bethesda, MD, USA"
+689,"Future generations computer systems : FGCS","Future Gener Comput Syst","Future Gener Comput Syst",1872-7115,,
+690,"Frontiers in Aging Neuroscience","Front Aging Neurosci","Front Aging Neurosci",1663-4365,"Frontiers Media S.A.",
+691,"The R journal","R J","R J",2073-4859,,
+692,"Journal of Mathematical Biology","J Math Biol","J Math Biol",1432-1416,"Springer Berlin Heidelberg",Berlin/Heidelberg
+693,"Journal of Healthcare Informatics Research","J Healthc Inform Res","J Healthc Inform Res",2509-498X,"Springer International Publishing",Cham
+694,"Psychonomic bulletin & review","Psychon Bull Rev","Psychon Bull Rev",1531-5320,,
+695,"microPublication Biology","MicroPubl Biol","MicroPubl Biol",2578-9430,"Caltech Library",
+696,"Advanced Structural and Chemical Imaging","Adv Struct Chem Imaging","Adv Struct Chem Imaging",2198-0926,"Springer International Publishing",Cham
+697,Biochemistry,Biochemistry,Biochemistry,1520-4995,,
+698,"Trends in genetics : TIG","Trends Genet","Trends Genet.",,,
+699,"Studies in health technology and informatics","Stud Health Technol Inform","Stud Health Technol Inform",1879-8365,,
+700,"Journal of the American Association for Laboratory Animal Science : JAALAS","J Am Assoc Lab Anim Sci","J. Am. Assoc. Lab. Anim. Sci",,"American Association for Laboratory Animal Science",
+701,"Current protocols in bioinformatics","Curr Protoc Bioinformatics","Curr Protoc Bioinformatics",1934-340X,,
+702,"BMC Genetics","BMC Genet","BMC Genet",1471-2156,"BioMed Central",London
+703,"Molecular pharmaceutics","Mol Pharm","Mol. Pharm.",1543-8392,,
+704,"Proceedings of the VLDB Endowment. International Conference on Very Large Data Bases","Proceedings VLDB Endowment","Proceedings VLDB Endowment",2150-8097,,
+705,"ACS Energy Letters","ACS Energy Lett","ACS Energy Lett",2380-8195,"American Chemical Society",
+706,Gut,Gut,Gut,1468-3288,"BMJ Publishing Group","BMA House, Tavistock Square, London, WC1H 9JR"
+707,"Cerebral Cortex (New York, NY)","Cereb Cortex","Cereb. Cortex",1460-2199,"Oxford University Press",
+708,"BMC Evolutionary Biology","BMC Evol Biol","BMC Evol. Biol",1471-2148,"BioMed Central",London
+709,"Journal of cleaner production","J Clean Prod","J Clean Prod",1879-1786,,
+710,"Surgical Neurology International","Surg Neurol Int","Surg Neurol Int",2152-7806,"Medknow Publications & Media Pvt Ltd",India
+711,"BMC Medical Research Methodology","BMC Med Res Methodol","BMC Med Res Methodol",1471-2288,"BioMed Central",London
+712,"Expert opinion on drug discovery","Expert Opin Drug Discov","Expert Opin Drug Discov",1746-045X,,
+713,"NPJ Breast Cancer","NPJ Breast Cancer","NPJ Breast Cancer",2374-4677,"Nature Publishing Group UK",London
+714,"BMC Psychology","BMC Psychol","BMC Psychol",2050-7283,"BioMed Central",London
+715,Bioscience,Bioscience,Bioscience,1525-3244,"Oxford University Press",
+716,"Annals of the New York Academy of Sciences","Ann N Y Acad Sci","Ann. N. Y. Acad. Sci.",1749-6632,,
+717,"Physical biology","Phys Biol","Phys Biol",1478-3975,,
+718,"The journal of physical chemistry letters","J Phys Chem Lett","J Phys Chem Lett",1948-7185,,
+719,"Proceedings of SPIE--the International Society for Optical Engineering","Proc SPIE Int Soc Opt Eng","Proc SPIE Int Soc Opt Eng",1996-756X,,
+720,"Rapid Communications in Mass Spectrometry","Rapid Commun Mass Spectrom","Rapid Commun. Mass Spectrom",1097-0231,"John Wiley and Sons Inc.",Hoboken
+721,"CSCW : proceedings of the Conference on Computer-Supported Cooperative Work. Conference on Computer-Supported Cooperative Work",CSCW,,,,
+722,"Advances in neural information processing systems","Adv Neural Inf Process Syst","Adv Neural Inf Process Syst",,,
+723,"IEEE life sciences letters","IEEE Life Sci Lett","IEEE Life Sci Lett",2332-7685,,
+724,Cognition,Cognition,Cognition,1873-7838,,
+725,"Stereotactic and Functional Neurosurgery","Stereotact Funct Neurosurg","Stereotact Funct Neurosurg",1423-0372,"S. Karger AG","Allschwilerstrasse 10, P.O. Box · Postfach · Case postale, CH–4009, Basel, Switzerland · Schweiz · Suisse, Phone: +41 61 306 11 11, Fax: +41 61 306 12 34, karger@karger.ch"
+726,"Biochimica et Biophysica Acta","Biochim Biophys Acta","Biochim. Biophys. Acta",,"Elsevier Pub. Co",
+727,"International journal of medical informatics","Int J Med Inform","Int J Med Inform",1872-8243,,
+728,"SIAM journal on scientific computing : a publication of the Society for Industrial and Applied Mathematics","SIAM J Sci Comput","SIAM J Sci Comput",1095-7197,,
+729,"Journal of Neurophysiology","J Neurophysiol","J. Neurophysiol",1522-1598,"American Physiological Society","Bethesda, MD"
+730,"IEEE transactions on bio-medical engineering","IEEE Trans Biomed Eng","IEEE Trans Biomed Eng",1558-2531,,
+731,Biointerphases,Biointerphases,Biointerphases,1559-4106,"American Vacuum Society",
+732,"Wiley Interdisciplinary Reviews. Cognitive Science","Wiley Interdiscip Rev Cogn Sci","Wiley Interdiscip Rev Cogn Sci",1939-5086,"John Wiley & Sons, Inc.","Hoboken, USA"
+733,"Journal of NeuroEngineering and Rehabilitation","J Neuroeng Rehabil","J Neuroeng Rehabil",1743-0003,"BioMed Central",London
+734,EBioMedicine,EBioMedicine,EBioMedicine,2352-3964,Elsevier,
+735,"Source Code for Biology and Medicine","Source Code Biol Med","Source Code Biol Med",1751-0473,"BioMed Central",London
+736,"Microbial Ecology in Health and Disease","Microb Ecol Health Dis","Microb. Ecol. Health Dis",1651-2235,"Co-Action Publishing",
+737,Proteomics,Proteomics,Proteomics,1615-9861,"BlackWell Publishing Ltd","Oxford, UK"
+738,"Annals of Oncology","Ann Oncol","Ann. Oncol",1569-8041,"Oxford University Press",
+739,"Developmental Neurobiology","Dev Neurobiol","Dev Neurobiol",1932-846X,"John Wiley and Sons Inc.",Hoboken
+740,"Biodiversity Data Journal","Biodivers Data J","Biodivers Data J",1314-2828,"Pensoft Publishers",
