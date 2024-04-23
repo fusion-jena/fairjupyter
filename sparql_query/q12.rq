@@ -1,0 +1,16 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT (COUNT(?processed_different_result) AS ?count_different_result) (COUNT(?processed_same_result) AS ?count_same_result) (?count_same_result + ?count_different_result AS ?count_successful_executions)
+WHERE {
+  ?execution a <https://w3id.org/reproduceme/CellExecution> .
+  OPTIONAL { ?execution <https://w3id.org/reproduceme/exception> ?exception . }
+  OPTIONAL {
+    ?execution <https://w3id.org/reproduceme/processed> ?processed_different_result .
+    FILTER ((xsd:integer(?processed_different_result) = 35) && !bound(?exception))
+  }
+  OPTIONAL {
+    ?execution <https://w3id.org/reproduceme/processed> ?processed_same_result .
+    FILTER ((xsd:integer(?processed_same_result) = 51) && !bound(?exception))
+  }
+
+
+}

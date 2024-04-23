@@ -1,0 +1,18 @@
+SELECT ?journal_name (COUNT(?repository) as ?repository_count) (COUNT(?repository_nb) as ?repositories_with_notebooks_count) WHERE
+  {
+  ?article <https://w3id.org/reproduceme/publishedIn> ?journal .
+  ?journal <http://www.w3.org/2000/01/rdf-schema#label> ?journal_name .
+  {
+  ?repository <http://purl.org/pav/retrievedFrom> ?article .
+  }
+  UNION
+  {
+  ?repository_nb <http://purl.org/pav/retrievedFrom> ?article ;
+              <https://w3id.org/reproduceme/notebooks_count> ?notebooks_count .
+  FILTER(<http://www.w3.org/2001/XMLSchema#integer>(?notebooks_count) > 0)
+  }
+  }
+  GROUP BY ?journal_name
+
+ORDER BY DESC(?repository_count)
+LIMIT 10

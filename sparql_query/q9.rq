@@ -1,0 +1,14 @@
+SELECT ?created_year ?major_version (COUNT(?notebook) as ?count_major_version)
+WHERE {
+  ?notebook a <https://w3id.org/reproduceme/Notebook> ;
+            <http://purl.org/pav/retrievedFrom>  ?repository ;
+            <https://w3id.org/reproduceme/language> "python" ;
+            <https://w3id.org/reproduceme/language_version> ?version .
+  ?repository <https://w3id.org/reproduceme/created_at> ?created_at .
+  BIND(REPLACE(str(?created_at), "(\\d*)-.*", "$1") AS ?created_year)
+  BIND(SUBSTR(?version, 1, 1) AS ?major_version)
+  FILTER(?version != "3" && ?version != "1" && ?version != "ES2015")
+}
+GROUP BY ?created_year ?major_version
+ORDER BY ?created_year ?major_version
+

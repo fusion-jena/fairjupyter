@@ -1,0 +1,7 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?repo ?stargazers_count WHERE {
+  ?repo <https://w3id.org/reproduceme/stargazers_count> ?count.
+  BIND(xsd:float(?count) AS ?stargazers_count)
+  FILTER ((?stargazers_count) > 0)
+}
+ORDER BY DESC(?stargazers_count)

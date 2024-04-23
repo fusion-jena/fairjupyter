@@ -1,0 +1,7 @@
+SELECT ?notebook ?error ?description
+WHERE {
+  ?error a <https://w3id.org/reproduceme/NotebookCodeStyleError> ;
+        <https://w3id.org/reproduceme/description> ?description ;
+        <http://purl.org/pav/retrievedFrom> ?notebook .
+}
+LIMIT 10

@@ -16,19 +16,30 @@ analysis through queries that can be tailored to specific use cases.
 ## Resources
 
 ### SPARQL Endpoint
+The SPARQL Endpoint can be queried [here](https://reproduceme.uni-jena.de/#/dataset/fairjupyter/query)
+
+### SPARQL Queries
+Some SPARQL queries that can be queried over FAIR Jupyter KG can be accessed [here](https://github.com/fusion-jena/fairjupyter/tree/main/sparql_query).
+
+These include SPARQL queries to the knowledge graph that reproduce materials from the
+original manuscript describing the dataset, other queries over the FAIR Jupyter graph, and federated queries between the FAIR Jupyter KG and [Wikidata](https://query.wikidata.org/).
 
 ### Original Dataset
 Data: Sheeba Samuel, & Daniel Mietchen. (2023). Dataset of a Study of Computational reproducibility of Jupyter notebooks from biomedical publications [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.8226725](https://doi.org/10.5281/zenodo.8226725)
 
 Code: [https://github.com/fusion-jena/computational-reproducibility-pmc](https://github.com/fusion-jena/computational-reproducibility-pmc)
 
-### Documentation
-
-### FAIR Jupyter KG N-Triples Dump
-
 ### FAIR Jupyter KG Schema
+The ontologies used for constructing Knowledge Graphs are:
+* [The REPRODUCE-ME ontology](https://w3id.org/reproduceme/)
+* [The PROV-O ontology](https://www.w3.org/TR/prov-o/)
+* [The P-Plan ontology](http://purl.org/net/p-plan#)
+* [The PAV ontology](http://purl.org/pav/)
+* [The FaBiO ontology](http://purl.org/spar/fabio)
+* [The DOAP ontology](http://usefulinc.com/ns/doap#)
 
 ### FAIR Jupyter KG Data Used (CSV)
+The data used for constructing FAIR Jupyter Knowledge Graph is available [here](https://github.com/fusion-jena/fairjupyter/tree/main/data)
 
 
 ## Publication

@@ -1,0 +1,8 @@
+SELECT ?exception (COUNT(?exception) AS ?count)
+WHERE {
+  ?execution  a <https://w3id.org/reproduceme/CellExecution> ;
+    <https://w3id.org/reproduceme/exception> ?exception .
+}
+GROUP BY ?exception
+ORDER BY DESC(?count)
+LIMIT 10

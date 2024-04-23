@@ -1,0 +1,4 @@
+SELECT DISTINCT ?article ?keywords WHERE {
+  ?article <https://w3id.org/reproduceme/keywords> ?keywords .
+  FILTER (REGEX(LCASE(?keywords), "open(.)source"))
+}

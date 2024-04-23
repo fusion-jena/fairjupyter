@@ -1,0 +1,12 @@
+SELECT ?created_year ?language (COUNT(?notebook) as ?notebook_count)
+WHERE {
+  ?notebook a <https://w3id.org/reproduceme/Notebook> ;
+            <http://purl.org/pav/retrievedFrom>  ?repository ;
+            <https://w3id.org/reproduceme/language> ?language ;
+            <https://w3id.org/reproduceme/language_version> ?version .
+  ?repository <https://w3id.org/reproduceme/created_at> ?created_at .
+  BIND(REPLACE(str(?created_at), "(\\d*)-.*", "$1") AS ?created_year)
+}
+GROUP BY ?created_year ?language
+ORDER BY ?created_year ?language
+

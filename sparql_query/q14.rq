@@ -1,0 +1,15 @@
+SELECT DISTINCT ?notebook_url ?article_label ?keywords WHERE {
+  ?article <https://w3id.org/reproduceme/keywords> ?keywords .
+  ?article <http://www.w3.org/2000/01/rdf-schema#label> ?article_label .
+  ?article <https://w3id.org/reproduceme/publishedIn> ?journal .
+  ?journal <http://www.w3.org/2000/01/rdf-schema#label> ?journal_label .
+  FILTER (REGEX(LCASE(CONCAT(?keywords, " ", ?article_label, " ", ?journal_label)), "immun"))
+  FILTER (REGEX(LCASE(CONCAT(?keywords, " ", ?article_label, " ", ?journal_label)), "\\b(stem|differentiation)"))
+  ?article ^<http://purl.org/pav/retrievedFrom> ?repository .
+  ?notebook <http://purl.org/pav/retrievedFrom> ?repository .
+  ?notebook <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/reproduceme/Notebook> .
+  ?notebook <http://www.w3.org/2000/01/rdf-schema#label> ?notebook_label . # filename
+  ?repository <https://w3id.org/reproduceme/url> ?repo_url_base . # find repo on GitHub
+  BIND(URI(CONCAT( ?repo_url_base, "/blob/master/", ?notebook_label)) AS ?notebook_url) # create clickable link to notebook on GitHub
+  FILTER (?notebook_url != "")
+}

@@ -1,0 +1,8 @@
+SELECT ?journal_name (COUNT(?article) as ?article_count)
+WHERE {
+  ?article <https://w3id.org/reproduceme/publishedIn> ?journal .
+  ?journal <http://www.w3.org/2000/01/rdf-schema#label> ?journal_name .
+}
+GROUP BY ?journal_name
+ORDER BY DESC(?article_count)
+LIMIT 10

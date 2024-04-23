@@ -1,0 +1,22 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX repr: <https://w3id.org/reproduceme/>
+
+SELECT ?research_field (COUNT(DISTINCT ?repository) as ?repository_count) (COUNT(DISTINCT ?repository_nb) as ?repositories_with_notebooks_count)
+WHERE {
+  {
+  ?repository <http://purl.org/pav/retrievedFrom> ?article .
+  }
+  UNION
+  {
+  ?repository_nb <http://purl.org/pav/retrievedFrom>  ?article ;
+              repr:notebooks_count ?notebooks_count .
+  	FILTER(xsd:integer(?notebooks_count) > 0)
+  }
+  ?article <http://www.w3.org/ns/prov-o#specializationOf> ?mesh .
+  ?mesh <http://www.w3.org/ns/prov-o#generalizationOf> ?top_mesh .
+  ?top_mesh rdfs:label ?research_field
+}
+GROUP BY ?research_field
+ORDER BY DESC(?repository_count)
+LIMIT 10

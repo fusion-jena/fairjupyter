@@ -1,0 +1,23 @@
+SELECT ?journal_name (COUNT(?repository_nb) AS ?repositories_with_notebooks_count)
+        ?max_notebooks_count
+WHERE {
+  {
+    SELECT ?journal (MAX(?notebooks_count) AS ?max_notebooks_count)
+    WHERE {
+      ?article <https://w3id.org/reproduceme/publishedIn> ?journal .
+      ?journal <http://www.w3.org/2000/01/rdf-schema#label> ?journal_name .
+      ?repository_nb <http://purl.org/pav/retrievedFrom> ?article ;
+                     <https://w3id.org/reproduceme/notebooks_count> ?notebooks_count .
+      FILTER(<http://www.w3.org/2001/XMLSchema#integer>(?notebooks_count) > 0)
+    }
+    GROUP BY ?journal
+  }
+  ?article <https://w3id.org/reproduceme/publishedIn> ?journal .
+  ?journal <http://www.w3.org/2000/01/rdf-schema#label> ?journal_name .
+  ?repository_nb <http://purl.org/pav/retrievedFrom> ?article ;
+                 <https://w3id.org/reproduceme/notebooks_count> ?notebooks_count .
+  FILTER(<http://www.w3.org/2001/XMLSchema#integer>(?notebooks_count) > 0)
+}
+GROUP BY ?journal_name  ?max_notebooks_count
+ORDER BY DESC(?repositories_with_notebooks_count)
+LIMIT 10

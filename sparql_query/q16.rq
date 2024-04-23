@@ -1,0 +1,11 @@
+SELECT DISTINCT ?exception (COUNT(?exception) AS ?count) WHERE {
+    ?execution  a <https://w3id.org/reproduceme/CellExecution> ;
+    <https://w3id.org/reproduceme/exception> ?exception ;
+    <http://purl.org/pav/retrievedFrom> ?repository .
+    ?repository a <http://usefulinc.com/ns/doap#GitRepository> ;
+  			<http://purl.org/pav/retrievedFrom> ?article .
+  ?article  <https://w3id.org/reproduceme/keywords> ?keywords .
+  FILTER (REGEX(LCASE(?keywords), "immun"))
+}
+GROUP BY ?exception
+ORDER BY DESC(?count)

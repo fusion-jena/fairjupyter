@@ -1,0 +1,21 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+PREFIX wikidata_wd: <http://www.wikidata.org/entity/>
+PREFIX wikidata_wdt: <http://www.wikidata.org/prop/direct/>
+
+SELECT DISTINCT
+
+ ?fj_article
+ ?wikidata
+ ?wikidata_label
+ ?pmc
+
+WHERE {
+  ?fj_article <https://w3id.org/reproduceme/pmc> ?pmc .
+  service <https://query.wikidata.org/sparql> {
+    ?wikidata wikidata_wdt:P932 ?pmc .
+    ?wikidata rdfs:label ?wikidata_label .
+    FILTER (LANG(?wikidata_label) = "en")
+  }
+}
+LIMIT 100

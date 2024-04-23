@@ -1,0 +1,11 @@
+SELECT ?research_field (COUNT(DISTINCT ?article) AS ?number_of_articles)
+WHERE {
+  ?repository <http://purl.org/pav/retrievedFrom> ?article .
+  ?article <http://www.w3.org/ns/prov-o#specializationOf> ?mesh .
+  ?mesh <http://www.w3.org/ns/prov-o#generalizationOf> ?top_mesh .
+  ?top_mesh <http://www.w3.org/2000/01/rdf-schema#label> ?research_field
+
+}
+GROUP BY ?research_field
+ORDER BY DESC(?number_of_articles)
+LIMIT 10

@@ -1,0 +1,18 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?research_field (COUNT(?exception) AS ?exception_count)
+WHERE {
+  ?execution  a <https://w3id.org/reproduceme/CellExecution> ;
+    <https://w3id.org/reproduceme/exception> ?exception ;
+    <http://purl.org/pav/retrievedFrom> ?repository .
+  ?repository a <http://usefulinc.com/ns/doap#GitRepository> ;
+  			<http://purl.org/pav/retrievedFrom> ?article ;
+  			<https://w3id.org/reproduceme/notebooks_count> ?notebooks_count .
+  ?article a <http://purl.org/spar/fabio/Article> ;
+  		 <http://www.w3.org/ns/prov-o#specializationOf> ?mesh .
+  ?mesh <http://www.w3.org/ns/prov-o#generalizationOf> ?top_mesh .
+  ?top_mesh <http://www.w3.org/2000/01/rdf-schema#label> ?research_field .
+  FILTER (xsd:integer(?notebooks_count)>0)
+}
+GROUP BY ?research_field
+ORDER BY DESC(?exception_count)
+LIMIT 10
