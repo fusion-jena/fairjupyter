@@ -22,6 +22,9 @@ In this dataset, we present the study of computational reproducibility of Jupyte
 **Code**: [https://github.com/fusion-jena/fairjupyter](https://github.com/fusion-jena/fairjupyter)
 **Mapping**: [: https://github.com/fusion-jena/fairjupyter/tree/main/mapping](https://github.com/fusion-jena/fairjupyter/tree/main/mapping)
 
+Below figure shows the workflow of our pipeline.
+![image info](./docs/content/images/workflow.png)
+
 ### FAIR Jupyter SPARQL Endpoint
 The SPARQL Endpoint can be queried [here](https://reproduceme.uni-jena.de/#/dataset/fairjupyter/query)
 

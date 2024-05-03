@@ -6,6 +6,7 @@ FAIR Jupyter is a knowledge graph for semantic sharing and granular exploration 
 FAIR Jupyter Knowledge Graph is based on the computational reproducibility dataset that we had previously shared in bulk. This dataset can now be mobilized further through a knowledge graph that allows for much more granular exploration and interrogation. We took this dataset, converted it into semantic triples and loaded these into a triple store to create a knowledge graph – FAIR Jupyter – that we made accessible via a webservice. This enables granular data exploration and analysis through queries that can be tailored to specific use cases.
 
 
+
 ### Computational reproducibility of Jupyter notebooks from biomedical publications
 In this dataset, we present the study of computational reproducibility of Jupyter notebooks from biomedical publications. Our focus lies in evaluating the extent of reproducibility of Jupyter notebooks derived from GitHub repositories linked to publications present in the biomedical literature repository, PubMed Central. We analyzed the reproducibility of Jupyter notebooks from GitHub repositories associated with publications indexed in the biomedical literature repository PubMed Central. The dataset includes the metadata information of the journals, publications, the Github repositories mentioned in the publications and the notebooks present in the Github repositories.
 
@@ -18,8 +19,14 @@ In this dataset, we present the study of computational reproducibility of Jupyte
 ### Permanent URL
 [https://w3id.org/fairjupyter](https://w3id.org/fairjupyter)
 
+## FAIR Jupyter KG Construction
+
+Below figure shows the workflow of our pipeline.
+![image info](./images/workflow.png)
+
 ### Resources used in Knowledge Graph construction
 **Code**: [https://github.com/fusion-jena/fairjupyter](https://github.com/fusion-jena/fairjupyter)
+
 **Mapping**: [: https://github.com/fusion-jena/fairjupyter/tree/main/mapping](https://github.com/fusion-jena/fairjupyter/tree/main/mapping)
 
 ### FAIR Jupyter SPARQL Endpoint
@@ -30,10 +37,15 @@ Some SPARQL queries that can be queried over FAIR Jupyter KG can be accessed [he
 
 These include SPARQL queries to the knowledge graph that reproduce materials from the
 original manuscript describing the dataset, other queries over the FAIR Jupyter graph, and federated queries between the FAIR Jupyter KG and [Wikidata](https://query.wikidata.org/).
+Below we show an example of a SPARQL query.
+![image info](./images/listing.png)
 
 ### FAIR Jupyter KG Schema
+Below figure shows a snapshot of the FAIR Jupyter KG Schema.
+![image info](./images/model.png)
 The ontologies used for constructing Knowledge Graphs are:
 * [The REPRODUCE-ME ontology](https://w3id.org/reproduceme/)
+
 * [The PROV-O ontology](https://www.w3.org/TR/prov-o/)
 * [The P-Plan ontology](http://purl.org/net/p-plan#)
 * [The PAV ontology](http://purl.org/pav/)
@@ -41,7 +53,9 @@ The ontologies used for constructing Knowledge Graphs are:
 * [The DOAP ontology](http://usefulinc.com/ns/doap#)
 
 ### FAIR Jupyter KG Data Used (CSV)
-The data used for constructing FAIR Jupyter Knowledge Graph is available [here](https://github.com/fusion-jena/fairjupyter/tree/main/data)
+The data used for constructing FAIR Jupyter Knowledge Graph is available [here](https://github.com/fusion-jena/fairjupyter/tree/main/data).
+
+Note: The csv files that could not be uploaded in GitHub due to size will be added to Zenodo, once the paper is published.
 
 
 ## Publication
