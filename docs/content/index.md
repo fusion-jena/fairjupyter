@@ -44,6 +44,7 @@ Below we show an example of a SPARQL query.
 Below figure shows a snapshot of the FAIR Jupyter KG Schema.
 ![image info](./images/model.png)
 The ontologies used for constructing Knowledge Graphs are:
+
 * [The REPRODUCE-ME ontology](https://w3id.org/reproduceme/)
 
 * [The PROV-O ontology](https://www.w3.org/TR/prov-o/)

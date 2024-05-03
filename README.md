@@ -20,6 +20,7 @@ In this dataset, we present the study of computational reproducibility of Jupyte
 
 ### Resources used in Knowledge Graph construction
 **Code**: [https://github.com/fusion-jena/fairjupyter](https://github.com/fusion-jena/fairjupyter)
+
 **Mapping**: [: https://github.com/fusion-jena/fairjupyter/tree/main/mapping](https://github.com/fusion-jena/fairjupyter/tree/main/mapping)
 
 Below figure shows the workflow of our pipeline.
