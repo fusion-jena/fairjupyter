@@ -62,3 +62,4 @@ Note: The csv files that could not be uploaded in GitHub due to size will be add
 ## Publication
 
 * Sheeba Samuel, Daniel Mietchen, Computational reproducibility of Jupyter notebooks from biomedical publications, GigaScience, Volume 13, 2024, giad113, [https://doi.org/10.1093/gigascience/giad113](https://doi.org/10.1093/gigascience/giad113)
+* Sheeba Samuel, Daniel Mietchen, FAIR Jupyter: a knowledge graph approach to semantic sharing and granular exploration of a computational notebook reproducibility dataset, arXiv preprint arXiv:2404.12935, [https://doi.org/10.48550/arXiv.2404.12935](https://doi.org/10.48550/arXiv.2404.12935)
