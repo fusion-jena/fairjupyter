@@ -1,0 +1,11 @@
+exception,count
+ModuleNotFoundError,5562
+FileNotFoundError,1102
+ImportError,1026
+NameError,390
+IOError,147
+AttributeError,94
+ValueError,91
+TypeError,85
+KeyError,71
+CalledProcessError,68

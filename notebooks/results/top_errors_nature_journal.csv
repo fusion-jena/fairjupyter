@@ -1,0 +1,13 @@
+exception,count
+ModuleNotFoundError,1818
+FileNotFoundError,67
+AttributeError,34
+<Unknown exception>,8
+ImportError,8
+ValueError,6
+IndexError: too many indices for array,3
+KeyError,2
+RuntimeError,2
+NameError,1
+OSError,1
+TypeError,1

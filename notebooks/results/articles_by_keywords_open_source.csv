@@ -1,0 +1,57 @@
+article,keywords
+https://w3id.org/reproduceme/article_2442,sigma profile;vapor-liquid-equilibria;COSMO-SAC;open-source
+https://w3id.org/reproduceme/article_2376,open‐source software data analysis tool based on Python;portfolio of methods to analyze turbulence and nonlinear dynamics;the software includes visualisation tools;the software can ingest and process large collections of spacecraft data;user‐friendly parametrisation of analysis
+https://w3id.org/reproduceme/article_2567,Metabolomics;Partial least squares;Support vector machines;Random forest;Artificial neural network;Machine learning;Jupyter;Open source
+https://w3id.org/reproduceme/article_29,Gene regulation;Multi-omic analysis;Network biology;Open-source software
+https://w3id.org/reproduceme/article_798,auditory feedback;tapping;social;individual differences;open-source;assistive device
+https://w3id.org/reproduceme/article_2934,education;software;informatics;bioinformatics;Bioconductor;R;literate programming;markdown;github;open source
+https://w3id.org/reproduceme/article_2784,Computer-aided drug design;Python;RDKit;Open source;Teaching;Learning;Cheminformatics;Structural bioinformatics
+https://w3id.org/reproduceme/article_1887,spectral smile;optical aberration;aberration correction;do it yourself;open-source;hyperspectral imager
+https://w3id.org/reproduceme/article_769,data ethics;responsible innovation;journal club;open science;open source;interdisciplinary
+https://w3id.org/reproduceme/article_1962,Brain–Machine Interfaces;Bioimaging;Deep learning performance comparison;Medical imaging;Omics;Open access data sources;Open-source tools
+https://w3id.org/reproduceme/article_2398,molecular dynamics;Monte Carlo simulation;reproducibility;open-source
+https://w3id.org/reproduceme/article_2947,Python;SDI;Tools4MSP software;Open Source;Cumulative Effects Assessment;Maritime spatial planning;GeoNode
+https://w3id.org/reproduceme/article_1784,software;data visualization;open source;anatomy;None
+https://w3id.org/reproduceme/article_1066,lateral flow test;COVID-19;immunosensor;biosensor;open-source;image processing;rapid test reader
+https://w3id.org/reproduceme/article_3129,ImageJ;ImageJ2;Image processing;N-dimensional;Interoperability;Extensibility;Reproducibility;Open source;Open development
+https://w3id.org/reproduceme/article_2972,conferences;bioinformatics;open source;open science
+https://w3id.org/reproduceme/article_1797,Bike-sharing;Mobility;Data science;Visualization;Open source software;Application case study
+https://w3id.org/reproduceme/article_591,free energy;molecular dynamics simulation;binding affinity;automated setup;open source;python (programming language)
+https://w3id.org/reproduceme/article_3447,diffusion MRI;DTI;DSI;HARDI;dMRI;Python;free open source software;tractography
+https://w3id.org/reproduceme/article_3326,neuron models;optimisation;bluepyopt;open-source;python;multi-objective;evolutionary algorithm;synaptic plasticity
+https://w3id.org/reproduceme/article_2390,"neuroanatomy;neural circuits;connectomics;analysis software;open-source;neuronal morphology;
+          ;Mouse;Zebrafish"
+https://w3id.org/reproduceme/article_2296,simulation;reproducibility;open source;Human
+https://w3id.org/reproduceme/article_826,fluorescence microscopy;biomolecular condensate;liquid-liquid phase separation;image analysis;puncta features;open-source software
+https://w3id.org/reproduceme/article_1932,Medical image analysis;Computer aided diagnosis;Biomedical image segmentation;U-Net;Deep learning;Open-source framework
+https://w3id.org/reproduceme/article_3134,Image analysis;Open-source software;Registration;Segmentation;R;Python
+https://w3id.org/reproduceme/article_1525,MRI;diffusion MRI;DKI;DTI;microstructure;open-source software;biophysics;python
+https://w3id.org/reproduceme/article_3028,EEG microstates;information theory;entropy;mutual information;Markovianity;open-source
+https://w3id.org/reproduceme/article_1373,Geographic data science;Open data;Open source;C55;C63;C80
+https://w3id.org/reproduceme/article_2349,Graph convolutional network;kGCN;Graph neural network;Open source software;KNIME
+https://w3id.org/reproduceme/article_604,naturalistic;fMRI;generalizability;neuroinformatics;reproducibility;open source;Human
+https://w3id.org/reproduceme/article_2599,diffusion MRI;multi-compartment modeling;microstructure estimation;reproducible research;neuroimaging;optimization;open-source;PGSE
+https://w3id.org/reproduceme/article_2868,calcium imaging;open source;software;two-photon;one-photon;data analysis;Mouse;Zebrafish
+https://w3id.org/reproduceme/article_1852,"open source;interactive computing;executable circuits;connectomics;synaptomics;
+          "
+https://w3id.org/reproduceme/article_3299,Biological systems;stochastic systems;systems biology;open-source software
+https://w3id.org/reproduceme/article_2662,robotic arm;humanoid robot;research testbed;3D printing;open-source;rehabilitation engineering
+https://w3id.org/reproduceme/article_2798,Data cycle analyses;Omics;Open source;Pixel Web App
+https://w3id.org/reproduceme/article_2730,scRNA-seq;single-cell expression;pre-processing;clustering;interactive;visualization;GenePattern Notebook;Jupyter Notebook;open-source
+https://w3id.org/reproduceme/article_1328,bioimage analysis;open-source software;community;survey;training
+https://w3id.org/reproduceme/article_289,neuromorphic computing;Loihi;Brian2;emulator;spiking neural network;open source
+https://w3id.org/reproduceme/article_1952,"NGS sequence analysis;NGS pipelines;open source frameworks;FAIR, RNA-Seq;ChIP-Seq;ChIP-exo"
+https://w3id.org/reproduceme/article_2802,visualization;neuroscience;python;open-source;brain;OpenGL;EEG;MEG
+https://w3id.org/reproduceme/article_1375,Open source hardware and software;Water quality monitoring
+https://w3id.org/reproduceme/article_2643,High-throughput analysis;Filamentous growth;Time-lapse imaging;Microfluidic cultivation;Streptomycetes;Mycelium network;Biotechnology;Hyphae tracking;Heterogeneity;Reproducible science;Open source
+https://w3id.org/reproduceme/article_3244,spindles;K-complex;automatic detection;sleep-EEG;spinky;open-source;toolbox;TQWT
+https://w3id.org/reproduceme/article_2274,Spike sorting testbench;Benchmark data;Extracellular recordings simulator;Open-source software
+https://w3id.org/reproduceme/article_984,segmentation (image processing);annotation;U-net;volume electron microscopy (vEM);X-ray microscopy imaging;open source software;python (programming language);computer vision
+https://w3id.org/reproduceme/article_3203,calcium imaging;analysis software;Python programming;Open Source Software;microscopy;fluorescence
+https://w3id.org/reproduceme/article_3420,segmental inertia;open source software;human movement;aerial movement
+https://w3id.org/reproduceme/article_3441,Biodiversity informatics;Data enrichment;Hackathon;Intelligent openness;Linked data;Open source;Software;Semantic Web;Taxonomy;Web services
+https://w3id.org/reproduceme/article_2799,Statistical Genomics;GWAS;Computational Statistics;Open Source;Collaborative Programming
+https://w3id.org/reproduceme/article_2246,data management;Python (programming language);open source software (OSS);analysis;data sharing;data base (DB)
+https://w3id.org/reproduceme/article_3343,Jupyter;IPython;Python;electronic notebook;open source;reproducible research;neurophysiology;electrophysiology
+https://w3id.org/reproduceme/article_938,wearable sensors;digital medicine;gait analysis;human movement analysis;digital biomarkers;uHealth;wearable;sensor;gait;movement;mobility;physical activity;sleep;Python;coding;open source;software package;algorithm;machine learning;data science;computer programming
+https://w3id.org/reproduceme/article_773,African cities;Cote d’Ivoire;diarrhoea;landscape ecology;open-source software;urban planning

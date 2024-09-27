@@ -1,0 +1,8 @@
+exception,count
+ModuleNotFoundError,51
+FileNotFoundError,24
+ImportError,16
+CalledProcessError,7
+NameError,6
+AttributeError,1
+RuntimeError,1
