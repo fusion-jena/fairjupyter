@@ -19,6 +19,9 @@ In this dataset, we present the study of computational reproducibility of Jupyte
 ### Permanent URL
 [https://w3id.org/fairjupyter](https://w3id.org/fairjupyter)
 
+### Knowledge Graph Browser
+The Knowledge Graph browser for FAIR Jupyter is available at [https://reproduceme.uni-jena.de/fj/](https://reproduceme.uni-jena.de/fj/)
+
 ## FAIR Jupyter KG Construction
 
 Below figure shows the workflow of our pipeline.
