@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}Explore{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <h1 class="display-4 text-center text-primary">Explore Entities of FAIR Jupyter Ontology and KG</h1>
+    <p class="lead text-center">Select an entity type to explore and view attributes.</p>
+
+    <!-- Breadcrumbs for entity categories -->
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="Journal">Journal</a></li>
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="Article">Article</a></li>
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="Repository">Repository</a></li>
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="Notebook">Notebook</a></li>
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="Author">Author</a></li>
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="GitRepositoryRelease">Repository Release</a></li>
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="Cell">Cell</a></li>
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="CellExecution">CellExecution</a></li>
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="CellFeature">Cell Feature</a></li>
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="CellModule">Cell Module</a></li>
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="CellName">Cell Name</a></li>
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="CodeAnalysis">Code Analysis</a></li>
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="NotebookMarkdown">Notebook Markdown</a></li>        
+        <!-- <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="MarkdownFeature">Markdown Feature</a></li>  -->
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="NotebookFeature">Notebook Feature</a></li>                
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="NotebookModule">Notebook Module</a></li>   
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="NotebookName">Notebook Name</a></li>   
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="NotebookCodeStyle">Notebook Code Style</a></li>
+        <li class="breadcrumb-item"><a href="#" class="fw-bolder fs-4" data-entity="RepositoryFile">Repository File</a></li>
+    </ol>
+    </nav>
+
+    <!-- List of entity items -->
+    <div id="entityItems" class="list-group mt-3"></div>
+
+    <!-- Message that will be shown when results come in -->
+    <p id="selectMessage" class="alert alert-light hidden">Select an entry to view more details. The first 10 results are shown. Click Next to view more!</p>
+
+    <div class="container-fluid">
+        <div id="loadingSpinner" class="spinner-border text-primary lead text-center" style="display: none;" role="status"></div>    
+    
+        <div id="resultsContainer" class="hidden">
+            <!-- Pagination buttons for entity items -->
+            <div id="entityPagination" class="mt-3">
+                <button id="prevEntityPage" class="btn btn-secondary" disabled>Previous</button>
+                <button id="nextEntityPage" class="btn btn-primary">Next</button>
+            </div>
+    
+            <!-- Section for showing attributes of a selected entity -->
+            <div id="entityAttributesContainer" class="mt-5 hidden">     
+                <h2>Entity Attributes</h2>           
+                <div id="loadingSpinner" class="spinner-border text-primary lead text-center" style="display: none;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>                
+                <ul id="entityAttributes" class="list-group">
+                    <!-- Dynamically populated with entity attributes -->
+                </ul>
+            </div>
+
+            <!-- Graph Visualization -->
+            <div class="container-fluid hidden" id="graphContainer">
+                <h2 class="mt-5">Graph Visualization</h2>
+                <p class="alert alert-light">Select a node to explore more!</p>
+                <div id="network" style="height: 500px;"></div> 
+            </div>
+        </div>
+    </div>
+    
+</div>
+<script src="{{ url_for('static', filename='js/sparql.js') }}"></script>
+{% endblock %}

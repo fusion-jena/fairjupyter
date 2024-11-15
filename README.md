@@ -19,7 +19,16 @@ In this dataset, we present the study of computational reproducibility of Jupyte
 [https://w3id.org/fairjupyter](https://w3id.org/fairjupyter)
 
 ### Knowledge Graph Browser
-The Knowledge Graph browser for FAIR Jupyter is available at [https://reproduceme.uni-jena.de/fj/](https://reproduceme.uni-jena.de/fj/)
+The Knowledge Graph browser for FAIR Jupyter is available at [https://reproduceme.uni-jena.de/fj/](https://reproduceme.uni-jena.de/fj/).
+
+The code for the Knowledge Graph Browser is available in the folder [fjkg_visualization](fjkg_visualization).
+
+Prequisites: SPARQLWrapper, flask, python 3.11.
+
+The browser can be run on port 3031 using the command:
+
+```gunicorn --bind 0.0.0.0:3031 app:app```
+
 
 ### Resources used in Knowledge Graph construction
 **Code**: [https://github.com/fusion-jena/fairjupyter](https://github.com/fusion-jena/fairjupyter)

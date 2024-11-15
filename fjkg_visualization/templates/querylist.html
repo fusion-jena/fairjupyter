@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}FAIR Jupyter Knowledge Graph Browser{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1>SPARQL Queries</h1>
+    <p class="alert alert-light">Select a query to see its description, SPARQL code, and results.</p>
+    
+    <!-- List of queries -->
+    <ul class="list-group">
+        {% for query_name, query_info in queries.items() %}
+        <li class="list-group-item">
+            <a href="#" class="query-link" data-query-name="{{ query_name }}">
+                <strong>{{ query_info.description }}</strong>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <!-- Section to display the SPARQL query and results -->
+    <div class="mt-5" id="queryDetails" style="display: none;">
+        <h3>SPARQL Query</h3>
+        <pre id="sparqlQuery"></pre>
+        <h3>Results</h3>
+        <div id="queryResults"></div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" style="display: none;">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+</div>    
+<script src="{{ url_for('static', filename='js/querylist.js') }}"></script>
+{% endblock %}

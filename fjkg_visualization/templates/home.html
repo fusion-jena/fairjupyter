@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}FAIR Jupyter{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="display-4 text-center text-primary">FAIR Jupyter</h1>
+    <p class="lead text-center">FAIR Jupyter is a knowledge graph for semantic sharing and granular exploration of a
+        computational notebook reproducibility dataset.</p>
+        
+    <div class=".mt-3"><h5>FAIR Jupyter Knowledge Graph</h5></div>
+        <div>
+        <p>FAIR Jupyter Knowledge Graph is based on the computational reproducibility dataset that we had previously shared
+        in bulk (Computational reproducibility of Jupyter notebooks from biomedical publications, doi: <a href="https://doi.org/10.1093/gigascience/giad113">10.1093/gigascience/giad113</a>). This dataset can now be mobilized further through a knowledge graph that allows
+        for much more granular exploration and interrogation. We took this dataset, converted it into semantic triples
+        and loaded these into a triple store to create a knowledge graph – FAIR Jupyter – that we made accessible via a
+        webservice.
+        This enables granular data exploration and analysis through queries that can be tailored to specific use cases.</p>
+        </div>
+        <div>
+            <h5>Computational reproducibility of Jupyter notebooks from biomedical publications</h5>
+
+            <p>In this dataset, we present the study of computational reproducibility of Jupyter notebooks from biomedical publications. Our focus lies in evaluating the extent of reproducibility of Jupyter notebooks derived from GitHub repositories linked to publications present in the biomedical literature repository, PubMed Central. We analyzed the reproducibility of Jupyter notebooks from GitHub repositories associated with publications indexed in the biomedical literature repository PubMed Central. The dataset includes the metadata information of the journals, publications, the Github repositories mentioned in the publications and the notebooks present in the Github repositories.
+            Resources used in computational reproducibility dataset creation</p>
+
+            <p><b>Data:</b> Sheeba Samuel, & Daniel Mietchen. (2023). Dataset of a Study of Computational reproducibility of Jupyter notebooks from biomedical publications [Data set]. Zenodo. <a href="https://doi.org/10.5281/zenodo.8226725">https://doi.org/10.5281/zenodo.8226725</a></p>
+            
+            <p><b>Code:</b> <a href="https://github.com/fusion-jena/computational-reproducibility-pmc">https://github.com/fusion-jena/computational-reproducibility-pmc</a></p>
+            <p><b>Permanent URL:</b><a href="https://w3id.org/fairjupyter">https://w3id.org/fairjupyter</a></p>
+
+            <h5>FAIR Jupyter KG Construction</h5>
+
+            <p>Below figure shows the workflow of our pipeline.</p>
+            <div><img src="static/img/workflow.png" alt="The workflow of our pipeline" style="width:800px;height:600px;"></div>
+            <h5>Resources used in Knowledge Graph construction</h5>
+
+            <p><b>Code:</b> <a href="https://github.com/fusion-jena/fairjupyter">https://github.com/fusion-jena/fairjupyter</a></p>
+
+            <p><b>Mapping:</b> <a href="https://github.com/fusion-jena/fairjupyter/tree/main/mapping">https://github.com/fusion-jena/fairjupyter/tree/main/mapping</a></p>
+            <h5>FAIR Jupyter SPARQL Endpoint</h5>
+
+            The SPARQL Endpoint can be queried here: <a href="https://reproduceme.uni-jena.de/#/dataset/fairjupyter/query">https://reproduceme.uni-jena.de/#/dataset/fairjupyter/query</a></p>
+            
+            <h5>SPARQL Queries</h5>
+
+            <p>Some SPARQL queries that can be queried over FAIR Jupyter KG can be accessed here: <a href="https://github.com/fusion-jena/fairjupyter/tree/main/sparql_query">https://github.com/fusion-jena/fairjupyter/tree/main/sparql_query</a>.
+
+            These include SPARQL queries to the knowledge graph that reproduce materials from the original manuscript describing the dataset, other queries over the FAIR Jupyter graph, 
+            and federated queries between the FAIR Jupyter KG and <a href="https://query.wikidata.org/">Wikidata</a>.</p>
+            
+            <h5>FAIR Jupyter KG Schema</h5>
+            <p>Below figure shows a snapshot of the FAIR Jupyter KG Schema. </p>
+            <div><img src="static/img/model.png" alt="A snapshot of the FAIR Jupyter KG Schema" style="width:800px;height:600px;"></div>
+            <p>The ontologies used for constructing Knowledge Graphs are:</p>
+            <ul>
+                <li>The REPRODUCE-ME ontology</li>
+                <li>The PROV-O ontology</li>
+                <li>The P-Plan ontology</li>
+                <li>The PAV ontology</li>
+                <li>The FaBiO ontology</li>
+                <li>The DOAP ontology</li>
+            </ul>
+            <h5>FAIR Jupyter KG Data Used (CSV)</h5>
+
+            <p>The data used for constructing FAIR Jupyter Knowledge Graph is available here: <a href="https://github.com/fusion-jena/fairjupyter/tree/main/data">https://github.com/fusion-jena/fairjupyter/tree/main/data</a></p>
+
+            
+            <h5>Publication</h5>
+                <ul>
+                    <li>Sheeba Samuel, Daniel Mietchen, Computational reproducibility of Jupyter notebooks from biomedical publications, GigaScience, Volume 13, 2024, giad113, <a href="https://doi.org/10.1093/gigascience/giad113">https://doi.org/10.1093/gigascience/giad113</a></li>
+                    <li>Sheeba Samuel, Daniel Mietchen, FAIR Jupyter: a knowledge graph approach to semantic sharing and granular exploration of a computational notebook reproducibility dataset, arXiv preprint arXiv:2404.12935, <a href="https://doi.org/10.48550/arXiv.2404.12935">https://doi.org/10.48550/arXiv.2404.12935</a></li>
+                </ul>
+
+        </div>
+</div>
+{% endblock %}
