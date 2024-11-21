@@ -1,4 +1,6 @@
 # FAIR Jupyter
+[![DOI](https://zenodo.org/badge/784727235.svg)](https://doi.org/10.5281/zenodo.14197754)
+
 
 FAIR Jupyter is a knowledge graph for semantic sharing and granular exploration of a computational notebook reproducibility dataset.
 
