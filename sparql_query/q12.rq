@@ -1,3 +1,5 @@
+# Notebooks with successful executions with same and different results
+
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 SELECT (COUNT(?processed_different_result) AS ?count_different_result) (COUNT(?processed_same_result) AS ?count_same_result) (?count_same_result + ?count_different_result AS ?count_successful_executions)
 WHERE {

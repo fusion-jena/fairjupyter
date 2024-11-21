@@ -1,3 +1,5 @@
+# Journals with the highest number of articles that had a valid GitHub repository and at least one Jupyter notebook.
+
 SELECT ?journal_name (COUNT(?article) as ?article_count)
 WHERE {
   ?article <https://w3id.org/reproduceme/publishedIn> ?journal .

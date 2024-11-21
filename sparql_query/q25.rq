@@ -1,0 +1,18 @@
+# Articles and repositories with notebooks in Julia
+
+SELECT DISTINCT ?title
+(URI(CONCAT("https://www.ncbi.nlm.nih.gov/pmc/articles/PMC", STR(?pmcid))) AS ?PMC_URL)
+(URI(?repo_url_base) AS ?GitHub_URL)
+?Notebook_URL
+WHERE {
+  ?notebook a <https://w3id.org/reproduceme/Notebook> ;
+            <https://w3id.org/reproduceme/language> "julia" .
+  ?notebook <http://purl.org/pav/retrievedFrom> ?repository .
+  ?article ^<http://purl.org/pav/retrievedFrom> ?repository .
+  ?article <https://w3id.org/reproduceme/pmc> ?pmcid .
+  ?article <http://www.w3.org/2000/01/rdf-schema#label> ?title .
+  ?notebook <http://www.w3.org/2000/01/rdf-schema#label> ?notebook_label . 
+  ?repository <https://w3id.org/reproduceme/url> ?repo_url_base . 
+  BIND(URI(CONCAT( ?repo_url_base, "/blob/master/", ?notebook_label)) AS ?Notebook_URL) 
+}
+ORDER BY DESC(?Notebook_URL)

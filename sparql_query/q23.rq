@@ -1,0 +1,25 @@
+# Match articles between FAIR Jupyter and MaRDI via DOI and get co-used software
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX mardi_wd: <https://portal.mardi4nfdi.de/entity/>
+PREFIX mardi_wdt: <https://portal.mardi4nfdi.de/prop/direct/>
+
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+
+SELECT DISTINCT ?title ?doi ?method ?methodLabel
+
+WHERE {
+  ?fj_article <https://w3id.org/reproduceme/doi> ?doi .
+
+  service <http://query.portal.mardi4nfdi.de/proxy/wdqs/bigdata/namespace/wdq/sparql> {
+    ?mardi_paper mardi_wdt:P27 ?doi .
+    ?mardi_paper mardi_wdt:P159 ?title .
+    
+    ?mardi_paper mardi_wdt:P1463 ?method .
+    ?method rdfs:label ?methodLabel .
+  }
+
+}
+LIMIT 1000

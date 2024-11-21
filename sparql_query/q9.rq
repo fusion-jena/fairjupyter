@@ -1,3 +1,5 @@
+# Python notebooks by major Python version by year of first commit to the notebook’s GitHub repository.
+
 SELECT ?created_year ?major_version (COUNT(?notebook) as ?count_major_version)
 WHERE {
   ?notebook a <https://w3id.org/reproduceme/Notebook> ;

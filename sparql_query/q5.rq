@@ -1,3 +1,5 @@
+# Journals by number of GitHub repositories with Jupyter notebooks.
+
 SELECT ?journal_name (COUNT(?repository_nb) AS ?repositories_with_notebooks_count)
         ?max_notebooks_count
 WHERE {

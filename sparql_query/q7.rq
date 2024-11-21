@@ -1,3 +1,4 @@
+# Python notebooks by Python version by year of first commit to the notebook’s GitHub repository.
 SELECT ?created_year ?language (COUNT(?notebook) as ?notebook_count)
 WHERE {
   ?notebook a <https://w3id.org/reproduceme/Notebook> ;

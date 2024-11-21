@@ -1,3 +1,5 @@
+# Journals by the number of GitHub repositories and by the number of GitHub repositories with at least one Jupyter notebook.
+
 SELECT ?journal_name (COUNT(?repository) as ?repository_count) (COUNT(?repository_nb) as ?repositories_with_notebooks_count) WHERE
   {
   ?article <https://w3id.org/reproduceme/publishedIn> ?journal .

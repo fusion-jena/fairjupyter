@@ -1,3 +1,4 @@
+# Python notebooks by minor Python version by year of first commit to the GitHub repository containing the notebook.
 SELECT ?created_year ?minor_version (COUNT(?notebook) as ?count_minor_version)
 WHERE {
   ?notebook a <https://w3id.org/reproduceme/Notebook> ;

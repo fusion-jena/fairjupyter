@@ -1,3 +1,4 @@
+# Notebooks with code style errors and  their description
 SELECT ?notebook ?error ?description
 WHERE {
   ?error a <https://w3id.org/reproduceme/NotebookCodeStyleError> ;

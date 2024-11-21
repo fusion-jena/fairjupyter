@@ -1,0 +1,12 @@
+# GitHub repositories and their Software Heritage snapshot
+
+# List of GitHub repositories covered by https://doi.org/10.1093/gigascience/giad113 , 
+# with pointers to their Software Heritage snapshots as per https://doi.org/10.5281/zenodo.12806151
+
+SELECT DISTINCT 
+(URI(?repo_url_base) AS ?GitHub_URL)
+(URI (CONCAT("https://archive.softwareheritage.org/browse/origin/directory/?origin_url=", ENCODE_FOR_URI(STR(?repo_url_base)))) AS ?SWH_URL)
+WHERE {
+  ?repository <https://w3id.org/reproduceme/url> ?repo_url_base .
+}
+ORDER BY ASC(?repo_url_base)

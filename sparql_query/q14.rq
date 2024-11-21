@@ -1,3 +1,5 @@
+# Notebooks by search term: 'immun' AND ('stem' OR 'differentiation')
+
 SELECT DISTINCT ?notebook_url ?article_label ?keywords WHERE {
   ?article <https://w3id.org/reproduceme/keywords> ?keywords .
   ?article <http://www.w3.org/2000/01/rdf-schema#label> ?article_label .

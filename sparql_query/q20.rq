@@ -1,5 +1,6 @@
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+# Match articles between FAIR Jupyter and Wikidata via DOI
 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX wikidata_wd: <http://www.wikidata.org/entity/>
 PREFIX wikidata_wdt: <http://www.wikidata.org/prop/direct/>
 

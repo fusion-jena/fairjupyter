@@ -1,3 +1,5 @@
+# Jupyter notebook exceptions by research field, taking as a proxy the highest-level MeSH terms of the article associated with the notebook.
+
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 SELECT DISTINCT ?research_field (COUNT(?exception) AS ?exception_count)
 WHERE {

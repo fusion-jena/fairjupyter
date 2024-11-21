@@ -1,3 +1,5 @@
+# Research articles by research field
+
 SELECT ?research_field (COUNT(DISTINCT ?article) AS ?number_of_articles)
 WHERE {
   ?repository <http://purl.org/pav/retrievedFrom> ?article .

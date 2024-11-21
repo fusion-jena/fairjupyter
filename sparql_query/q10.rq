@@ -1,3 +1,5 @@
+# Exceptions occurring in Jupyter notebooks in our corpus.
+
 SELECT ?exception (COUNT(?exception) AS ?count)
 WHERE {
   ?execution  a <https://w3id.org/reproduceme/CellExecution> ;
