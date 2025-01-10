@@ -1,0 +1,676 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://fusion-jena.github.io/fairjupyter/">
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
+    
+    
+      
+        <title>FAIR Jupyter</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.6f8fc17f.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/fairjupyter.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#fair-jupyter" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="FAIR Jupyter" class="md-header__button md-logo" aria-label="FAIR Jupyter" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR Jupyter
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fusion-jena/fairjupyter" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="FAIR Jupyter" class="md-nav__button md-logo" aria-label="FAIR Jupyter" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    FAIR Jupyter
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fusion-jena/fairjupyter" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fair-jupyter-knowledge-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR Jupyter Knowledge Graph
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAIR Jupyter Knowledge Graph">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#computational-reproducibility-of-jupyter-notebooks-from-biomedical-publications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Computational reproducibility of Jupyter notebooks from biomedical publications
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Computational reproducibility of Jupyter notebooks from biomedical publications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resources-used-in-computational-reproducibility-dataset-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources used in computational reproducibility dataset creation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permanent-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      Permanent URL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#knowledge-graph-browser" class="md-nav__link">
+    <span class="md-ellipsis">
+      Knowledge Graph Browser
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair-jupyter-kg-construction" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR Jupyter KG Construction
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAIR Jupyter KG Construction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resources-used-in-knowledge-graph-construction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources used in Knowledge Graph construction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fair-jupyter-sparql-endpoint" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR Jupyter SPARQL Endpoint
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sparql-queries" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPARQL Queries
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fair-jupyter-kg-schema" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR Jupyter KG Schema
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fair-jupyter-kg-data-used-csv" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR Jupyter KG Data Used (CSV)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Publication
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fair-jupyter-knowledge-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR Jupyter Knowledge Graph
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAIR Jupyter Knowledge Graph">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#computational-reproducibility-of-jupyter-notebooks-from-biomedical-publications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Computational reproducibility of Jupyter notebooks from biomedical publications
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Computational reproducibility of Jupyter notebooks from biomedical publications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resources-used-in-computational-reproducibility-dataset-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources used in computational reproducibility dataset creation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permanent-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      Permanent URL
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#knowledge-graph-browser" class="md-nav__link">
+    <span class="md-ellipsis">
+      Knowledge Graph Browser
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fair-jupyter-kg-construction" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR Jupyter KG Construction
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAIR Jupyter KG Construction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resources-used-in-knowledge-graph-construction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources used in Knowledge Graph construction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fair-jupyter-sparql-endpoint" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR Jupyter SPARQL Endpoint
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sparql-queries" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPARQL Queries
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fair-jupyter-kg-schema" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR Jupyter KG Schema
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fair-jupyter-kg-data-used-csv" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR Jupyter KG Data Used (CSV)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Publication
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="fair-jupyter">FAIR Jupyter</h1>
+<p>FAIR Jupyter is a knowledge graph for semantic sharing and granular exploration of a computational notebook reproducibility dataset.</p>
+<h2 id="fair-jupyter-knowledge-graph">FAIR Jupyter Knowledge Graph</h2>
+<p>FAIR Jupyter Knowledge Graph is based on the computational reproducibility dataset that we had previously shared in bulk (Computational reproducibility of Jupyter notebooks from biomedical publications, doi: <a href="https://doi.org/10.1093/gigascience/giad113">10.1093/gigascience/giad113</a>). This dataset can now be mobilized further through a knowledge graph that allows for much more granular exploration and interrogation. We took this dataset, converted it into semantic triples and loaded these into a triple store to create a knowledge graph – FAIR Jupyter – that we made accessible via a webservice. This enables granular data exploration and analysis through queries that can be tailored to specific use cases.</p>
+<h3 id="computational-reproducibility-of-jupyter-notebooks-from-biomedical-publications">Computational reproducibility of Jupyter notebooks from biomedical publications</h3>
+<p>In this dataset, we present the study of computational reproducibility of Jupyter notebooks from biomedical publications. Our focus lies in evaluating the extent of reproducibility of Jupyter notebooks derived from GitHub repositories linked to publications present in the biomedical literature repository, PubMed Central. We analyzed the reproducibility of Jupyter notebooks from GitHub repositories associated with publications indexed in the biomedical literature repository PubMed Central. The dataset includes the metadata information of the journals, publications, the Github repositories mentioned in the publications and the notebooks present in the Github repositories.</p>
+<h4 id="resources-used-in-computational-reproducibility-dataset-creation">Resources used in computational reproducibility dataset creation</h4>
+<p><strong>Data</strong>: Sheeba Samuel, &amp; Daniel Mietchen. (2023). Dataset of a Study of Computational reproducibility of Jupyter notebooks from biomedical publications [Data set]. Zenodo. <a href="https://doi.org/10.5281/zenodo.8226725">https://doi.org/10.5281/zenodo.8226725</a></p>
+<p><strong>Code</strong>: <a href="https://github.com/fusion-jena/computational-reproducibility-pmc">https://github.com/fusion-jena/computational-reproducibility-pmc</a></p>
+<h3 id="permanent-url">Permanent URL</h3>
+<p><a href="https://w3id.org/fairjupyter">https://w3id.org/fairjupyter</a></p>
+<h3 id="knowledge-graph-browser">Knowledge Graph Browser</h3>
+<p>The Knowledge Graph browser for FAIR Jupyter is available at <a href="https://reproduceme.uni-jena.de/fj/">https://reproduceme.uni-jena.de/fj/</a>.</p>
+<p>The code for the Knowledge Graph Browser is available in the folder <a href="https://github.com/fusion-jena/fairjupyter/tree/main/fjkg_visualization">https://github.com/fusion-jena/fairjupyter/tree/main/fjkg_visualization</a>.</p>
+<p>Prequisites: SPARQLWrapper, flask, python 3.11.</p>
+<p>The browser can be run on port 3031 using the command:</p>
+<p><code>gunicorn --bind 0.0.0.0:3031 app:app</code></p>
+<h2 id="fair-jupyter-kg-construction">FAIR Jupyter KG Construction</h2>
+<p>Below figure shows the workflow of our pipeline.
+<img alt="image info" src="images/workflow.png" /></p>
+<h3 id="resources-used-in-knowledge-graph-construction">Resources used in Knowledge Graph construction</h3>
+<p><strong>Code</strong>: <a href="https://github.com/fusion-jena/fairjupyter">https://github.com/fusion-jena/fairjupyter</a></p>
+<p><strong>Mapping</strong>: <a href="https://github.com/fusion-jena/fairjupyter/tree/main/mapping">: https://github.com/fusion-jena/fairjupyter/tree/main/mapping</a></p>
+<h3 id="fair-jupyter-sparql-endpoint">FAIR Jupyter SPARQL Endpoint</h3>
+<p>The SPARQL Endpoint can be queried <a href="https://reproduceme.uni-jena.de/#/dataset/fairjupyter/query">here</a></p>
+<h3 id="sparql-queries">SPARQL Queries</h3>
+<p>Some SPARQL queries that can be queried over FAIR Jupyter KG can be accessed <a href="https://github.com/fusion-jena/fairjupyter/tree/main/sparql_query">here</a>.</p>
+<p>These include SPARQL queries to the knowledge graph that reproduce materials from the
+original manuscript describing the dataset, other queries over the FAIR Jupyter graph, and federated queries between the FAIR Jupyter KG and <a href="https://query.wikidata.org/">Wikidata</a>.
+Below we show an example of a SPARQL query.
+<img alt="image info" src="images/listing.png" /></p>
+<h3 id="fair-jupyter-kg-schema">FAIR Jupyter KG Schema</h3>
+<p>Below figure shows a snapshot of the FAIR Jupyter KG Schema.
+<img alt="image info" src="images/model.png" />
+The ontologies used for constructing Knowledge Graphs are:</p>
+<ul>
+<li>
+<p><a href="https://w3id.org/reproduceme/">The REPRODUCE-ME ontology</a></p>
+</li>
+<li>
+<p><a href="https://www.w3.org/TR/prov-o/">The PROV-O ontology</a></p>
+</li>
+<li><a href="http://purl.org/net/p-plan#">The P-Plan ontology</a></li>
+<li><a href="http://purl.org/pav/">The PAV ontology</a></li>
+<li><a href="http://purl.org/spar/fabio">The FaBiO ontology</a></li>
+<li><a href="http://usefulinc.com/ns/doap#">The DOAP ontology</a></li>
+</ul>
+<h3 id="fair-jupyter-kg-data-used-csv">FAIR Jupyter KG Data Used (CSV)</h3>
+<p>The data used for constructing FAIR Jupyter Knowledge Graph is available <a href="https://github.com/fusion-jena/fairjupyter/tree/main/data">here</a>.</p>
+<p>Note: The csv files that could not be uploaded in GitHub due to size will be added to Zenodo, once the paper is published.</p>
+<h2 id="publication">Publication</h2>
+<ul>
+<li>Sheeba Samuel and Daniel Mietchen. FAIR Jupyter: A Knowledge Graph Approach to Semantic Sharing and Granular Exploration of a Computational Notebook Reproducibility Dataset. In Special Issue on Resources for Graph Data and Knowledge. Transactions on Graph Data and Knowledge (TGDK), Volume 2, Issue 2, pp. 4:1-4:24, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2024) https://doi.org/10.4230/TGDK.2.2.4. 
+(Preprint: arXiv:2404.12935, <a href="https://doi.org/10.48550/arXiv.2404.12935">https://doi.org/10.48550/arXiv.2404.12935</a>)</li>
+<li>Sheeba Samuel, Daniel Mietchen, Computational reproducibility of Jupyter notebooks from biomedical publications, GigaScience, Volume 13, 2024, giad113, <a href="https://doi.org/10.1093/gigascience/giad113">https://doi.org/10.1093/gigascience/giad113</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["toc.follow"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      
+    
+  </body>
+</html>
