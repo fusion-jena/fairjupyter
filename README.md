@@ -64,6 +64,6 @@ The data used for constructing FAIR Jupyter Knowledge Graph is available [here](
 
 ## Publication
 
-* Sheeba Samuel, Daniel Mietchen, FAIR Jupyter: a knowledge graph approach to semantic sharing and granular exploration of a computational notebook reproducibility dataset, Transactions on Graph Data and Knowledge, Vol. 2, Issue 2, Article No. 3, 2024.
+* Sheeba Samuel and Daniel Mietchen. FAIR Jupyter: A Knowledge Graph Approach to Semantic Sharing and Granular Exploration of a Computational Notebook Reproducibility Dataset. In Special Issue on Resources for Graph Data and Knowledge. Transactions on Graph Data and Knowledge (TGDK), Volume 2, Issue 2, pp. 4:1-4:24, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2024) https://doi.org/10.4230/TGDK.2.2.4
 (Preprint: arXiv:2404.12935, [https://doi.org/10.48550/arXiv.2404.12935](https://doi.org/10.48550/arXiv.2404.12935))
 * Sheeba Samuel, Daniel Mietchen, Computational reproducibility of Jupyter notebooks from biomedical publications, GigaScience, Volume 13, 2024, giad113, [https://doi.org/10.1093/gigascience/giad113](https://doi.org/10.1093/gigascience/giad113)
