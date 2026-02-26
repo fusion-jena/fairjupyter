@@ -4,6 +4,8 @@
 
 FAIR Jupyter is a knowledge graph for semantic sharing and granular exploration of a computational notebook reproducibility dataset.
 
+**🏆 Special Jury SaxFDM Open Data Award at [SaxFDM Open Data Award 2024](https://saxfdm.de/open-data-award-2024/)**
+
 ## FAIR Jupyter Knowledge Graph
 FAIR Jupyter Knowledge Graph is based on the computational reproducibility dataset that we had previously shared in bulk (Computational reproducibility of Jupyter notebooks from biomedical publications, [10.1093/gigascience/giad113](https://doi.org/10.1093/gigascience/giad113)). This dataset can now be mobilized further through a knowledge graph that allows for much more granular exploration and interrogation. We took this dataset, converted it into semantic triples and loaded these into a triple store to create a knowledge graph – FAIR Jupyter – that we made accessible via a webservice. This enables granular data exploration and analysis through queries that can be tailored to specific use cases.
 
